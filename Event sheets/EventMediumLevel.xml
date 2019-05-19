@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EventMediumLevel</name>
+    <events>
+        <event-block sid="235886695253184">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="730028351406910" type="Touch">
+                    <param id="0" name="Object">BackButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="382664609421589" type="BackButton">
+                    <param id="0" name="Scale">0.62</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="317484415377850" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">40</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="703637897664741">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="257193926638929" type="Touch">
+                            <param id="0" name="Object">BackButton</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="434450642069493" type="System">
+                            <param id="0" name="Layout">&quot;ChooseLevel&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="468181387071442">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="679531464467999" type="Touch">
+                    <param id="0" name="Object">LeaderButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="897434447560546" type="LeaderButton">
+                    <param id="0" name="Scale">0.62</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="983753312476574" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">40</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="172846401905400">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="391742985712704" type="Touch">
+                            <param id="0" name="Object">LeaderButton</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="607087059381082" type="System">
+                            <param id="0" name="Layout">&quot;LeaderBoard&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="307164129200846">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="448774607613008" type="Touch">
+                    <param id="0" name="Object">HelpButtonCircle</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="403051241250284" type="HelpButtonCircle">
+                    <param id="0" name="Scale">0.62</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="716474287798699" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">40</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="777892461665248">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="742662586970318" type="Touch">
+                            <param id="0" name="Object">HelpButtonCircle</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="690980175331398" type="System">
+                            <param id="0" name="Layout">&quot;Help&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="156826475353994">
+            <conditions>
+                <condition id="11" name="On Nth touch end" sid="535130414625426" type="Touch">
+                    <param id="0" name="Touch number">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="853805074104917" type="BackButton">
+                    <param id="0" name="Scale">0.72</param>
+                </action>
+                <action id="9" name="Set scale" sid="992764245373216" type="LeaderButton">
+                    <param id="0" name="Scale">0.72</param>
+                </action>
+                <action id="9" name="Set scale" sid="280315770657027" type="HelpButtonCircle">
+                    <param id="0" name="Scale">0.72</param>
+                </action>
+                <action id="9" name="Set scale" sid="854212649174554" type="Stage01Green">
+                    <param id="0" name="Scale">0.75</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="932927013120118">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="707116889448294" type="Touch">
+                    <param id="0" name="Object">Stage01Green</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="105656413764353" type="Stage01Green">
+                    <param id="0" name="Scale">0.62</param>
+                </action>
+                <action id="7" name="Play (by name)" sid="273172176556634" type="Audio">
+                    <param id="0" name="Folder">1</param>
+                    <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                    <param id="3" name="Loop">0</param>
+                    <param id="4" name="Volume">40</param>
+                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="888443990181471">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="641836811834173" type="Touch">
+                            <param id="0" name="Object">Stage01Green</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="345806806994856" type="System">
+                            <param id="0" name="Layout">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>

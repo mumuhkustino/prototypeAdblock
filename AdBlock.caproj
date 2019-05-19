@@ -1,0 +1,2226 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>AdBlock</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>2m2oqhlgof90t</unique-id>
+    <saved-with-version>26500</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TiledBg" version="1">Tiled Background</plugin>
+        <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Anchor" version="1">Anchor</behavior>
+        <behavior author="Scirra" id="DragnDrop" version="1">Drag &amp; Drop</behavior>
+        <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1080</width>
+        <height>2160</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Portrait</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D asm.js</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Linear</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="AdBlockLogo" sid="452929455741554">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="584391758887541" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\AdBlockv2.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BackgroundImage" sid="509690113834341">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="953795488030532" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\PSD-Design\Export\BackgroundSeamless.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="StartButton" sid="323935024486916">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="342799389630847" speed="5">
+                    <frame duration="1" hotspotX="0.500952" hotspotY="0.5" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\PSD-Design\Export\Game\StartButtonForGame.png">
+                        <collision-poly>
+                            <point x="0.04" y="0.15" />
+                            <point x="0.499048" y="0" />
+                            <point x="0.96" y="0.15" />
+                            <point x="1" y="0.5" />
+                            <point x="0.96" y="0.85" />
+                            <point x="0.499048" y="1" />
+                            <point x="0.04" y="0.85" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HelpButton" sid="422213818720745">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="244238118895684" speed="5">
+                    <frame duration="1" hotspotX="0.500952" hotspotY="0.5" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\PSD-Design\Export\Game\HelpButtonForGame.png">
+                        <collision-poly>
+                            <point x="0.04" y="0.15" />
+                            <point x="0.499048" y="0" />
+                            <point x="0.96" y="0.15" />
+                            <point x="1" y="0.5" />
+                            <point x="0.96" y="0.85" />
+                            <point x="0.499048" y="1" />
+                            <point x="0.04" y="0.85" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ExitButton" sid="508137830421710">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="556376871651646" speed="5">
+                    <frame duration="1" hotspotX="0.500952" hotspotY="0.5" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\PSD-Design\Export\Game\ExitButtonForGame.png">
+                        <collision-poly>
+                            <point x="0.04" y="0.15" />
+                            <point x="0.499048" y="0" />
+                            <point x="0.96" y="0.15" />
+                            <point x="1" y="0.5" />
+                            <point x="0.96" y="0.85" />
+                            <point x="0.499048" y="1" />
+                            <point x="0.04" y="0.85" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Touch" sid="489454609744502">
+            <plugin id="Touch" />
+        </object-type>
+        <object-type name="BackButton" sid="778962187917670">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="367860122379493" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\PSD-Design\Export\BackButton.png">
+                        <collision-poly>
+                            <point x="0.216" y="0.216" />
+                            <point x="0.5" y="0.1" />
+                            <point x="0.784" y="0.216" />
+                            <point x="0.9" y="0.5" />
+                            <point x="0.784" y="0.784" />
+                            <point x="0.5" y="0.9" />
+                            <point x="0.216" y="0.784" />
+                            <point x="0.1" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="FooterTitle" sid="449943070704841">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Background" sid="309398090386611">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="822193420272650" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ScreenText" sid="133909786981312">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="HourTimeText" sid="267459534667990">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="value" sid="421297275241700" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="MinuteTimeText" sid="476111155629771">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="value" sid="198418081607672" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="SecondTimeText" sid="752942509810316">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="value" sid="179779072360213" type="number" />
+            </instance-variables>
+        </object-type>
+        <object-type name="PauseButton" sid="637861096534028">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="291689024491138" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\PSD-Design\Export\PauseButton.png">
+                        <collision-poly>
+                            <point x="0.216" y="0.216" />
+                            <point x="0.5" y="0.1" />
+                            <point x="0.784" y="0.216" />
+                            <point x="0.9" y="0.5" />
+                            <point x="0.784" y="0.784" />
+                            <point x="0.5" y="0.9" />
+                            <point x="0.216" y="0.784" />
+                            <point x="0.1" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PauseBackground" sid="337818825768328">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="677251971599389" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ResumeButton" sid="848238917647731">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="925923159819411" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\PSD-Design\Export\PlayButton.png">
+                        <collision-poly>
+                            <point x="0.216" y="0.216" />
+                            <point x="0.5" y="0.1" />
+                            <point x="0.784" y="0.216" />
+                            <point x="0.9" y="0.5" />
+                            <point x="0.784" y="0.784" />
+                            <point x="0.5" y="0.9" />
+                            <point x="0.216" y="0.784" />
+                            <point x="0.1" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PauseScreenText" sid="498776566140153">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="MainMenuButton" sid="974264232437495">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="241640071725771" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\PSD-Design\Export\GotoMainButton.png">
+                        <collision-poly>
+                            <point x="0.216" y="0.216" />
+                            <point x="0.5" y="0.1" />
+                            <point x="0.784" y="0.216" />
+                            <point x="0.9" y="0.5" />
+                            <point x="0.784" y="0.784" />
+                            <point x="0.5" y="0.9" />
+                            <point x="0.216" y="0.784" />
+                            <point x="0.1" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TiledBackground" sid="814582856760941">
+            <plugin id="TiledBg" />
+            <instance-variables>
+                <instance-variable name="sequence" sid="332370321600926" type="number" />
+            </instance-variables>
+            <texture original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\PSD-Design\Export\AreaBlock.png" />
+        </object-type>
+        <object-type name="Blocks" sid="124070062326831">
+            <plugin id="Spritefont2" />
+            <instance-variables>
+                <instance-variable name="sequence" sid="554819282244989" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="DragDrop" sid="630385199863287">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Pin" sid="910296782329558">
+                    <behavior id="Pin" />
+                </behavior-type>
+                <behavior-type name="Anchor" sid="193113421696237">
+                    <behavior id="Anchor" />
+                </behavior-type>
+            </behaviors>
+            <texture original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\PSD-Design\Export\FillBlock.png" />
+        </object-type>
+        <object-type name="YellowBlockL" sid="626485489260859">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="sequence" sid="846411976339575" type="number" />
+                <instance-variable name="originX" sid="703574686983284" type="number" />
+                <instance-variable name="originY" sid="555580419921319" type="number" />
+                <instance-variable name="rotated" sid="655875723504832" type="number" />
+                <instance-variable name="prevX" sid="371804877623397" type="number" />
+                <instance-variable name="prevY" sid="850792269517714" type="number" />
+                <instance-variable name="nextX" sid="754463158748098" type="number" />
+                <instance-variable name="nextY" sid="162143478356810" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="DragDrop" sid="604058852325885">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Pin" sid="171788507381336">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="892317388764970" speed="5">
+                    <frame duration="1" hotspotX="0.263804" hotspotY="0.487705" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\PSD-Design\Export\L-Block.png">
+                        <collision-poly>
+                            <point x="0.0368098" y="0.00819677" />
+                            <point x="0.496933" y="0.360656" />
+                            <point x="0.466257" y="0.336066" />
+                            <point x="0.503068" y="0.5" />
+                            <point x="0.957056" y="0.991803" />
+                            <point x="0.496933" y="0.639344" />
+                            <point x="0.0368098" y="0.991803" />
+                            <point x="0.0122699" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="UndoButton" sid="332420729868348">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="392341338950236" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\PSD-Design\Export\UndoButton.png">
+                        <collision-poly>
+                            <point x="0.216" y="0.216" />
+                            <point x="0.5" y="0.1" />
+                            <point x="0.784" y="0.216" />
+                            <point x="0.9" y="0.5" />
+                            <point x="0.784" y="0.784" />
+                            <point x="0.5" y="0.9" />
+                            <point x="0.216" y="0.784" />
+                            <point x="0.1" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="RedoButton" sid="769173118603035">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="715274073174790" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\PSD-Design\Export\RedoButton.png">
+                        <collision-poly>
+                            <point x="0.216" y="0.216" />
+                            <point x="0.5" y="0.1" />
+                            <point x="0.784" y="0.216" />
+                            <point x="0.9" y="0.5" />
+                            <point x="0.784" y="0.784" />
+                            <point x="0.5" y="0.9" />
+                            <point x="0.216" y="0.784" />
+                            <point x="0.1" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ResetButton" sid="276714827750178">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="850922073291568" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\PSD-Design\Export\ResetButton.png">
+                        <collision-poly>
+                            <point x="0.216" y="0.216" />
+                            <point x="0.5" y="0.1" />
+                            <point x="0.784" y="0.216" />
+                            <point x="0.9" y="0.5" />
+                            <point x="0.784" y="0.784" />
+                            <point x="0.5" y="0.9" />
+                            <point x="0.216" y="0.784" />
+                            <point x="0.1" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="RedBlockZ" sid="206392068050701">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="sequence" sid="637886376635470" type="number" />
+                <instance-variable name="originX" sid="555152953589977" type="number" />
+                <instance-variable name="originY" sid="659221682600645" type="number" />
+                <instance-variable name="rotated" sid="509520879597327" type="number" />
+                <instance-variable name="prevX" sid="907795776708895" type="number" />
+                <instance-variable name="prevY" sid="163762662844408" type="number" />
+                <instance-variable name="nextX" sid="831397753945886" type="number" />
+                <instance-variable name="nextY" sid="377136474293422" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="DragDrop" sid="410171039243047">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Pin" sid="104099282849668">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="528881313454096" speed="5">
+                    <frame duration="1" hotspotX="0.503067" hotspotY="0.5" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\PSD-Design\Export\Z-Block.png">
+                        <collision-poly>
+                            <point x="0.0429447" y="0.00819677" />
+                            <point x="0.503067" y="0.360656" />
+                            <point x="0.472392" y="0.336066" />
+                            <point x="0.509203" y="0.5" />
+                            <point x="0.963191" y="0.991803" />
+                            <point x="0.503067" y="0.639344" />
+                            <point x="0.0429447" y="0.991803" />
+                            <point x="0.0184049" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BlueBlockT" sid="970663914323327">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="sequence" sid="698403473755648" type="number" />
+                <instance-variable name="originX" sid="990596582659509" type="number" />
+                <instance-variable name="originY" sid="937648880159933" type="number" />
+                <instance-variable name="rotated" sid="495243992183781" type="number" />
+                <instance-variable name="prevX" sid="550551596333208" type="number" />
+                <instance-variable name="prevY" sid="528527354501100" type="number" />
+                <instance-variable name="nextX" sid="785435704128886" type="number" />
+                <instance-variable name="nextY" sid="833542117685577" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="DragDrop" sid="702158622330751">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Pin" sid="430661860354259">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="907749270857118" speed="5">
+                    <frame duration="1" hotspotX="0.508197" hotspotY="0.730061" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\PSD-Design\Export\T-Block.png">
+                        <collision-poly>
+                            <point x="0.0389344" y="0.01227" />
+                            <point x="0.5" y="0.364008" />
+                            <point x="0.469262" y="0.339468" />
+                            <point x="0.506148" y="0.503067" />
+                            <point x="0.961066" y="0.993865" />
+                            <point x="0.5" y="0.642127" />
+                            <point x="0.0389344" y="0.993865" />
+                            <point x="0.0143442" y="0.503067" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="GreenBlockM" sid="565406417539678">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="sequence" sid="470167317565322" type="number" />
+                <instance-variable name="originX" sid="847325873829598" type="number" />
+                <instance-variable name="originY" sid="995563471812306" type="number" />
+                <instance-variable name="rotated" sid="706476166952791" type="number" />
+                <instance-variable name="prevX" sid="777152163234592" type="number" />
+                <instance-variable name="prevY" sid="864555764977835" type="number" />
+                <instance-variable name="nextX" sid="204031564134913" type="number" />
+                <instance-variable name="nextY" sid="521607244004079" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="DragDrop" sid="903411602958680">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Pin" sid="963303024615197">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="294977628455385" speed="5">
+                    <frame duration="1" hotspotX="0.627692" hotspotY="0.491803" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\PSD-Design\Export\6-M-Block-Tosca.png">
+                        <collision-poly>
+                            <point x="0.00497037" y="0" />
+                            <point x="0.516213" y="0.345807" />
+                            <point x="0.48213" y="0.318597" />
+                            <point x="0.52303" y="0.5" />
+                            <point x="1" y="1" />
+                            <point x="0.516213" y="0.654193" />
+                            <point x="0.00497037" y="1" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="PurpleBlockT" sid="395119616129841">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="sequence" sid="564121874477591" type="number" />
+                <instance-variable name="originX" sid="366868481896265" type="number" />
+                <instance-variable name="originY" sid="577365417413005" type="number" />
+                <instance-variable name="rotated" sid="484183611702964" type="number" />
+                <instance-variable name="prevX" sid="829565564712996" type="number" />
+                <instance-variable name="prevY" sid="997182247487705" type="number" />
+                <instance-variable name="nextX" sid="264315439981332" type="number" />
+                <instance-variable name="nextY" sid="751853273685038" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="DragDrop" sid="985025352129037">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Pin" sid="957404769524523">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="677971569132614" speed="5">
+                    <frame duration="1" hotspotX="0.75" hotspotY="0.497537" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\PSD-Design\Export\6-T-Block-Purple.png">
+                        <collision-poly>
+                            <point x="0.0426829" y="0.00738921" />
+                            <point x="0.5" y="0.360427" />
+                            <point x="0.469512" y="0.335797" />
+                            <point x="0.506098" y="0.5" />
+                            <point x="0.957317" y="0.99261" />
+                            <point x="0.5" y="0.639573" />
+                            <point x="0.0426829" y="0.99261" />
+                            <point x="0.0182927" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BlueBlockZ" sid="265147891326875">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="sequence" sid="463464318004956" type="number" />
+                <instance-variable name="originX" sid="534337300143308" type="number" />
+                <instance-variable name="originY" sid="626131661097237" type="number" />
+                <instance-variable name="rotated" sid="166303108651569" type="number" />
+                <instance-variable name="prevX" sid="162483425429257" type="number" />
+                <instance-variable name="prevY" sid="520665198948838" type="number" />
+                <instance-variable name="nextX" sid="797793868786173" type="number" />
+                <instance-variable name="nextY" sid="965579914578754" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="DragDrop" sid="406853421879111">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Pin" sid="411435473711022">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="284115318102176" speed="5">
+                    <frame duration="1" hotspotX="0.504926" hotspotY="0.251534" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\PSD-Design\Export\6-Z-Block-Blue.png">
+                        <collision-poly>
+                            <point x="0.0381773" y="0.00613502" />
+                            <point x="0.5" y="0.357873" />
+                            <point x="0.469212" y="0.333333" />
+                            <point x="0.506158" y="0.496933" />
+                            <point x="0.961823" y="0.98773" />
+                            <point x="0.5" y="0.635992" />
+                            <point x="0.0381773" y="0.98773" />
+                            <point x="0.0135468" y="0.496933" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BrownBlockL" sid="743324138871854">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="sequence" sid="805437866590720" type="number" />
+                <instance-variable name="originX" sid="546549378162711" type="number" />
+                <instance-variable name="originY" sid="533097238163218" type="number" />
+                <instance-variable name="rotated" sid="954889820234833" type="number" />
+                <instance-variable name="prevX" sid="865489904638023" type="number" />
+                <instance-variable name="prevY" sid="502765014759747" type="number" />
+                <instance-variable name="nextX" sid="498194293445452" type="number" />
+                <instance-variable name="nextY" sid="698637070598159" type="number" />
+            </instance-variables>
+            <behaviors>
+                <behavior-type name="DragDrop" sid="634443466580726">
+                    <behavior id="DragnDrop" />
+                </behavior-type>
+                <behavior-type name="Pin" sid="621579121665772">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="863038715688074" speed="5">
+                    <frame duration="1" hotspotX="0.504926" hotspotY="0.245399" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\PSD-Design\Export\L-Block-Brown.png">
+                        <collision-poly>
+                            <point x="0.0381773" y="0.00613502" />
+                            <point x="0.5" y="0.357873" />
+                            <point x="0.469212" y="0.333333" />
+                            <point x="0.506158" y="0.496933" />
+                            <point x="0.961823" y="0.98773" />
+                            <point x="0.5" y="0.635992" />
+                            <point x="0.0381773" y="0.98773" />
+                            <point x="0.0135468" y="0.496933" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="BlockOrigin" sid="730815471755123">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="761696431075524" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\ApplicationDesign\Design\Text\Rectangle 2.png">
+                        <collision-poly>
+                            <point x="0.00819672" y="0.0131965" />
+                            <point x="0.991803" y="0.0131965" />
+                            <point x="0.989982" y="0.983871" />
+                            <point x="0.0100182" y="0.983871" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HelpButtonCircle" sid="587068419335600">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="940129691416031" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\PSD-Design\Export\HelpButton.png">
+                        <collision-poly>
+                            <point x="0.216" y="0.216" />
+                            <point x="0.5" y="0.1" />
+                            <point x="0.784" y="0.216" />
+                            <point x="0.9" y="0.5" />
+                            <point x="0.784" y="0.784" />
+                            <point x="0.5" y="0.9" />
+                            <point x="0.216" y="0.784" />
+                            <point x="0.1" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Audio" sid="870580520834704">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="Sprite" sid="219641024836205">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="642720983822970" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\ApplicationDesign\Design\Text\Medium.png">
+                        <collision-poly>
+                            <point x="0.203125" y="0.278571" />
+                            <point x="0.5" y="0.485714" />
+                            <point x="0.791667" y="0.285714" />
+                            <point x="0.742188" y="0.5" />
+                            <point x="0.869792" y="0.821429" />
+                            <point x="0.5" y="0.839286" />
+                            <point x="0.130208" y="0.821429" />
+                            <point x="0.203125" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="LeaderButton" sid="728546560301421">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="795491101699137" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\Export\LeaderboardButton.png">
+                        <collision-poly>
+                            <point x="0.216" y="0.216" />
+                            <point x="0.5" y="0.1" />
+                            <point x="0.784" y="0.216" />
+                            <point x="0.9" y="0.5" />
+                            <point x="0.784" y="0.784" />
+                            <point x="0.5" y="0.9" />
+                            <point x="0.216" y="0.784" />
+                            <point x="0.1" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EasyButton" sid="182165103624571">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="604980361702110" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\Export\easy40%.png">
+                        <collision-poly>
+                            <point x="0.00789474" y="0.0075" />
+                            <point x="0.992105" y="0.0075" />
+                            <point x="0.992105" y="0.9925" />
+                            <point x="0.00789474" y="0.9925" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MediumButton" sid="497170197475057">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="422698814871105" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\Export\medium10%.png">
+                        <collision-poly>
+                            <point x="0.00789474" y="0.0075" />
+                            <point x="0.992105" y="0.0075" />
+                            <point x="0.992105" y="0.9925" />
+                            <point x="0.00789474" y="0.9925" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HardButton" sid="301522946137975">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="371236972029923" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\Export\hard0%.png">
+                        <collision-poly>
+                            <point x="0.00789474" y="0.0075" />
+                            <point x="0.992105" y="0.0075" />
+                            <point x="0.992105" y="0.9925" />
+                            <point x="0.00789474" y="0.9925" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ExpertButton" sid="154468514446814">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="758015587653145" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\Export\expert0%.png">
+                        <collision-poly>
+                            <point x="0.00789474" y="0.0075" />
+                            <point x="0.992105" y="0.0075" />
+                            <point x="0.992105" y="0.9925" />
+                            <point x="0.00789474" y="0.9925" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ByK3" sid="751671433285971">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Stage01Green" sid="735112497998969">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="458074486308116" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 1 - Blue.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage02Green" sid="823082758879852">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="608526436371864" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 2 - Blue.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage03Green" sid="455637594171401">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="750205245677314" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 3 - Blue.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage04Green" sid="600087334335675">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="425181995103468" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 4 - Blue.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage05Green" sid="903161282866939">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="582754061580669" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 5 - Blue.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage06Green" sid="307078518735214">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="498029136248483" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 6 - Blue.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage07Green" sid="408753672821395">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="159512506949852" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 7 - Blue.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage08Green" sid="364214079248815">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="609185536582923" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 8 - Blue.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage09Green" sid="978499961701026">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="454762052608223" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 9 - Blue.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage10Green" sid="513298844498221">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="905857376919826" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 10 - Blue.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage11Green" sid="616230298330081">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="389723514170763" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 11 - Blue.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage12Green" sid="932580123749109">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="766058346557990" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 12 - Blue.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage13Green" sid="762744316617915">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="673033931016419" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 13 - Blue.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage14Green" sid="669946225760160">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="760873067106604" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 14 - Blue.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage15Green" sid="971098190963423">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="872815737233747" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 15 - Blue.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage16Green" sid="519528662415446">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="807648488182900" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 16 - Blue.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage17Green" sid="132148462009012">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="827994792354847" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 17 - Blue.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage18Green" sid="879917292648504">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="684139103561104" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 18 - Blue.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage19Green" sid="650166953251446">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="431834556503624" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 19 - Blue.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage20Green" sid="649330695056742">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="196539068197571" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 20 - Blue.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage21Blue" sid="422336491655069">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="607658335580251" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 21.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage22Orange" sid="597450197816774">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="360782211715375" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 22 - Orange.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage23Orange" sid="943695058482324">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="764784232378403" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 23.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage24Orange" sid="249696111295591">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="477680989972231" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 24.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage25Orange" sid="553293000773120">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="309248053535788" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 25.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage28Orange" sid="464086226904577">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="307991600613111" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 28.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage29Orange" sid="909771506292061">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="262468346102867" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 29.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage30Orange" sid="880094588574114">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="403586338261910" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 30.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage31Orange" sid="924802558225072">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="635912787665512" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 31.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage32Orange" sid="683506585177178">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="541053640385110" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 32.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage33Orange" sid="523726894574455">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="762010719423843" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 33.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage34Orange" sid="395040868923965">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="107671863963701" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 34.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage35Orange" sid="541165538298028">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="554441361000589" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 35.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage36Orange" sid="375373600499284">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="676551483266639" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 36.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage37Orange" sid="796998381765535">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="134867576867965" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 37.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage38Orange" sid="919593734667483">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="611296845909185" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 38.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage39Orange" sid="532120316660357">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="452537436039698" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 39.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage40Orange" sid="145416017522390">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="919610927563600" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 40.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage01Orange" sid="458221703092216">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="486359536208680" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 1 - Blue.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage02Orange" sid="550532813217540">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="431688242254642" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 2.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage03Orange" sid="593662684847848">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="684864728651267" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 3.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage04Orange" sid="644883922797604">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="382291733224375" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 4.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage05Orange" sid="636816388960701">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="491788571673137" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 5.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage06Orange" sid="474551017311202">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="349317939989961" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 6.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage07Orange" sid="866610398931608">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="595880739101528" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 7.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage08Orange" sid="356909579318517">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="547424474170137" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 8.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage09Orange" sid="858669789247745">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="142749337094809" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 9.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage10Orange" sid="127216997356159">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="607727771009975" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 10.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage11Orange" sid="995678960475503">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="185952712138139" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 11.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage12Orange" sid="735357290691459">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="523430086548758" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 12.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage13Orange" sid="850745419577718">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="948482211797133" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 13.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage14Orange" sid="141435130671062">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="771377869480317" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 14.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage15Orange" sid="730190921707932">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="151339628558484" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 15.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage16Orange" sid="213565096477604">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="677752444284439" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 16.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage17Orange" sid="585633657500036">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="486381638189828" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 17.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage18Orange" sid="352365715237565">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="979787535079431" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 18.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage19Orange" sid="952087629255489">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="405256592264824" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 19.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage20Orange" sid="966506205984475">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="426747562410500" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 20.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage21Orange" sid="485107873866011">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="567743366413913" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 21 - Orange.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage26Orange" sid="509176898672865">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="119633296868386" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 26.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage27Orange" sid="336813304766641">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="343352233707756" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 27.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage41Orange" sid="650768465645221">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="762404900620206" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Desktop\Group 1.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage42Orange" sid="274643608306007">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="655157127706498" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Desktop\Group 2.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage43Orange" sid="579633534321916">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="448969589519920" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Desktop\Group 3.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage44Orange" sid="375902035667654">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="839971019311811" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Desktop\Group 4.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage45Orange" sid="377370173941520">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="967840450111037" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Desktop\Group 5.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage46Orange" sid="896384242973101">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="364827346798984" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Desktop\Group 6.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage47Orange" sid="703178704467737">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="255257532725557" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Desktop\Group 7.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage48Orange" sid="366171487731132">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="899312681965271" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Desktop\Group 8.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage49Orange" sid="601715014415418">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="445165875280725" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Desktop\Group 9.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Stage50Orange" sid="436052247820999">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="463508345421383" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Desktop\Group 10.png">
+                        <collision-poly>
+                            <point x="0.0375" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.9625" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.9625" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0375" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EasyLevelShadow" sid="306956649111345">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="412063368176133" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\Export\Easy Level Shadow.png">
+                        <collision-poly>
+                            <point x="0.202632" y="0.188725" />
+                            <point x="0.5" y="0.220588" />
+                            <point x="0.792105" y="0.193627" />
+                            <point x="0.718421" y="0.5" />
+                            <point x="0.642105" y="0.666667" />
+                            <point x="0.5" y="0.661765" />
+                            <point x="0.357895" y="0.666667" />
+                            <point x="0.239474" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MediumLevelShadow" sid="925075648080500">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="893265252853826" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\Export\Medium Level.png">
+                        <collision-poly>
+                            <point x="0.226316" y="0.210784" />
+                            <point x="0.5" y="0.220588" />
+                            <point x="0.773684" y="0.210784" />
+                            <point x="0.694737" y="0.5" />
+                            <point x="0.621053" y="0.647059" />
+                            <point x="0.378947" y="0.647059" />
+                            <point x="0.268421" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HardLevelShadow" sid="142988076989302">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="670953494979568" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\Export\Hard Level.png">
+                        <collision-poly>
+                            <point x="0.202632" y="0.188725" />
+                            <point x="0.5" y="0.205882" />
+                            <point x="0.794737" y="0.191176" />
+                            <point x="0.718421" y="0.5" />
+                            <point x="0.642105" y="0.666667" />
+                            <point x="0.5" y="0.661765" />
+                            <point x="0.357895" y="0.666667" />
+                            <point x="0.239474" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ExpertLevelShadow" sid="774632725454433">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="935290301685742" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\Export\Expert Level.png">
+                        <collision-poly>
+                            <point x="0.228947" y="0.213235" />
+                            <point x="0.771053" y="0.213235" />
+                            <point x="0.694737" y="0.5" />
+                            <point x="0.621053" y="0.647059" />
+                            <point x="0.378947" y="0.647059" />
+                            <point x="0.268421" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ChooseLevelShadow" sid="984256966985784">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="550295307851981" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\Export\Choose Level Shadow.png">
+                        <collision-poly>
+                            <point x="0.273684" y="0.254902" />
+                            <point x="0.5" y="0.259804" />
+                            <point x="0.728947" y="0.252451" />
+                            <point x="0.865789" y="0.5" />
+                            <point x="0.692105" y="0.713235" />
+                            <point x="0.5" y="0.703431" />
+                            <point x="0.307895" y="0.713235" />
+                            <point x="0.0578947" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>MainMenu.xml</layout>
+        <layout>EasyStage21.xml</layout>
+        <layout>ChooseLevel.xml</layout>
+        <layout>EasyLevel.xml</layout>
+        <layout>MediumLevel.xml</layout>
+        <layout>HardLevel.xml</layout>
+        <layout>ExpertLevel.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>MainMenuEvent.xml</event-sheet>
+        <event-sheet>EasyStage21Event.xml</event-sheet>
+        <event-sheet>EventChooseLevel.xml</event-sheet>
+        <event-sheet>EventEasyLevel.xml</event-sheet>
+        <event-sheet>EventMediumLevel.xml</event-sheet>
+        <event-sheet>EventHardLevel.xml</event-sheet>
+        <event-sheet>EventExpertLevel.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="Touch" uid="269">
+            <properties>
+                <use-mouse-input>Yes</use-mouse-input>
+            </properties>
+        </global-instance>
+        <global-instance type="Audio" uid="270">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+    </global-instances>
+    <sounds-folder />
+    <music-folder>
+        <file name="zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872.m4a" />
+        <file name="zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872.ogg" />
+        <file name="zapsplat_impact_gaval_x1.m4a" />
+        <file name="zapsplat_impact_gaval_x1.ogg" />
+    </music-folder>
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+        <file name="adam.cg_pro-webfont.woff" />
+        <file name="stylesheet.css" />
+        <file name="adam.cg_pro-webfont.woff2" />
+    </files-folder>
+</c2project>

@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <event-sheet order="0">EasyStage21Event</event-sheet>
+        <event-sheet order="1">EventEasyLevel</event-sheet>
+        <event-sheet order="2">EventExpertLevel</event-sheet>
+        <event-sheet order="3">EventHardLevel</event-sheet>
+        <event-sheet active="1" order="4">EventMediumLevel</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="0" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="layout-folder/" />
+        <folder expanded="1" path="event-folder/" />
+        <folder expanded="0" path="file-folder/" />
+        <folder expanded="1" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/AdBlockLogo/" />
+        <folder expanded="1" path="animation-folder/BackgroundImage/" />
+        <folder expanded="1" path="animation-folder/StartButton/" />
+        <folder expanded="1" path="animation-folder/HelpButton/" />
+        <folder expanded="1" path="animation-folder/ExitButton/" />
+        <folder expanded="1" path="animation-folder/BackButton/" />
+        <folder expanded="1" path="animation-folder/Background/" />
+        <folder expanded="1" path="animation-folder/PauseButton/" />
+        <folder expanded="1" path="animation-folder/PauseBackground/" />
+        <folder expanded="1" path="animation-folder/ResumeButton/" />
+        <folder expanded="1" path="animation-folder/MainMenuButton/" />
+        <folder expanded="1" path="animation-folder/YellowBlockL/" />
+        <folder expanded="1" path="animation-folder/UndoButton/" />
+        <folder expanded="1" path="animation-folder/RedoButton/" />
+        <folder expanded="1" path="animation-folder/ResetButton/" />
+        <folder expanded="1" path="animation-folder/RedBlockZ/" />
+        <folder expanded="1" path="animation-folder/BlueBlockT/" />
+        <folder expanded="1" path="animation-folder/GreenBlockM/" />
+        <folder expanded="1" path="animation-folder/PurpleBlockT/" />
+        <folder expanded="1" path="animation-folder/BlueBlockZ/" />
+        <folder expanded="1" path="animation-folder/BrownBlockL/" />
+        <folder expanded="1" path="animation-folder/BlockOrigin/" />
+        <folder expanded="1" path="animation-folder/HelpButtonCircle/" />
+        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/LeaderButton/" />
+        <folder expanded="1" path="animation-folder/EasyButton/" />
+        <folder expanded="1" path="animation-folder/MediumButton/" />
+        <folder expanded="1" path="animation-folder/HardButton/" />
+        <folder expanded="1" path="animation-folder/ExpertButton/" />
+        <folder expanded="1" path="animation-folder/Stage01Green/" />
+        <folder expanded="1" path="animation-folder/Stage02Green/" />
+        <folder expanded="1" path="animation-folder/Stage03Green/" />
+        <folder expanded="1" path="animation-folder/Stage04Green/" />
+        <folder expanded="1" path="animation-folder/Stage05Green/" />
+        <folder expanded="1" path="animation-folder/Stage06Green/" />
+        <folder expanded="1" path="animation-folder/Stage07Green/" />
+        <folder expanded="1" path="animation-folder/Stage08Green/" />
+        <folder expanded="1" path="animation-folder/Stage09Green/" />
+        <folder expanded="1" path="animation-folder/Stage10Green/" />
+        <folder expanded="1" path="animation-folder/Stage11Green/" />
+        <folder expanded="1" path="animation-folder/Stage12Green/" />
+        <folder expanded="1" path="animation-folder/Stage13Green/" />
+        <folder expanded="1" path="animation-folder/Stage14Green/" />
+        <folder expanded="1" path="animation-folder/Stage15Green/" />
+        <folder expanded="1" path="animation-folder/Stage16Green/" />
+        <folder expanded="1" path="animation-folder/Stage17Green/" />
+        <folder expanded="1" path="animation-folder/Stage18Green/" />
+        <folder expanded="1" path="animation-folder/Stage19Green/" />
+        <folder expanded="1" path="animation-folder/Stage20Green/" />
+        <folder expanded="1" path="animation-folder/Stage21Blue/" />
+        <folder expanded="1" path="animation-folder/Stage22Orange/" />
+        <folder expanded="1" path="animation-folder/Stage23Orange/" />
+        <folder expanded="1" path="animation-folder/Stage24Orange/" />
+        <folder expanded="1" path="animation-folder/Stage25Orange/" />
+        <folder expanded="1" path="animation-folder/Stage28Orange/" />
+        <folder expanded="1" path="animation-folder/Stage29Orange/" />
+        <folder expanded="1" path="animation-folder/Stage30Orange/" />
+        <folder expanded="1" path="animation-folder/Stage31Orange/" />
+        <folder expanded="1" path="animation-folder/Stage32Orange/" />
+        <folder expanded="1" path="animation-folder/Stage33Orange/" />
+        <folder expanded="1" path="animation-folder/Stage34Orange/" />
+        <folder expanded="1" path="animation-folder/Stage35Orange/" />
+        <folder expanded="1" path="animation-folder/Stage36Orange/" />
+        <folder expanded="1" path="animation-folder/Stage37Orange/" />
+        <folder expanded="1" path="animation-folder/Stage38Orange/" />
+        <folder expanded="1" path="animation-folder/Stage39Orange/" />
+        <folder expanded="1" path="animation-folder/Stage40Orange/" />
+        <folder expanded="1" path="animation-folder/Stage01Orange/" />
+        <folder expanded="1" path="animation-folder/Stage02Orange/" />
+        <folder expanded="1" path="animation-folder/Stage03Orange/" />
+        <folder expanded="1" path="animation-folder/Stage04Orange/" />
+        <folder expanded="1" path="animation-folder/Stage05Orange/" />
+        <folder expanded="1" path="animation-folder/Stage06Orange/" />
+        <folder expanded="1" path="animation-folder/Stage07Orange/" />
+        <folder expanded="1" path="animation-folder/Stage08Orange/" />
+        <folder expanded="1" path="animation-folder/Stage09Orange/" />
+        <folder expanded="1" path="animation-folder/Stage10Orange/" />
+        <folder expanded="1" path="animation-folder/Stage11Orange/" />
+        <folder expanded="1" path="animation-folder/Stage12Orange/" />
+        <folder expanded="1" path="animation-folder/Stage13Orange/" />
+        <folder expanded="1" path="animation-folder/Stage14Orange/" />
+        <folder expanded="1" path="animation-folder/Stage15Orange/" />
+        <folder expanded="1" path="animation-folder/Stage16Orange/" />
+        <folder expanded="1" path="animation-folder/Stage17Orange/" />
+        <folder expanded="1" path="animation-folder/Stage18Orange/" />
+        <folder expanded="1" path="animation-folder/Stage19Orange/" />
+        <folder expanded="1" path="animation-folder/Stage20Orange/" />
+        <folder expanded="1" path="animation-folder/Stage21Orange/" />
+        <folder expanded="1" path="animation-folder/Stage26Orange/" />
+        <folder expanded="1" path="animation-folder/Stage27Orange/" />
+        <folder expanded="1" path="animation-folder/Stage41Orange/" />
+        <folder expanded="1" path="animation-folder/Stage42Orange/" />
+        <folder expanded="1" path="animation-folder/Stage43Orange/" />
+        <folder expanded="1" path="animation-folder/Stage44Orange/" />
+        <folder expanded="1" path="animation-folder/Stage45Orange/" />
+        <folder expanded="1" path="animation-folder/Stage46Orange/" />
+        <folder expanded="1" path="animation-folder/Stage47Orange/" />
+        <folder expanded="1" path="animation-folder/Stage48Orange/" />
+        <folder expanded="1" path="animation-folder/Stage49Orange/" />
+        <folder expanded="1" path="animation-folder/Stage50Orange/" />
+        <folder expanded="1" path="animation-folder/EasyLevelShadow/" />
+        <folder expanded="1" path="animation-folder/MediumLevelShadow/" />
+        <folder expanded="1" path="animation-folder/HardLevelShadow/" />
+        <folder expanded="1" path="animation-folder/ExpertLevelShadow/" />
+        <folder expanded="1" path="animation-folder/ChooseLevelShadow/" />
+    </folders-expanded>
+</c2uistate>

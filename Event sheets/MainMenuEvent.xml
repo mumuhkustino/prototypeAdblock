@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>MainMenuEvent</name>
+    <events>
+        <event-block sid="806742806187050">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="541281647100697" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set web font" sid="522148204397972" type="FooterTitle">
+                    <param id="0" name="Family name">&quot;adam.cg_proregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="308409059195025">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="783753317764473" type="Touch">
+                    <param id="0" name="Object">StartButton</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="628328342853928" type="System">
+                    <param id="0" name="Variable">isPause</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="859243689133659" type="StartButton">
+                    <param id="0" name="Scale">0.9</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="974230167228457">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="885711218074249" type="Touch">
+                            <param id="0" name="Object">StartButton</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="948348163668310" type="System">
+                            <param id="0" name="Layout">ChooseLevel</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="599421961096882">
+            <conditions>
+                <condition id="11" name="On Nth touch end" sid="337442380325222" type="Touch">
+                    <param id="0" name="Touch number">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="728639633157489" type="StartButton">
+                    <param id="0" name="Scale">1</param>
+                </action>
+                <action id="9" name="Set scale" sid="228473877601364" type="HelpButton">
+                    <param id="0" name="Scale">1</param>
+                </action>
+                <action id="9" name="Set scale" sid="407288831729037" type="ExitButton">
+                    <param id="0" name="Scale">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="997252173314046">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="681886016529650" type="Touch">
+                    <param id="0" name="Object">HelpButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="598342855833518" type="HelpButton">
+                    <param id="0" name="Scale">0.9</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="457209317070330">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="118199106450415" type="Touch">
+                    <param id="0" name="Object">ExitButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="264544488414589" type="ExitButton">
+                    <param id="0" name="Scale">0.9</param>
+                </action>
+                <action id="-26" name="Restart layout" sid="717754205805407" type="System" />
+            </actions>
+        </event-block>
+        <event-block sid="281595448022793">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="763438277553164" type="System">
+                    <param id="0" name="Variable">isPause</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">1</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-16" name="Wait" sid="877321276187020" type="System">
+                    <param id="0" name="Seconds">0.25</param>
+                </action>
+                <action id="-9" name="Set value" sid="126413490068314" type="System">
+                    <param id="0" name="Variable">isPause</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

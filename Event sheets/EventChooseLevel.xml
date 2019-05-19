@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EventChooseLevel</name>
+    <events>
+        <event-block sid="123394301729393">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="603018355095489" type="System" />
+            </conditions>
+            <actions>
+                <action id="5" name="Set web font" sid="666479544174447" type="ByK3">
+                    <param id="0" name="Family name">&quot;adam.cg_proregular&quot;</param>
+                    <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="977763015718187">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="216818020295260" type="Touch">
+                    <param id="0" name="Object">EasyButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="813575471637482" type="EasyButton">
+                    <param id="0" name="Scale">0.9</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="685620679128570">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="239425849124428" type="Touch">
+                            <param id="0" name="Object">EasyButton</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="329806410568441" type="System">
+                            <param id="0" name="Layout">&quot;EasyLevel&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="644375678012901">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="343073649624020" type="Touch">
+                    <param id="0" name="Object">MediumButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="389977427394708" type="MediumButton">
+                    <param id="0" name="Scale">0.9</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="717625020079519">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="487145186872660" type="Touch">
+                            <param id="0" name="Object">MediumButton</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="635705608810769" type="System">
+                            <param id="0" name="Layout">&quot;MediumLevel&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="299572295153960">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="878306813862753" type="Touch">
+                    <param id="0" name="Object">HardButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="284061858668860" type="HardButton">
+                    <param id="0" name="Scale">0.9</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="931772463062177">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="789283583787863" type="Touch">
+                            <param id="0" name="Object">HardButton</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="680687978307460" type="System">
+                            <param id="0" name="Layout">&quot;HardLevel&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="575474372797528">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="733609981399529" type="Touch">
+                    <param id="0" name="Object">ExpertButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="632187875500460" type="ExpertButton">
+                    <param id="0" name="Scale">0.9</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="362401391513017">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="138692576258320" type="Touch">
+                            <param id="0" name="Object">ExpertButton</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="470467579909917" type="System">
+                            <param id="0" name="Layout">&quot;ExpertLevel&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="446231403323126">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="373689459835973" type="Touch">
+                    <param id="0" name="Object">LeaderButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="260731588667422" type="LeaderButton">
+                    <param id="0" name="Scale">0.62</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="682711535313083">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="708188242941562" type="Touch">
+                            <param id="0" name="Object">LeaderButton</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="291517761899400" type="System">
+                            <param id="0" name="Layout">&quot;LeaderBoard&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="834479198532294">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="851544683596494" type="Touch">
+                    <param id="0" name="Object">HelpButtonCircle</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="371898584156867" type="HelpButtonCircle">
+                    <param id="0" name="Scale">0.62</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="669348638298246">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="171819262502357" type="Touch">
+                            <param id="0" name="Object">HelpButtonCircle</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="223951371642396" type="System">
+                            <param id="0" name="Layout">&quot;Help&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="267927354028778">
+            <conditions>
+                <condition id="11" name="On Nth touch end" sid="454438746343331" type="Touch">
+                    <param id="0" name="Touch number">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="483979436371094" type="EasyButton">
+                    <param id="0" name="Scale">1</param>
+                </action>
+                <action id="9" name="Set scale" sid="157353057233878" type="MediumButton">
+                    <param id="0" name="Scale">1</param>
+                </action>
+                <action id="9" name="Set scale" sid="180603107523288" type="HardButton">
+                    <param id="0" name="Scale">1</param>
+                </action>
+                <action id="9" name="Set scale" sid="736365014784458" type="ExpertButton">
+                    <param id="0" name="Scale">1</param>
+                </action>
+                <action id="9" name="Set scale" sid="132014057529477" type="HelpButtonCircle">
+                    <param id="0" name="Scale">0.72</param>
+                </action>
+                <action id="9" name="Set scale" sid="685018535045381" type="LeaderButton">
+                    <param id="0" name="Scale">0.72</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="662730237715685">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="443468220631943" type="Touch">
+                    <param id="0" name="Object">BackButton</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="795734407312457" type="BackButton">
+                    <param id="0" name="Scale">0.62</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="660647407862480">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="873774617197517" type="Touch">
+                            <param id="0" name="Object">BackButton</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="208744904474409" type="System">
+                            <param id="0" name="Layout">MainMenu</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
+</c2eventsheet>
