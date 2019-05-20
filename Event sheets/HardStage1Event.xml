@@ -3,8 +3,6 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>HardStage1Event</name>
     <events>
-        <variable constant="0" name="PlacedBlock2" sid="611136974387610" static="0" type="number">0</variable>
-        <variable constant="0" name="isPause2" sid="296320209541506" static="0" type="number">0</variable>
         <event-block sid="137621866233988">
             <conditions>
                 <condition id="-2" name="On start of layout" sid="177822115618997" type="System" />

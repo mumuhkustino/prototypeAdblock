@@ -10,18 +10,14 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-<!-- <<<<<<< HEAD -->
         <layout order="0">HardStage1</layout>
-        <layout order="2">MainMenu</layout>
-        <layout order="4">EasyStage21</layout>
-        <event-sheet order="1">HardStage1Event</event-sheet>
-        <event-sheet order="3">MainMenuEvent</event-sheet>
-        <event-sheet active="1" order="5">EasyStage21Event</event-sheet>
-<!-- ======= -->
-        <layout order="0">LeaderBoard</layout>
-        <event-sheet order="1">EvtLeaderBoard</event-sheet>
-        <event-sheet active="1" order="2">EasyStage21Event</event-sheet>
-<!-- >>>>>>> Gita -->
+        <layout active="1" order="1">LeaderBoard</layout>
+        <layout order="3">MainMenu</layout>
+        <layout order="7">EasyStage21</layout>
+        <event-sheet order="2">EvtLeaderBoard</event-sheet>
+        <event-sheet order="4">EasyStage21Event</event-sheet>
+        <event-sheet order="5">MainMenuEvent</event-sheet>
+        <event-sheet order="6">HardStage1Event</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -31,7 +27,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </properties>
     <families-expanded root="1" />
     <folders-expanded>
-        <folder expanded="0" path="object-folder/" />
+        <folder expanded="1" path="object-folder/" />
         <folder expanded="0" path="object-folder/HardBlock/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />

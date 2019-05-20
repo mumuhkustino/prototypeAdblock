@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="BackgroundImage" uid="352">
+                <instance type="BackgroundImage" uid="359">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -51,7 +51,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BackButton" uid="353">
+                <instance type="BackButton" uid="360">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -73,7 +73,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LeaderButton" uid="354">
+                <instance type="LeaderButton" uid="361">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -95,7 +95,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage02Orange" uid="355">
+                <instance type="Stage02Orange" uid="362">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -117,7 +117,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage03Orange" uid="356">
+                <instance type="Stage03Orange" uid="363">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -139,7 +139,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage04Orange" uid="357">
+                <instance type="Stage04Orange" uid="364">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -161,7 +161,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage05Orange" uid="358">
+                <instance type="Stage05Orange" uid="365">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -183,7 +183,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage06Orange" uid="359">
+                <instance type="Stage06Orange" uid="366">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -205,7 +205,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage07Orange" uid="360">
+                <instance type="Stage07Orange" uid="367">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -227,7 +227,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage08Orange" uid="361">
+                <instance type="Stage08Orange" uid="368">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -249,7 +249,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage09Orange" uid="362">
+                <instance type="Stage09Orange" uid="369">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -271,7 +271,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage10Orange" uid="363">
+                <instance type="Stage10Orange" uid="370">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -293,7 +293,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage11Orange" uid="364">
+                <instance type="Stage11Orange" uid="371">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -315,7 +315,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage12Orange" uid="365">
+                <instance type="Stage12Orange" uid="372">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -337,7 +337,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage13Orange" uid="366">
+                <instance type="Stage13Orange" uid="373">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -359,7 +359,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage14Orange" uid="367">
+                <instance type="Stage14Orange" uid="374">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -381,7 +381,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage15Orange" uid="368">
+                <instance type="Stage15Orange" uid="375">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -403,7 +403,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage16Orange" uid="369">
+                <instance type="Stage16Orange" uid="376">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -425,7 +425,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage17Orange" uid="370">
+                <instance type="Stage17Orange" uid="377">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -447,7 +447,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage18Orange" uid="371">
+                <instance type="Stage18Orange" uid="378">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -469,7 +469,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage19Orange" uid="372">
+                <instance type="Stage19Orange" uid="379">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -491,7 +491,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage20Orange" uid="373">
+                <instance type="Stage20Orange" uid="380">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -513,7 +513,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage21Orange" uid="374">
+                <instance type="Stage21Orange" uid="381">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -535,7 +535,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage26Orange" uid="375">
+                <instance type="Stage26Orange" uid="382">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -557,7 +557,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage27Orange" uid="376">
+                <instance type="Stage27Orange" uid="383">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -579,7 +579,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage41Orange" uid="377">
+                <instance type="Stage41Orange" uid="384">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -601,7 +601,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage42Orange" uid="378">
+                <instance type="Stage42Orange" uid="385">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -623,7 +623,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage43Orange" uid="379">
+                <instance type="Stage43Orange" uid="386">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -645,7 +645,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage44Orange" uid="380">
+                <instance type="Stage44Orange" uid="387">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -667,7 +667,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage45Orange" uid="381">
+                <instance type="Stage45Orange" uid="388">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -689,7 +689,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage46Orange" uid="382">
+                <instance type="Stage46Orange" uid="389">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -711,7 +711,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage47Orange" uid="383">
+                <instance type="Stage47Orange" uid="390">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -733,7 +733,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage48Orange" uid="384">
+                <instance type="Stage48Orange" uid="391">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -755,7 +755,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage49Orange" uid="385">
+                <instance type="Stage49Orange" uid="392">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -777,7 +777,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage50Orange" uid="386">
+                <instance type="Stage50Orange" uid="393">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -799,7 +799,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ExpertLevelShadow" uid="387">
+                <instance type="ExpertLevelShadow" uid="394">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -821,7 +821,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage22Orange" uid="388">
+                <instance type="Stage22Orange" uid="395">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -843,7 +843,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage23Orange" uid="389">
+                <instance type="Stage23Orange" uid="396">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -865,7 +865,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage24Orange" uid="390">
+                <instance type="Stage24Orange" uid="397">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -887,7 +887,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage25Orange" uid="391">
+                <instance type="Stage25Orange" uid="398">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -909,7 +909,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage28Orange" uid="392">
+                <instance type="Stage28Orange" uid="399">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -931,7 +931,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage29Orange" uid="393">
+                <instance type="Stage29Orange" uid="400">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -953,7 +953,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage30Orange" uid="394">
+                <instance type="Stage30Orange" uid="401">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -975,7 +975,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage31Orange" uid="395">
+                <instance type="Stage31Orange" uid="402">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -997,7 +997,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage32Orange" uid="396">
+                <instance type="Stage32Orange" uid="403">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1019,7 +1019,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage33Orange" uid="397">
+                <instance type="Stage33Orange" uid="404">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1041,7 +1041,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage34Orange" uid="398">
+                <instance type="Stage34Orange" uid="405">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1063,7 +1063,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage35Orange" uid="399">
+                <instance type="Stage35Orange" uid="406">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1085,7 +1085,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage36Orange" uid="400">
+                <instance type="Stage36Orange" uid="407">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1107,7 +1107,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage37Orange" uid="401">
+                <instance type="Stage37Orange" uid="408">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1129,7 +1129,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage38Orange" uid="402">
+                <instance type="Stage38Orange" uid="410">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1151,7 +1151,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage39Orange" uid="403">
+                <instance type="Stage39Orange" uid="414">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1173,7 +1173,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage40Orange" uid="404">
+                <instance type="Stage40Orange" uid="425">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1195,7 +1195,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="HelpButtonCircle" uid="405">
+                <instance type="HelpButtonCircle" uid="426">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -1217,7 +1217,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Stage01Green" uid="406">
+                <instance type="Stage01Green" uid="427">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

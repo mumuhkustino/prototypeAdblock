@@ -2778,12 +2778,12 @@
         <event-sheet>HardStage1Event.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Touch" uid="407">
+        <global-instance type="Touch" uid="428">
             <properties>
                 <use-mouse-input>Yes</use-mouse-input>
             </properties>
         </global-instance>
-        <global-instance type="Audio" uid="408">
+        <global-instance type="Audio" uid="429">
             <properties>
                 <timescale-audio>Off</timescale-audio>
                 <saveload>All</saveload>
@@ -2797,7 +2797,7 @@
                 <roll-off-factor>1</roll-off-factor>
             </properties>
         </global-instance>
-        <global-instance type="Function" uid="410" />
+        <global-instance type="Function" uid="430" />
     </global-instances>
     <sounds-folder />
     <music-folder>

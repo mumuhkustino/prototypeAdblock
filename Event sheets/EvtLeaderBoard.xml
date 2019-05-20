@@ -3,6 +3,9 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>EvtLeaderBoard</name>
     <events>
+        <variable constant="0" name="curScore" sid="352016679740221" static="0" type="number">0</variable>
+        <variable constant="0" name="curIndex" sid="936414801668447" static="0" type="number">0</variable>
+        <variable constant="0" name="add" sid="797702378674082" static="0" type="number">0</variable>
         <variable constant="0" name="show_list" sid="674553144823079" static="0" type="number">3</variable>
         <event-block sid="539808243075472">
             <conditions>
