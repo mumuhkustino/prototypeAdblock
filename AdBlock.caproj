@@ -2739,8 +2739,11 @@
         <object-type name="EasyText" sid="544285464529558">
             <plugin id="Text" />
         </object-type>
-        <object-type name="noText" sid="799840947599295">
+        <object-type name="high" sid="600377475504049">
             <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="value" sid="665376052466544" type="number" />
+            </instance-variables>
         </object-type>
     </object-folder>
     <families />

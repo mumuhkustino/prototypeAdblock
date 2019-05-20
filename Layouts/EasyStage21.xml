@@ -1039,96 +1039,6 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="HourTimeText" uid="415">
-                    <properties>
-                        <text>00</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>ADAM.CG PRO,-37,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <instance-variables>
-                        <value>0</value>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>596</x>
-                        <y>804</y>
-                        <z>0</z>
-                        <width>52</width>
-                        <height>53</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="MinuteTimeText" uid="416">
-                    <properties>
-                        <text>00</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>ADAM.CG PRO,-37,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <instance-variables>
-                        <value>0</value>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>669</x>
-                        <y>805</y>
-                        <z>0</z>
-                        <width>52</width>
-                        <height>53</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="SecondTimeText" uid="417">
-                    <properties>
-                        <text>00</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>ADAM.CG PRO,-37,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <instance-variables>
-                        <value>0</value>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>738</x>
-                        <y>806</y>
-                        <z>0</z>
-                        <width>52</width>
-                        <height>52.999996185</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
                 <instance type="EndScreenText" uid="418">
                     <properties>
                         <text>:</text>
@@ -1171,41 +1081,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>704</x>
-                        <y>801</y>
+                        <x>736</x>
+                        <y>800</y>
                         <z>0</z>
                         <width>64</width>
                         <height>64</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="HourTimeText" uid="420">
-                    <properties>
-                        <text>00</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>ADAM.CG PRO,-37,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <instance-variables>
-                        <value>0</value>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>598</x>
-                        <y>866</y>
-                        <z>0</z>
-                        <width>52</width>
-                        <height>53</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
@@ -1255,71 +1135,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>704</x>
+                        <x>736</x>
                         <y>864</y>
                         <z>0</z>
                         <width>64</width>
                         <height>64</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="SecondTimeText" uid="423">
-                    <properties>
-                        <text>00</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>ADAM.CG PRO,-37,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <instance-variables>
-                        <value>0</value>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>739</x>
-                        <y>869</y>
-                        <z>0</z>
-                        <width>52</width>
-                        <height>52.999996185</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="MinuteTimeText" uid="424">
-                    <properties>
-                        <text>00</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>ADAM.CG PRO,-37,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <instance-variables>
-                        <value>0</value>
-                    </instance-variables>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>669</x>
-                        <y>870</y>
-                        <z>0</z>
-                        <width>52</width>
-                        <height>53</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
