@@ -13,6 +13,23 @@
                     <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
                 </action>
             </actions>
+            <sub-events>
+                <event-block sid="191067093456183">
+                    <conditions>
+                        <condition id="5" inverted="1" name="Is tag playing" sid="958183363971792" type="Audio">
+                            <param id="0" name="Tag">&quot;BackgroundMusic&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Play" sid="986895733242330" type="Audio">
+                            <param id="0" name="Audio file">audio_hero_Make-It-Snappy_SIPML_C-1039</param>
+                            <param id="2" name="Loop">1</param>
+                            <param id="3" name="Volume">40</param>
+                            <param id="1" name="Tag (optional)">&quot;BackgroundMusic&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="308409059195025">
             <conditions>

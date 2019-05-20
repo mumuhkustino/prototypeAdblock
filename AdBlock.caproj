@@ -2486,10 +2486,9 @@
     </global-instances>
     <sounds-folder />
     <music-folder>
-        <file name="zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872.m4a" />
         <file name="zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872.ogg" />
-        <file name="zapsplat_impact_gaval_x1.m4a" />
         <file name="zapsplat_impact_gaval_x1.ogg" />
+        <file name="audio_hero_Make-It-Snappy_SIPML_C-1039.ogg" />
     </music-folder>
     <files-folder>
         <file-folder name="Icons">

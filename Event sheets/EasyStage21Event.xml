@@ -49,6 +49,10 @@
                     <param id="0" name="Variable">isPause</param>
                     <param id="1" name="Value">0</param>
                 </action>
+                <action id="3" name="Set volume" sid="972840145156380" type="Audio">
+                    <param id="0" name="Tag">&quot;BackgroundMusic&quot;</param>
+                    <param id="1" name="dB">-10</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="915833674947713">
