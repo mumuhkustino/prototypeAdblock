@@ -4,6 +4,8 @@
     <name>EasyStage21Event</name>
     <events>
         <variable constant="0" name="PlacedBlock" sid="849185225910711" static="0" type="number">0</variable>
+        <variable constant="0" name="nameScreen" sid="136877533296400" static="0" type="text"></variable>
+        <variable constant="0" name="timer" sid="281392040339640" static="0" type="number">0</variable>
         <variable constant="0" name="isPause" sid="249070344568017" static="0" type="number">0</variable>
         <event-block sid="627207497329148">
             <conditions>
@@ -49,9 +51,18 @@
                     <param id="0" name="Variable">isPause</param>
                     <param id="1" name="Value">0</param>
                 </action>
+<!-- <<<<<<< HEAD -->
                 <action id="3" name="Set volume" sid="972840145156380" type="Audio">
                     <param id="0" name="Tag">&quot;BackgroundMusic&quot;</param>
                     <param id="1" name="dB">-10</param>
+<!-- ======= -->
+                <action id="-15" name="Set visible" sid="392279805641162" type="EndScreenText">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="348579107201864" type="System">
+                    <param id="0" name="Variable">nameScreen</param>
+                    <param id="1" name="Value">LayoutName</param>
+<!-- >>>>>>> Gita -->
                 </action>
             </actions>
         </event-block>
@@ -266,13 +277,13 @@
                     <param id="0" name="Instance variable">prevY</param>
                     <param id="1" name="Value">Self.Y</param>
                 </action>
-                <action id="-10" name="Set value" sid="486180236462120" type="BrownBlockL">
-                    <param id="0" name="Instance variable">nextX</param>
-                    <param id="1" name="Value">Self.X</param>
-                </action>
                 <action id="-10" name="Set value" sid="456895795476387" type="BrownBlockL">
                     <param id="0" name="Instance variable">nextY</param>
                     <param id="1" name="Value">Self.Y</param>
+                </action>
+                <action id="-10" name="Set value" sid="486180236462120" type="BrownBlockL">
+                    <param id="0" name="Instance variable">nextX</param>
+                    <param id="1" name="Value">Self.X</param>
                 </action>
                 <action id="9" name="Set scale" sid="757264904222070" type="BrownBlockL">
                     <param id="0" name="Scale">0.8</param>
@@ -320,7 +331,40 @@
                     <param id="0" name="Variable">isPause</param>
                     <param id="1" name="Value">1</param>
                 </action>
+                <action id="-24" name="Move to top" sid="469457511370920" type="PauseBackground" />
+                <action id="3" name="Start" sid="823897123793008" type="PauseBackground">
+                    <param id="0" name="From">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="154245312831523" type="EndScreenText">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-29" name="Move to object" sid="647349072111754" type="EndScreenText">
+                    <param id="0" name="Where">0</param>
+                    <param id="1" name="Object">PauseBackground</param>
+                </action>
+                <action id="-9" name="Set value" sid="656000643915548" type="System">
+                    <param id="0" name="Variable">timer</param>
+                    <param id="1" name="Value">SecondTimeText.value + (MinuteTimeText.value*60) + (HourTimeText.value * 3600)</param>
+                </action>
             </actions>
+            <sub-events>
+                <event-block sid="406562522796225">
+                    <conditions>
+                        <condition id="0" name="On function" sid="550565234401948" type="Function">
+                            <param id="0" name="Name">&quot;add.data&quot;</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="929112301910157" type="System">
+                            <param id="0" name="Variable">cur_score</param>
+                            <param id="1" name="Value">timer</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <variable constant="0" name="cur_score2" sid="622657093331665" static="0" type="number">0</variable>
+                <variable constant="0" name="insert2" sid="623873193236065" static="0" type="number">0</variable>
+                <variable constant="0" name="cur_index2" sid="731889760610007" static="0" type="number">0</variable>
+            </sub-events>
         </event-block>
         <event-block sid="284326866935617">
             <conditions>
@@ -351,10 +395,10 @@
                 <action id="0" name="Set text" sid="232174190417293" type="SecondTimeText">
                     <param id="0" name="Text">SecondTimeText.value</param>
                 </action>
-                <action id="0" name="Set text" sid="969652008803350" type="HourTimeText">
+                <action id="0" name="Set text" sid="574195751168580" type="MinuteTimeText">
                     <param id="0" name="Text">Self.Text</param>
                 </action>
-                <action id="0" name="Set text" sid="574195751168580" type="MinuteTimeText">
+                <action id="0" name="Set text" sid="969652008803350" type="HourTimeText">
                     <param id="0" name="Text">Self.Text</param>
                 </action>
             </actions>
@@ -2174,11 +2218,17 @@
                                     <param id="4" name="Volume">40</param>
                                     <param id="2" name="Tag (optional)">&quot;&quot;</param>
                                 </action>
+                                <action id="-2" name="Go to layout" sid="324347796297405" type="System">
+                                    <param id="0" name="Layout">Help</param>
+                                </action>
                             </actions>
                         </event-block>
                     </sub-events>
                 </event-block>
             </sub-events>
         </event-group>
+        <variable constant="0" name="cur_score" sid="841452752222411" static="0" type="number">0</variable>
+        <variable constant="0" name="insert" sid="487143860420181" static="0" type="number">0</variable>
+        <variable constant="0" name="cur_index" sid="944957577598712" static="0" type="number">0</variable>
     </events>
 </c2eventsheet>

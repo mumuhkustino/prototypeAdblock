@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EvtHelp</name>
+    <events>
+        <event-block sid="253455823088723">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="995985125427112" type="Touch">
+                    <param id="0" name="Object">About</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="327887725614008" type="About">
+                    <param id="0" name="Scale">0.8</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="731452386936484" type="System">
+                    <param id="0" name="Layout">About</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="688055823928499">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="193564141732967" type="Touch">
+                    <param id="0" name="Object">BackButton</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="374584198786081" type="System">
+                    <param id="0" name="Variable">isPause</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="797332911427075" type="BackButton">
+                    <param id="0" name="Scale">0.9</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="597916454357086">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="277999776140669" type="Touch">
+                            <param id="0" name="Object">BackButton</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="636510734651019" type="System">
+                            <param id="0" name="Layout">nameScreen</param>
+                        </action>
+                        <action id="-25" name="Go to layout (by name)" sid="670330834073447" type="System">
+                            <param id="0" name="Layout">nameScreen</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="833131299311923">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="798250808737742" type="Touch">
+                    <param id="0" name="Object">HowToPlay</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="924757636113342" type="HowToPlay">
+                    <param id="0" name="Scale">0.8</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="331783029043770" type="System">
+                    <param id="0" name="Layout">HowToPlay</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

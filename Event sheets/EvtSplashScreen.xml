@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>EvtSplashScreen</name>
+    <events>
+        <event-block sid="157037205774631">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="932395746312726" type="System" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="269766311352126" type="adblock">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="856250703161162" type="adblock" />
+                <action id="-16" name="Wait" sid="797120695859425" type="System">
+                    <param id="0" name="Seconds">5</param>
+                </action>
+                <action id="-15" name="Set visible" sid="364027143072949" type="adblock">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="501352460738319" type="System">
+                    <param id="0" name="Layout">MainMenu</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="112366456738088">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="497997170052392" type="System" />
+            </conditions>
+            <actions>
+                <action id="-15" name="Set visible" sid="443477692585193" type="quote">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action behavior="Fade" id="1" name="Start fade" sid="994248061346369" type="quote" />
+                <action id="-16" name="Wait" sid="486216422617943" type="System">
+                    <param id="0" name="Seconds">5</param>
+                </action>
+                <action id="-15" name="Set visible" sid="129870554512620" type="quote">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="677741416482720" type="System">
+                    <param id="0" name="Layout">MainMenu</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

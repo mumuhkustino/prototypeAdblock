@@ -10,12 +10,18 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
+<!-- <<<<<<< HEAD -->
         <layout order="0">HardStage1</layout>
         <layout order="2">MainMenu</layout>
         <layout order="4">EasyStage21</layout>
         <event-sheet order="1">HardStage1Event</event-sheet>
         <event-sheet order="3">MainMenuEvent</event-sheet>
         <event-sheet active="1" order="5">EasyStage21Event</event-sheet>
+<!-- ======= -->
+        <layout order="0">LeaderBoard</layout>
+        <event-sheet order="1">EvtLeaderBoard</event-sheet>
+        <event-sheet active="1" order="2">EasyStage21Event</event-sheet>
+<!-- >>>>>>> Gita -->
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -51,6 +57,22 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/PauseBackground/" />
         <folder expanded="1" path="animation-folder/ResumeButton/" />
         <folder expanded="1" path="animation-folder/MainMenuButton/" />
+        <folder expanded="1" path="animation-folder/adblock/" />
+        <folder expanded="1" path="animation-folder/quote/" />
+        <folder expanded="1" path="animation-folder/About/" />
+        <folder expanded="1" path="animation-folder/HowToPlay/" />
+        <folder expanded="1" path="animation-folder/Kelompok3/" />
+        <folder expanded="1" path="animation-folder/AboutText/" />
+        <folder expanded="1" path="animation-folder/HowToPlayText/" />
+        <folder expanded="1" path="animation-folder/mainHowToPlay/" />
+        <folder expanded="1" path="animation-folder/EasyBox/" />
+        <folder expanded="1" path="animation-folder/MediumBox/" />
+        <folder expanded="1" path="animation-folder/HardBox/" />
+        <folder expanded="1" path="animation-folder/ExpertBox/" />
+        <folder expanded="1" path="animation-folder/LeaderBoardTittle/" />
+        <folder expanded="1" path="animation-folder/HelpTittle/" />
+        <folder expanded="1" path="animation-folder/HowToPlayTittle/" />
+        <folder expanded="1" path="animation-folder/AboutTittle/" />
         <folder expanded="1" path="animation-folder/YellowBlockL/" />
         <folder expanded="1" path="animation-folder/UndoButton/" />
         <folder expanded="1" path="animation-folder/RedoButton/" />

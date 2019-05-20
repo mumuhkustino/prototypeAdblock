@@ -10,7 +10,9 @@
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>26500</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Arr" version="1">Array</plugin>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Spritefont2" version="1">Sprite font</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
@@ -20,6 +22,7 @@
     <used-behaviors>
         <behavior author="Scirra" id="Anchor" version="1">Anchor</behavior>
         <behavior author="Scirra" id="DragnDrop" version="1">Drag &amp; Drop</behavior>
+        <behavior author="Scirra" id="Fade" version="1">Fade</behavior>
         <behavior author="Scirra" id="Pin" version="1">Pin</behavior>
     </used-behaviors>
     <used-effects />
@@ -509,6 +512,298 @@
                 <instance-variable name="sequence" sid="332370321600926" type="number" />
             </instance-variables>
             <texture original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\PSD-Design\Export\AreaBlock.png" />
+        </object-type>
+        <object-type name="adblock" sid="337528846451265">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="119665359930190">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="199986470671643" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Kuliah\Semester 4\Perancangan Antarmuka\Export\AdBlockv2.png">
+                        <collision-poly>
+                            <point x="0.0246479" y="0.0603448" />
+                            <point x="0.5" y="0.491379" />
+                            <point x="0.799296" y="0.491379" />
+                            <point x="0.933099" y="0.5" />
+                            <point x="0.943662" y="0.862069" />
+                            <point x="0.5" y="0.948276" />
+                            <point x="0.028169" y="0.931035" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="quote" sid="852174530889777">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Fade" sid="699264679492566">
+                    <behavior id="Fade" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="525129820065197" speed="5">
+                    <frame duration="1" hotspotX="0.500609" hotspotY="0.5" original-source="E:\Kuliah\Semester 4\Perancangan Antarmuka\Teori\images\cREATE YOUR OWN IMAGINATION.png">
+                        <collision-poly>
+                            <point x="0.0170524" y="0.28" />
+                            <point x="0.499391" y="0.54" />
+                            <point x="0.971985" y="0.46" />
+                            <point x="0.99391" y="0.5" />
+                            <point x="0.99391" y="0.9" />
+                            <point x="0.499391" y="0.82" />
+                            <point x="0.00852619" y="0.86" />
+                            <point x="0.00365408" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="About" sid="224607679795119">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="248662704492771" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Kuliah\Semester 4\Perancangan Antarmuka\Teori\images\AboutBox.png">
+                        <collision-poly>
+                            <point x="0.0154639" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.984536" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.984536" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0154639" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HowToPlay" sid="868029108567091">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="136019963903377" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Kuliah\Semester 4\Perancangan Antarmuka\Teori\images\HowToPlayBox.png">
+                        <collision-poly>
+                            <point x="0.0154639" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.984536" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.984536" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0154639" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Kelompok3" sid="855366726591572">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="510350852317024" speed="5">
+                    <frame duration="1" hotspotX="0.500855" hotspotY="0.5" original-source="E:\Kuliah\Semester 4\Perancangan Antarmuka\Teori\images\By. Kelompok 3 Perancangan antarmuka.png">
+                        <collision-poly>
+                            <point x="0.0119658" y="0.25" />
+                            <point x="0.499145" y="0.357143" />
+                            <point x="0.984615" y="0.321429" />
+                            <point x="0.996581" y="0.928571" />
+                            <point x="0.499145" y="0.964286" />
+                            <point x="0.00512821" y="0.892857" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="AboutText" sid="492990021085152">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="315486826284073" speed="5">
+                    <frame duration="1" hotspotX="0.500562" hotspotY="0.5" original-source="E:\Kuliah\Semester 4\Perancangan Antarmuka\Export\penjelasan about.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HowToPlayText" sid="206618112499012">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="791303978047506" speed="5">
+                    <frame duration="1" hotspotX="0.500562" hotspotY="0.5" original-source="E:\Kuliah\Semester 4\Perancangan Antarmuka\Export\Penjelasan HowToPlay.png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="mainHowToPlay" sid="922336122481276">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="273634965865906" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50069" original-source="E:\Kuliah\Semester 4\Perancangan Antarmuka\Export\mainhowto.png">
+                        <collision-poly>
+                            <point x="0.00997783" y="0.0124138" />
+                            <point x="0.990022" y="0.0124138" />
+                            <point x="0.987805" y="0.984828" />
+                            <point x="0.0121951" y="0.984828" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="EasyBox" sid="196341978268794">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="783938624711128" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Kuliah\Semester 4\Perancangan Antarmuka\Export\EasyBox.png">
+                        <collision-poly>
+                            <point x="0.0154639" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.984536" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.984536" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0154639" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="MediumBox" sid="859495757343561">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="746193895086305" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Kuliah\Semester 4\Perancangan Antarmuka\Export\MediumBox.png">
+                        <collision-poly>
+                            <point x="0.0154639" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.984536" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.984536" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0154639" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="InitHour" sid="720383042615878">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="InitMinute" sid="689406187621259">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="InitSecond" sid="871943734627323">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="HardBox" sid="939738379031126">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="900455378713496" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Kuliah\Semester 4\Perancangan Antarmuka\Export\HardBox.png">
+                        <collision-poly>
+                            <point x="0.0154639" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.984536" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.984536" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0154639" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ExpertBox" sid="820695855960114">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="953743718840109" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Kuliah\Semester 4\Perancangan Antarmuka\Export\ExpertBox.png">
+                        <collision-poly>
+                            <point x="0.0154639" y="0.0375" />
+                            <point x="0.5" y="0" />
+                            <point x="0.984536" y="0.0375" />
+                            <point x="1" y="0.5" />
+                            <point x="0.984536" y="0.9625" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0154639" y="0.9625" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="InitStage" sid="926896428171453">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="LeaderBoardTittle" sid="606736422110851">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="362561883930479" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Kuliah\Semester 4\Perancangan Antarmuka\Export\LeaderBoard Shadow.png">
+                        <collision-poly>
+                            <point x="0.465789" y="0.4425" />
+                            <point x="0.5" y="0.445" />
+                            <point x="0.531579" y="0.445" />
+                            <point x="1" y="0.5" />
+                            <point x="0.565789" y="0.5875" />
+                            <point x="0.431579" y="0.59" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HelpTittle" sid="231855175892881">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="780583527091822" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Kuliah\Semester 4\Perancangan Antarmuka\Export\Help Shadow.png">
+                        <collision-poly>
+                            <point x="0.4" y="0.38" />
+                            <point x="0.5" y="0.3825" />
+                            <point x="0.589474" y="0.39" />
+                            <point x="1" y="0.5" />
+                            <point x="0.715789" y="0.73" />
+                            <point x="0.294737" y="0.72" />
+                            <point x="0.00789474" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="HowToPlayTittle" sid="326517907025479">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="171527323594929" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Kuliah\Semester 4\Perancangan Antarmuka\Export\HowTo Shadow.png">
+                        <collision-poly>
+                            <point x="0.5" y="0.4425" />
+                            <point x="0.992105" y="0.5" />
+                            <point x="0.557895" y="0.58" />
+                            <point x="0.5" y="0.5825" />
+                            <point x="0.452632" y="0.57" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="AboutTittle" sid="313636503969819">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="718610921435146" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="E:\Kuliah\Semester 4\Perancangan Antarmuka\Export\AboutNew.png">
+                        <collision-poly>
+                            <point x="0.4" y="0.38" />
+                            <point x="0.5" y="0.3825" />
+                            <point x="0.589474" y="0.39" />
+                            <point x="1" y="0.5" />
+                            <point x="0.715789" y="0.73" />
+                            <point x="0.294737" y="0.72" />
+                            <point x="0.00789474" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
         </object-type>
         <object-type name="Blocks" sid="124070062326831">
             <plugin id="Spritefont2" />
@@ -2441,9 +2736,23 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type global="1" name="highest" sid="291656786774628">
+            <plugin id="Arr" />
+        </object-type>
+        <object-type name="Function" sid="610727213579627">
+            <plugin id="Function" />
+        </object-type>
+        <object-type name="EndScreenText" sid="961767287302318">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
+        <layout>SplashScreen.xml</layout>
+        <layout>Help.xml</layout>
+        <layout>About.xml</layout>
+        <layout>HowToPlay.xml</layout>
+        <layout>LeaderBoard.xml</layout>
         <layout>MainMenu.xml</layout>
         <layout>EasyStage21.xml</layout>
         <layout>HardStage1.xml</layout>
@@ -2454,6 +2763,11 @@
         <layout>ExpertLevel.xml</layout>
     </layout-folder>
     <event-folder>
+        <event-sheet>EvtSplashScreen.xml</event-sheet>
+        <event-sheet>EvtHelp.xml</event-sheet>
+        <event-sheet>EvtAbout.xml</event-sheet>
+        <event-sheet>EvtHowToPlay.xml</event-sheet>
+        <event-sheet>EvtLeaderBoard.xml</event-sheet>
         <event-sheet>MainMenuEvent.xml</event-sheet>
         <event-sheet>EasyStage21Event.xml</event-sheet>
         <event-sheet>EventChooseLevel.xml</event-sheet>
@@ -2464,12 +2778,12 @@
         <event-sheet>HardStage1Event.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Touch" uid="269">
+        <global-instance type="Touch" uid="407">
             <properties>
                 <use-mouse-input>Yes</use-mouse-input>
             </properties>
         </global-instance>
-        <global-instance type="Audio" uid="270">
+        <global-instance type="Audio" uid="408">
             <properties>
                 <timescale-audio>Off</timescale-audio>
                 <saveload>All</saveload>
@@ -2483,6 +2797,7 @@
                 <roll-off-factor>1</roll-off-factor>
             </properties>
         </global-instance>
+        <global-instance type="Function" uid="410" />
     </global-instances>
     <sounds-folder />
     <music-folder>
