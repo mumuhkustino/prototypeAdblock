@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="BackgroundImage" uid="6">
+                <instance type="BackgroundImage" uid="151">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -51,7 +51,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BackButton" uid="32">
+                <instance type="BackButton" uid="152">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -73,7 +73,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="LeaderButton" uid="41">
+                <instance type="LeaderButton" uid="153">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -95,7 +95,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="EasyButton" uid="43">
+                <instance type="EasyButton" uid="154">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -117,7 +117,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="MediumButton" uid="44">
+                <instance type="MediumButton" uid="155">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -139,7 +139,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="HardButton" uid="45">
+                <instance type="HardButton" uid="156">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -161,7 +161,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ExpertButton" uid="46">
+                <instance type="ExpertButton" uid="157">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -183,7 +183,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ByK3" uid="47">
+                <instance type="ByK3" uid="158">
                     <properties>
                         <text>By. Kelompok 3 Perancangan antarmuka</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -210,7 +210,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ChooseLevelShadow" uid="48">
+                <instance type="ChooseLevelShadow" uid="159">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -232,7 +232,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="HelpButtonCircle" uid="42">
+                <instance type="HelpButtonCircle" uid="160">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>

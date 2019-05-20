@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="BackgroundImage" uid="1">
+                <instance type="BackgroundImage" uid="8">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -51,7 +51,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="AdBlockLogo" uid="0">
+                <instance type="AdBlockLogo" uid="113">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -73,7 +73,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="StartButton" uid="2">
+                <instance type="StartButton" uid="114">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -95,7 +95,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="HelpButton" uid="3">
+                <instance type="HelpButton" uid="115">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -117,7 +117,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ExitButton" uid="4">
+                <instance type="ExitButton" uid="116">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -139,7 +139,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="FooterTitle" uid="8">
+                <instance type="FooterTitle" uid="117">
                     <properties>
                         <text>By. Kelompok 3 Perancangan antarmuka</text>
                         <initial-visibility>Visible</initial-visibility>

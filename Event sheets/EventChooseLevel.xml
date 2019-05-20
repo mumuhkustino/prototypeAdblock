@@ -12,6 +12,10 @@
                     <param id="0" name="Family name">&quot;adam.cg_proregular&quot;</param>
                     <param id="1" name="CSS URL">&quot;stylesheet.css&quot;</param>
                 </action>
+                <action id="-9" name="Set value" sid="610720458826545" type="System">
+                    <param id="0" name="Variable">nameScreen</param>
+                    <param id="1" name="Value">LayoutName</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="977763015718187">
@@ -123,6 +127,11 @@
                 <condition id="4" name="Is touching object" sid="373689459835973" type="Touch">
                     <param id="0" name="Object">LeaderButton</param>
                 </condition>
+                <condition id="-14" name="Compare variable" sid="348565511114899" type="System">
+                    <param id="0" name="Variable">isPause</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="9" name="Set scale" sid="260731588667422" type="LeaderButton">
@@ -140,6 +149,9 @@
                         <action id="-25" name="Go to layout (by name)" sid="291517761899400" type="System">
                             <param id="0" name="Layout">&quot;LeaderBoard&quot;</param>
                         </action>
+                        <action id="-2" name="Go to layout" sid="151876523839130" type="System">
+                            <param id="0" name="Layout">LeaderBoard</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
@@ -153,6 +165,9 @@
             <actions>
                 <action id="9" name="Set scale" sid="371898584156867" type="HelpButtonCircle">
                     <param id="0" name="Scale">0.62</param>
+                </action>
+                <action id="-2" name="Go to layout" sid="232336931817055" type="System">
+                    <param id="0" name="Layout">Help</param>
                 </action>
             </actions>
             <sub-events>

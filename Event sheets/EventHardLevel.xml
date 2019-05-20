@@ -41,6 +41,11 @@
                 <condition id="4" name="Is touching object" sid="434864750174072" type="Touch">
                     <param id="0" name="Object">LeaderButton</param>
                 </condition>
+                <condition id="-14" name="Compare variable" sid="551304519382461" type="System">
+                    <param id="0" name="Variable">isPause</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
             </conditions>
             <actions>
                 <action id="9" name="Set scale" sid="741821978872610" type="LeaderButton">
@@ -64,6 +69,9 @@
                     <actions>
                         <action id="-25" name="Go to layout (by name)" sid="909923532503689" type="System">
                             <param id="0" name="Layout">&quot;LeaderBoard&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="634306625750390" type="System">
+                            <param id="0" name="Layout">LeaderBoard</param>
                         </action>
                     </actions>
                 </event-block>
@@ -97,6 +105,9 @@
                     <actions>
                         <action id="-25" name="Go to layout (by name)" sid="906387601666219" type="System">
                             <param id="0" name="Layout">&quot;Help&quot;</param>
+                        </action>
+                        <action id="-2" name="Go to layout" sid="163516996287512" type="System">
+                            <param id="0" name="Layout">Help</param>
                         </action>
                     </actions>
                 </event-block>
@@ -155,6 +166,17 @@
                     </actions>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block sid="533616108211248">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="698646420932470" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="233392233806251" type="System">
+                    <param id="0" name="Variable">nameScreen</param>
+                    <param id="1" name="Value">LayoutName</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>
