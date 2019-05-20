@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2layout>
-    <name>EasyStage21</name>
-    <sid>597753499648896</sid>
-    <event-sheet>EasyStage21Event</event-sheet>
+    <name>HardStage1</name>
+    <sid>956538806354812</sid>
+    <event-sheet>HardStage1Event</event-sheet>
     <size>
         <width>1080</width>
         <height>2160</height>
@@ -13,7 +13,7 @@
     </margins>
     <unbounded-scrolling>0</unbounded-scrolling>
     <layers>
-        <layer name="Layer 0" sid="676056878894032">
+        <layer name="Layer 0" sid="646009770609660">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>0</transparent>
@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="ResumeButton" uid="25">
+                <instance type="ResumeButton" uid="188">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -51,7 +51,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="AdBlockLogo" uid="40">
+                <instance type="AdBlockLogo" uid="272">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -73,7 +73,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="MainMenuButton" uid="38">
+                <instance type="MainMenuButton" uid="273">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -95,7 +95,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PauseScreenText" uid="39">
+                <instance type="PauseScreenText" uid="274">
                     <properties>
                         <text>MAIN MENU</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -122,7 +122,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PauseScreenText" uid="37">
+                <instance type="PauseScreenText" uid="275">
                     <properties>
                         <text>RESUME GAME</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -149,7 +149,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PauseBackground" uid="17">
+                <instance type="PauseBackground" uid="276">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -171,7 +171,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Background" uid="5">
+                <instance type="Background" uid="277">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -193,7 +193,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="BackButton" uid="7">
+                <instance type="BackButton" uid="278">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -215,7 +215,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ScreenText" uid="10">
+                <instance type="ScreenText" uid="279">
                     <properties>
                         <text>TIMER</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -242,7 +242,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="HourTimeText" uid="9">
+                <instance type="HourTimeText" uid="280">
                     <properties>
                         <text>00</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -272,7 +272,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ScreenText" uid="11">
+                <instance type="ScreenText" uid="281">
                     <properties>
                         <text> : </text>
                         <initial-visibility>Visible</initial-visibility>
@@ -299,7 +299,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ScreenText" uid="12">
+                <instance type="ScreenText" uid="282">
                     <properties>
                         <text> : </text>
                         <initial-visibility>Visible</initial-visibility>
@@ -326,7 +326,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="MinuteTimeText" uid="13">
+                <instance type="MinuteTimeText" uid="283">
                     <properties>
                         <text>00</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -356,7 +356,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ScreenText" uid="14">
+                <instance type="ScreenText" uid="284">
                     <properties>
                         <text> : </text>
                         <initial-visibility>Visible</initial-visibility>
@@ -383,7 +383,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="SecondTimeText" uid="15">
+                <instance type="SecondTimeText" uid="285">
                     <properties>
                         <text>00</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -413,7 +413,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="PauseButton" uid="16">
+                <instance type="PauseButton" uid="286">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -435,7 +435,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="TiledBackground" uid="18">
+                <instance type="TiledBackground" uid="287">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <hotspot>Top-left</hotspot>
@@ -458,48 +458,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="YellowBlockL" uid="26">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <sequence>0</sequence>
-                        <originX>0</originX>
-                        <originY>0</originY>
-                        <rotated>-1</rotated>
-                        <prevX>0</prevX>
-                        <prevY>0</prevY>
-                        <nextX>0</nextX>
-                        <nextY>0</nextY>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="DragDrop">
-                            <properties>
-                                <axes>Both</axes>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>95</x>
-                        <y>1694</y>
-                        <z>0</z>
-                        <width>163</width>
-                        <height>244</height>
-                        <depth>0</depth>
-                        <hotspotX>0.263803691</hotspotX>
-                        <hotspotY>0.487704933</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="ResetButton" uid="21">
+                <instance type="ResetButton" uid="289">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -521,7 +480,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="UndoButton" uid="19">
+                <instance type="UndoButton" uid="290">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -543,7 +502,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="RedoButton" uid="20">
+                <instance type="RedoButton" uid="291">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -565,253 +524,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="RedBlockZ" uid="22">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <sequence>0</sequence>
-                        <originX>0</originX>
-                        <originY>0</originY>
-                        <rotated>0</rotated>
-                        <prevX>0</prevX>
-                        <prevY>0</prevY>
-                        <nextX>0</nextX>
-                        <nextY>0</nextY>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="DragDrop">
-                            <properties>
-                                <axes>Both</axes>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>147</x>
-                        <y>1978</y>
-                        <z>0</z>
-                        <width>163</width>
-                        <height>244</height>
-                        <depth>0</depth>
-                        <hotspotX>0.503067493</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="BlueBlockT" uid="23">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <sequence>0</sequence>
-                        <originX>0</originX>
-                        <originY>0</originY>
-                        <rotated>0</rotated>
-                        <prevX>0</prevX>
-                        <prevY>0</prevY>
-                        <nextX>0</nextX>
-                        <nextY>0</nextY>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="DragDrop">
-                            <properties>
-                                <axes>Both</axes>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>408</x>
-                        <y>1780</y>
-                        <z>0</z>
-                        <width>244</width>
-                        <height>163</height>
-                        <depth>0</depth>
-                        <hotspotX>0.508196712</hotspotX>
-                        <hotspotY>0.730061352</hotspotY>
-                        <angle>3.135993958</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="GreenBlockM" uid="24">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <sequence>0</sequence>
-                        <originX>0</originX>
-                        <originY>0</originY>
-                        <rotated>0</rotated>
-                        <prevX>0</prevX>
-                        <prevY>0</prevY>
-                        <nextX>0</nextX>
-                        <nextY>0</nextY>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="DragDrop">
-                            <properties>
-                                <axes>Both</axes>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>853</x>
-                        <y>1971</y>
-                        <z>0</z>
-                        <width>325</width>
-                        <height>244</height>
-                        <depth>0</depth>
-                        <hotspotX>0.627692282</hotspotX>
-                        <hotspotY>0.491803288</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="BlueBlockZ" uid="28">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <sequence>0</sequence>
-                        <originX>0</originX>
-                        <originY>0</originY>
-                        <rotated>0</rotated>
-                        <prevX>0</prevX>
-                        <prevY>0</prevY>
-                        <nextX>0</nextX>
-                        <nextY>0</nextY>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="DragDrop">
-                            <properties>
-                                <axes>Both</axes>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>507</x>
-                        <y>1984</y>
-                        <z>0</z>
-                        <width>406</width>
-                        <height>163</height>
-                        <depth>0</depth>
-                        <hotspotX>0.504926085</hotspotX>
-                        <hotspotY>0.251533747</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="PurpleBlockT" uid="27">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <sequence>0</sequence>
-                        <originX>0</originX>
-                        <originY>0</originY>
-                        <rotated>0</rotated>
-                        <prevX>0</prevX>
-                        <prevY>0</prevY>
-                        <nextX>0</nextX>
-                        <nextY>0</nextY>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="DragDrop">
-                            <properties>
-                                <axes>Both</axes>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1018</x>
-                        <y>1746</y>
-                        <z>0</z>
-                        <width>164</width>
-                        <height>406</height>
-                        <depth>0</depth>
-                        <hotspotX>0.75</hotspotX>
-                        <hotspotY>0.497536957</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="BrownBlockL" uid="29">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <instance-variables>
-                        <sequence>0</sequence>
-                        <originX>0</originX>
-                        <originY>0</originY>
-                        <rotated>0</rotated>
-                        <prevX>0</prevX>
-                        <prevY>0</prevY>
-                        <nextX>0</nextX>
-                        <nextY>0</nextY>
-                    </instance-variables>
-                    <behavior-instances>
-                        <behavior-instance type="DragDrop">
-                            <properties>
-                                <axes>Both</axes>
-                                <initial-state>Enabled</initial-state>
-                            </properties>
-                        </behavior-instance>
-                        <behavior-instance type="Pin" />
-                    </behavior-instances>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>596</x>
-                        <y>1677</y>
-                        <z>0</z>
-                        <width>406</width>
-                        <height>163</height>
-                        <depth>0</depth>
-                        <hotspotX>0.504926085</hotspotX>
-                        <hotspotY>0.245398775</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="BlockOrigin" uid="30">
+                <instance type="BlockOrigin" uid="298">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -821,8 +534,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>543</x>
-                        <y>1831</y>
+                        <x>544</x>
+                        <y>1829</y>
                         <z>0</z>
                         <width>1098</width>
                         <height>682</height>
@@ -833,7 +546,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="HelpButtonCircle" uid="31">
+                <instance type="HelpButtonCircle" uid="299">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -855,7 +568,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ScreenText" uid="34">
+                <instance type="ScreenText" uid="300">
                     <properties>
                         <text>RECORD</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -882,7 +595,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ScreenText" uid="35">
+                <instance type="ScreenText" uid="301">
                     <properties>
                         <text> : </text>
                         <initial-visibility>Visible</initial-visibility>
@@ -909,7 +622,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="ScreenText" uid="36">
+                <instance type="ScreenText" uid="302">
                     <properties>
                         <text>NO RECORDS</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -936,7 +649,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="EasySprite" uid="33">
+                <instance type="HardSprite" uid="304">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -949,11 +662,11 @@
                         <x>560</x>
                         <y>304</y>
                         <z>0</z>
-                        <width>384</width>
-                        <height>280</height>
+                        <width>326</width>
+                        <height>236</height>
                         <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
+                        <hotspotX>0.496932507</hotspotX>
+                        <hotspotY>0.444915265</hotspotY>
                         <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
@@ -961,7 +674,7 @@
             </instances>
             <effects />
         </layer>
-        <layer name="LayerBlock" sid="336383081975529">
+        <layer name="LayerBlock" sid="521695536131413">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>

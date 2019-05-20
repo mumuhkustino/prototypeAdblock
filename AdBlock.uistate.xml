@@ -10,11 +10,15 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
+        <layout order="5">EasyStage21</layout>
+        <layout active="1" order="7">HardStage1</layout>
+        <layout order="8">HardLevel</layout>
         <event-sheet order="0">EasyStage21Event</event-sheet>
         <event-sheet order="1">EventEasyLevel</event-sheet>
         <event-sheet order="2">EventExpertLevel</event-sheet>
         <event-sheet order="3">EventHardLevel</event-sheet>
-        <event-sheet active="1" order="4">EventMediumLevel</event-sheet>
+        <event-sheet order="4">EventMediumLevel</event-sheet>
+        <event-sheet order="6">HardStage1Event</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -54,7 +58,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/BrownBlockL/" />
         <folder expanded="1" path="animation-folder/BlockOrigin/" />
         <folder expanded="1" path="animation-folder/HelpButtonCircle/" />
-        <folder expanded="1" path="animation-folder/Sprite/" />
+        <folder expanded="1" path="animation-folder/EasySprite/" />
         <folder expanded="1" path="animation-folder/LeaderButton/" />
         <folder expanded="1" path="animation-folder/EasyButton/" />
         <folder expanded="1" path="animation-folder/MediumButton/" />
@@ -136,5 +140,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <folder expanded="1" path="animation-folder/HardLevelShadow/" />
         <folder expanded="1" path="animation-folder/ExpertLevelShadow/" />
         <folder expanded="1" path="animation-folder/ChooseLevelShadow/" />
+        <folder expanded="1" path="animation-folder/HardSprite/" />
     </folders-expanded>
 </c2uistate>

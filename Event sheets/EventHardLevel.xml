@@ -150,7 +150,7 @@
                     </conditions>
                     <actions>
                         <action id="-25" name="Go to layout (by name)" sid="965251874735493" type="System">
-                            <param id="0" name="Layout">&quot;&quot;</param>
+                            <param id="0" name="Layout">&quot;HardStage1&quot;</param>
                         </action>
                     </actions>
                 </event-block>

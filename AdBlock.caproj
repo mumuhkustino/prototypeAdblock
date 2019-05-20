@@ -620,7 +620,7 @@
         <object-type name="Audio" sid="870580520834704">
             <plugin id="Audio" />
         </object-type>
-        <object-type name="Sprite" sid="219641024836205">
+        <object-type name="EasySprite" sid="219641024836205">
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="642720983822970" speed="5">
@@ -2162,11 +2162,30 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="HardSprite" sid="240537454192896">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="814614311228158" speed="5">
+                    <frame duration="1" hotspotX="0.496933" hotspotY="0.444915" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\ApplicationDesign\Design\Text\HardStg1.png">
+                        <collision-poly>
+                            <point x="0.239264" y="0.25" />
+                            <point x="0.496933" y="0.440678" />
+                            <point x="0.819018" y="0.161017" />
+                            <point x="0.865031" y="0.792373" />
+                            <point x="0.496933" y="0.813559" />
+                            <point x="0.162577" y="0.745763" />
+                            <point x="0.113497" y="0.444915" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>MainMenu.xml</layout>
         <layout>EasyStage21.xml</layout>
+        <layout>HardStage1.xml</layout>
         <layout>ChooseLevel.xml</layout>
         <layout>EasyLevel.xml</layout>
         <layout>MediumLevel.xml</layout>
@@ -2181,6 +2200,7 @@
         <event-sheet>EventMediumLevel.xml</event-sheet>
         <event-sheet>EventHardLevel.xml</event-sheet>
         <event-sheet>EventExpertLevel.xml</event-sheet>
+        <event-sheet>HardStage1Event.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="269">
