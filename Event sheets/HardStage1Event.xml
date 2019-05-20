@@ -56,221 +56,221 @@
                 <condition id="-2" name="On start of layout" sid="505218944987433" type="System" />
             </conditions>
             <actions>
-                <action id="-10" name="Set value" sid="232773040564250" type="YellowBlockL">
+                <action id="-10" name="Set value" sid="232773040564250" type="BlueBlockHard">
                     <param id="0" name="Instance variable">sequence</param>
                     <param id="1" name="Value">Self.UID</param>
                 </action>
-                <action id="-10" name="Set value" sid="164074091407448" type="YellowBlockL">
+                <action id="-10" name="Set value" sid="164074091407448" type="BlueBlockHard">
                     <param id="0" name="Instance variable">originX</param>
                     <param id="1" name="Value">Self.X</param>
                 </action>
-                <action id="-10" name="Set value" sid="835874548939514" type="YellowBlockL">
+                <action id="-10" name="Set value" sid="835874548939514" type="BlueBlockHard">
                     <param id="0" name="Instance variable">originY</param>
                     <param id="1" name="Value">Self.Y</param>
                 </action>
-                <action id="-10" name="Set value" sid="588840833644007" type="YellowBlockL">
+                <action id="-10" name="Set value" sid="588840833644007" type="BlueBlockHard">
                     <param id="0" name="Instance variable">prevX</param>
                     <param id="1" name="Value">Self.X</param>
                 </action>
-                <action id="-10" name="Set value" sid="503889889959800" type="YellowBlockL">
+                <action id="-10" name="Set value" sid="503889889959800" type="BlueBlockHard">
                     <param id="0" name="Instance variable">prevY</param>
                     <param id="1" name="Value">Self.Y</param>
                 </action>
-                <action id="-10" name="Set value" sid="586925801592435" type="YellowBlockL">
+                <action id="-10" name="Set value" sid="586925801592435" type="BlueBlockHard">
                     <param id="0" name="Instance variable">nextX</param>
                     <param id="1" name="Value">Self.X</param>
                 </action>
-                <action id="-10" name="Set value" sid="950735394706042" type="YellowBlockL">
+                <action id="-10" name="Set value" sid="950735394706042" type="BlueBlockHard">
                     <param id="0" name="Instance variable">nextY</param>
                     <param id="1" name="Value">Self.Y</param>
                 </action>
-                <action id="9" name="Set scale" sid="783664210007701" type="YellowBlockL">
+                <action id="9" name="Set scale" sid="783664210007701" type="BlueBlockHard">
                     <param id="0" name="Scale">0.8</param>
                 </action>
-                <action id="-10" name="Set value" sid="910008817367846" type="RedBlockZ">
+                <action id="-10" name="Set value" sid="910008817367846" type="LBlueBlockHard">
                     <param id="0" name="Instance variable">sequence</param>
                     <param id="1" name="Value">Self.UID</param>
                 </action>
-                <action id="-10" name="Set value" sid="721919699628425" type="RedBlockZ">
+                <action id="-10" name="Set value" sid="721919699628425" type="LBlueBlockHard">
                     <param id="0" name="Instance variable">originX</param>
                     <param id="1" name="Value">Self.X</param>
                 </action>
-                <action id="-10" name="Set value" sid="436959347115546" type="RedBlockZ">
+                <action id="-10" name="Set value" sid="436959347115546" type="LBlueBlockHard">
                     <param id="0" name="Instance variable">originY</param>
                     <param id="1" name="Value">Self.Y</param>
                 </action>
-                <action id="-10" name="Set value" sid="226169275224037" type="RedBlockZ">
+                <action id="-10" name="Set value" sid="226169275224037" type="LBlueBlockHard">
                     <param id="0" name="Instance variable">prevX</param>
                     <param id="1" name="Value">Self.X</param>
                 </action>
-                <action id="-10" name="Set value" sid="467326650924753" type="RedBlockZ">
+                <action id="-10" name="Set value" sid="467326650924753" type="LBlueBlockHard">
                     <param id="0" name="Instance variable">prevY</param>
                     <param id="1" name="Value">Self.Y</param>
                 </action>
-                <action id="-10" name="Set value" sid="613157534875550" type="RedBlockZ">
+                <action id="-10" name="Set value" sid="613157534875550" type="LBlueBlockHard">
                     <param id="0" name="Instance variable">nextX</param>
                     <param id="1" name="Value">Self.X</param>
                 </action>
-                <action id="-10" name="Set value" sid="376532581860984" type="RedBlockZ">
+                <action id="-10" name="Set value" sid="376532581860984" type="LBlueBlockHard">
                     <param id="0" name="Instance variable">nextY</param>
                     <param id="1" name="Value">Self.Y</param>
                 </action>
-                <action id="9" name="Set scale" sid="753975948320196" type="RedBlockZ">
+                <action id="9" name="Set scale" sid="753975948320196" type="LBlueBlockHard">
                     <param id="0" name="Scale">0.8</param>
                 </action>
-                <action id="-10" name="Set value" sid="586857334663699" type="BlueBlockT">
+                <action id="-10" name="Set value" sid="586857334663699" type="BrownBlockHard">
                     <param id="0" name="Instance variable">sequence</param>
                     <param id="1" name="Value">Self.UID</param>
                 </action>
-                <action id="-10" name="Set value" sid="933565127027408" type="BlueBlockT">
+                <action id="-10" name="Set value" sid="933565127027408" type="BrownBlockHard">
                     <param id="0" name="Instance variable">originX</param>
                     <param id="1" name="Value">Self.X</param>
                 </action>
-                <action id="-10" name="Set value" sid="638294064140791" type="BlueBlockT">
+                <action id="-10" name="Set value" sid="638294064140791" type="BrownBlockHard">
                     <param id="0" name="Instance variable">originY</param>
                     <param id="1" name="Value">Self.Y</param>
                 </action>
-                <action id="-10" name="Set value" sid="683636191385921" type="BlueBlockT">
+                <action id="-10" name="Set value" sid="683636191385921" type="BrownBlockHard">
                     <param id="0" name="Instance variable">prevX</param>
                     <param id="1" name="Value">Self.X</param>
                 </action>
-                <action id="-10" name="Set value" sid="356457434236618" type="BlueBlockT">
+                <action id="-10" name="Set value" sid="356457434236618" type="BrownBlockHard">
                     <param id="0" name="Instance variable">prevY</param>
                     <param id="1" name="Value">Self.Y</param>
                 </action>
-                <action id="-10" name="Set value" sid="164302419758782" type="BlueBlockT">
+                <action id="-10" name="Set value" sid="164302419758782" type="BrownBlockHard">
                     <param id="0" name="Instance variable">nextX</param>
                     <param id="1" name="Value">Self.X</param>
                 </action>
-                <action id="-10" name="Set value" sid="552462388285887" type="BlueBlockT">
+                <action id="-10" name="Set value" sid="552462388285887" type="BrownBlockHard">
                     <param id="0" name="Instance variable">nextY</param>
                     <param id="1" name="Value">Self.Y</param>
                 </action>
-                <action id="9" name="Set scale" sid="152724823591109" type="BlueBlockT">
+                <action id="9" name="Set scale" sid="152724823591109" type="BrownBlockHard">
                     <param id="0" name="Scale">0.8</param>
                 </action>
-                <action id="-10" name="Set value" sid="604582554681894" type="GreenBlockM">
+                <action id="-10" name="Set value" sid="146157571469274" type="GreenBlockHard">
                     <param id="0" name="Instance variable">sequence</param>
                     <param id="1" name="Value">Self.UID</param>
                 </action>
-                <action id="-10" name="Set value" sid="599320457250079" type="GreenBlockM">
+                <action id="-10" name="Set value" sid="354999857737711" type="GreenBlockHard">
                     <param id="0" name="Instance variable">originX</param>
                     <param id="1" name="Value">Self.X</param>
                 </action>
-                <action id="-10" name="Set value" sid="303695192950702" type="GreenBlockM">
+                <action id="-10" name="Set value" sid="841392699029069" type="GreenBlockHard">
                     <param id="0" name="Instance variable">originY</param>
                     <param id="1" name="Value">Self.Y</param>
                 </action>
-                <action id="-10" name="Set value" sid="809825956853857" type="GreenBlockM">
+                <action id="-10" name="Set value" sid="214421884279962" type="GreenBlockHard">
                     <param id="0" name="Instance variable">prevX</param>
                     <param id="1" name="Value">Self.X</param>
                 </action>
-                <action id="-10" name="Set value" sid="677441808826717" type="GreenBlockM">
+                <action id="-10" name="Set value" sid="597914886263061" type="GreenBlockHard">
                     <param id="0" name="Instance variable">prevY</param>
                     <param id="1" name="Value">Self.Y</param>
                 </action>
-                <action id="-10" name="Set value" sid="675163512843742" type="GreenBlockM">
+                <action id="-10" name="Set value" sid="848770670166870" type="GreenBlockHard">
                     <param id="0" name="Instance variable">nextX</param>
                     <param id="1" name="Value">Self.X</param>
                 </action>
-                <action id="-10" name="Set value" sid="372882774442236" type="GreenBlockM">
+                <action id="-10" name="Set value" sid="285315752387901" type="GreenBlockHard">
                     <param id="0" name="Instance variable">nextY</param>
                     <param id="1" name="Value">Self.Y</param>
                 </action>
-                <action id="9" name="Set scale" sid="329118861617591" type="GreenBlockM">
+                <action id="9" name="Set scale" sid="562536743723085" type="GreenBlockHard">
                     <param id="0" name="Scale">0.8</param>
                 </action>
-                <action id="-10" name="Set value" sid="437259785149654" type="PurpleBlockT">
+                <action id="-10" name="Set value" sid="702222711378270" type="PurpleBlockHard">
                     <param id="0" name="Instance variable">sequence</param>
                     <param id="1" name="Value">Self.UID</param>
                 </action>
-                <action id="-10" name="Set value" sid="894480966078116" type="PurpleBlockT">
+                <action id="-10" name="Set value" sid="268603124183565" type="PurpleBlockHard">
                     <param id="0" name="Instance variable">originX</param>
                     <param id="1" name="Value">Self.X</param>
                 </action>
-                <action id="-10" name="Set value" sid="755624051856774" type="PurpleBlockT">
+                <action id="-10" name="Set value" sid="734530321849112" type="PurpleBlockHard">
                     <param id="0" name="Instance variable">originY</param>
                     <param id="1" name="Value">Self.Y</param>
                 </action>
-                <action id="-10" name="Set value" sid="145836349096529" type="PurpleBlockT">
+                <action id="-10" name="Set value" sid="531395493981673" type="PurpleBlockHard">
                     <param id="0" name="Instance variable">prevX</param>
                     <param id="1" name="Value">Self.X</param>
                 </action>
-                <action id="-10" name="Set value" sid="857150512579909" type="PurpleBlockT">
+                <action id="-10" name="Set value" sid="446820201857393" type="PurpleBlockHard">
                     <param id="0" name="Instance variable">prevY</param>
                     <param id="1" name="Value">Self.Y</param>
                 </action>
-                <action id="-10" name="Set value" sid="147196364179997" type="PurpleBlockT">
+                <action id="-10" name="Set value" sid="970862133102814" type="PurpleBlockHard">
                     <param id="0" name="Instance variable">nextX</param>
                     <param id="1" name="Value">Self.X</param>
                 </action>
-                <action id="-10" name="Set value" sid="265377225060816" type="PurpleBlockT">
+                <action id="-10" name="Set value" sid="895160247909831" type="PurpleBlockHard">
                     <param id="0" name="Instance variable">nextY</param>
                     <param id="1" name="Value">Self.Y</param>
                 </action>
-                <action id="9" name="Set scale" sid="806457359602591" type="PurpleBlockT">
+                <action id="9" name="Set scale" sid="411282372449686" type="PurpleBlockHard">
                     <param id="0" name="Scale">0.8</param>
                 </action>
-                <action id="-10" name="Set value" sid="259454885237460" type="BlueBlockZ">
+                <action id="-10" name="Set value" sid="197770672965285" type="RedBlockHard">
                     <param id="0" name="Instance variable">sequence</param>
                     <param id="1" name="Value">Self.UID</param>
                 </action>
-                <action id="-10" name="Set value" sid="833681288985078" type="BlueBlockZ">
+                <action id="-10" name="Set value" sid="725479702186179" type="RedBlockHard">
                     <param id="0" name="Instance variable">originX</param>
                     <param id="1" name="Value">Self.X</param>
                 </action>
-                <action id="-10" name="Set value" sid="192543926690585" type="BlueBlockZ">
+                <action id="-10" name="Set value" sid="669115669968678" type="RedBlockHard">
                     <param id="0" name="Instance variable">originY</param>
                     <param id="1" name="Value">Self.Y</param>
                 </action>
-                <action id="-10" name="Set value" sid="915518999204621" type="BlueBlockZ">
+                <action id="-10" name="Set value" sid="147330396266647" type="RedBlockHard">
                     <param id="0" name="Instance variable">prevX</param>
                     <param id="1" name="Value">Self.X</param>
                 </action>
-                <action id="-10" name="Set value" sid="656512758761330" type="BlueBlockZ">
+                <action id="-10" name="Set value" sid="388151310927358" type="RedBlockHard">
                     <param id="0" name="Instance variable">prevY</param>
                     <param id="1" name="Value">Self.Y</param>
                 </action>
-                <action id="-10" name="Set value" sid="456490804371610" type="BlueBlockZ">
+                <action id="-10" name="Set value" sid="759708959546381" type="RedBlockHard">
                     <param id="0" name="Instance variable">nextX</param>
                     <param id="1" name="Value">Self.X</param>
                 </action>
-                <action id="-10" name="Set value" sid="117824757102363" type="BlueBlockZ">
+                <action id="-10" name="Set value" sid="750639657858981" type="RedBlockHard">
                     <param id="0" name="Instance variable">nextY</param>
                     <param id="1" name="Value">Self.Y</param>
                 </action>
-                <action id="9" name="Set scale" sid="293950472176692" type="BlueBlockZ">
+                <action id="9" name="Set scale" sid="159865566755543" type="RedBlockHard">
                     <param id="0" name="Scale">0.8</param>
                 </action>
-                <action id="-10" name="Set value" sid="925237354401297" type="BrownBlockL">
+                <action id="-10" name="Set value" sid="695389165602622" type="YellowBlockHard">
                     <param id="0" name="Instance variable">sequence</param>
                     <param id="1" name="Value">Self.UID</param>
                 </action>
-                <action id="-10" name="Set value" sid="803916137748501" type="BrownBlockL">
+                <action id="-10" name="Set value" sid="335491017216888" type="YellowBlockHard">
                     <param id="0" name="Instance variable">originX</param>
                     <param id="1" name="Value">Self.X</param>
                 </action>
-                <action id="-10" name="Set value" sid="611964850639043" type="BrownBlockL">
+                <action id="-10" name="Set value" sid="810530497814263" type="YellowBlockHard">
                     <param id="0" name="Instance variable">originY</param>
                     <param id="1" name="Value">Self.Y</param>
                 </action>
-                <action id="-10" name="Set value" sid="594868478366771" type="BrownBlockL">
+                <action id="-10" name="Set value" sid="497619702646527" type="YellowBlockHard">
                     <param id="0" name="Instance variable">prevX</param>
                     <param id="1" name="Value">Self.X</param>
                 </action>
-                <action id="-10" name="Set value" sid="341456445942679" type="BrownBlockL">
+                <action id="-10" name="Set value" sid="481670087891388" type="YellowBlockHard">
                     <param id="0" name="Instance variable">prevY</param>
                     <param id="1" name="Value">Self.Y</param>
                 </action>
-                <action id="-10" name="Set value" sid="812337142841452" type="BrownBlockL">
+                <action id="-10" name="Set value" sid="208638626637796" type="YellowBlockHard">
                     <param id="0" name="Instance variable">nextX</param>
                     <param id="1" name="Value">Self.X</param>
                 </action>
-                <action id="-10" name="Set value" sid="846138082215922" type="BrownBlockL">
+                <action id="-10" name="Set value" sid="787167118944205" type="YellowBlockHard">
                     <param id="0" name="Instance variable">nextY</param>
                     <param id="1" name="Value">Self.Y</param>
                 </action>
-                <action id="9" name="Set scale" sid="359764090095386" type="BrownBlockL">
+                <action id="9" name="Set scale" sid="256954543405020" type="YellowBlockHard">
                     <param id="0" name="Scale">0.8</param>
                 </action>
                 <action id="-29" name="Move to object" sid="814276897846397" type="BlueBlockT">
@@ -453,34 +453,34 @@
                 </event-block>
             </sub-events>
         </event-block>
-        <event-group description="" sid="358019553634320" title="YellowBlockLGroup2">
+        <event-group description="" sid="358019553634320" title="HardBlueBlock">
             <sub-events>
                 <event-block sid="609005282073988">
                     <conditions>
-                        <condition behavior="DragDrop" id="1" name="On drag start" sid="367842982600643" type="YellowBlockL" />
+                        <condition behavior="DragDrop" id="1" name="On drag start" sid="367842982600643" type="BlueBlockHard" />
                     </conditions>
                     <actions>
-                        <action id="-24" name="Move to top" sid="951992607831461" type="YellowBlockL" />
+                        <action id="-24" name="Move to top" sid="951992607831461" type="BlueBlockHard" />
                         <action id="-9" name="Set value" sid="197401747223719" type="System">
                             <param id="0" name="Variable">PlacedBlock</param>
                             <param id="1" name="Value">PlacedBlock - 1</param>
                         </action>
-                        <action id="-10" name="Set value" sid="479736150033712" type="YellowBlockL">
+                        <action id="-10" name="Set value" sid="479736150033712" type="BlueBlockHard">
                             <param id="0" name="Instance variable">prevX</param>
                             <param id="1" name="Value">Self.X</param>
                         </action>
-                        <action id="-10" name="Set value" sid="583123220815661" type="YellowBlockL">
+                        <action id="-10" name="Set value" sid="583123220815661" type="BlueBlockHard">
                             <param id="0" name="Instance variable">prevY</param>
                             <param id="1" name="Value">Self.Y</param>
                         </action>
-                        <action id="9" name="Set scale" sid="829207642095903" type="YellowBlockL">
+                        <action id="9" name="Set scale" sid="829207642095903" type="BlueBlockHard">
                             <param id="0" name="Scale">1</param>
                         </action>
                     </actions>
                 </event-block>
                 <event-block sid="622210746657838">
                     <conditions>
-                        <condition behavior="DragDrop" id="2" name="On drop" sid="951727490090713" type="YellowBlockL" />
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="951727490090713" type="BlueBlockHard" />
                     </conditions>
                     <actions>
                         <action id="-9" name="Set value" sid="916446816034062" type="System">
@@ -491,35 +491,35 @@
                     <sub-events>
                         <event-block sid="955281903248171">
                             <conditions>
-                                <condition id="-1" name="Compare X" sid="241689375837132" type="YellowBlockL">
+                                <condition id="-1" name="Compare X" sid="241689375837132" type="BlueBlockHard">
                                     <param id="0" name="Comparison">5</param>
-                                    <param id="1" name="X co-ordinate">357</param>
+                                    <param id="1" name="X co-ordinate">667</param>
                                 </condition>
-                                <condition id="-2" name="Compare Y" sid="317818902958336" type="YellowBlockL">
+                                <condition id="-1" name="Compare X" sid="950538361297053" type="BlueBlockHard">
+                                    <param id="0" name="Comparison">3</param>
+                                    <param id="1" name="X co-ordinate">697</param>
+                                </condition>
+                                <condition id="-2" name="Compare Y" sid="317818902958336" type="BlueBlockHard">
                                     <param id="0" name="Comparison">5</param>
-                                    <param id="1" name="Y co-ordinate">930</param>
+                                    <param id="1" name="Y co-ordinate">746</param>
                                 </condition>
-                                <condition id="-1" name="Compare X" sid="950538361297053" type="YellowBlockL">
+                                <condition id="-2" name="Compare Y" sid="159057288941829" type="BlueBlockHard">
                                     <param id="0" name="Comparison">3</param>
-                                    <param id="1" name="X co-ordinate">387</param>
-                                </condition>
-                                <condition id="-2" name="Compare Y" sid="159057288941829" type="YellowBlockL">
-                                    <param id="0" name="Comparison">3</param>
-                                    <param id="1" name="Y co-ordinate">967</param>
+                                    <param id="1" name="Y co-ordinate">786</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-3" name="Set position" sid="721422344883814" type="YellowBlockL">
-                                    <param id="0" name="X">367</param>
-                                    <param id="1" name="Y">952</param>
+                                <action id="-3" name="Set position" sid="721422344883814" type="BlueBlockHard">
+                                    <param id="0" name="X">687</param>
+                                    <param id="1" name="Y">776</param>
                                 </action>
-                                <action behavior="DragDrop" id="0" name="Set enabled" sid="860624757799505" type="YellowBlockL">
+                                <action behavior="DragDrop" id="0" name="Set enabled" sid="860624757799505" type="BlueBlockHard">
                                     <param id="0" name="State">0</param>
                                 </action>
-                                <action id="9" name="Set scale" sid="308523265154948" type="YellowBlockL">
+                                <action id="9" name="Set scale" sid="308523265154948" type="BlueBlockHard">
                                     <param id="0" name="Scale">1</param>
                                 </action>
-                                <action id="-29" name="Move to object" sid="329023151181291" type="YellowBlockL">
+                                <action id="-29" name="Move to object" sid="329023151181291" type="BlueBlockHard">
                                     <param id="0" name="Where">0</param>
                                     <param id="1" name="Object">TiledBackground</param>
                                 </action>
@@ -531,67 +531,67 @@
                         </event-block>
                         <event-block any="1" sid="303545158321400">
                             <conditions>
-                                <condition id="-1" name="Compare X" sid="797572500726876" type="YellowBlockL">
+                                <condition id="-1" name="Compare X" sid="797572500726876" type="BlueBlockHard">
                                     <param id="0" name="Comparison">2</param>
-                                    <param id="1" name="X co-ordinate">357</param>
+                                    <param id="1" name="X co-ordinate">431</param>
                                 </condition>
-                                <condition id="-1" name="Compare X" sid="152579506005016" type="YellowBlockL">
+                                <condition id="-1" name="Compare X" sid="152579506005016" type="BlueBlockHard">
                                     <param id="0" name="Comparison">4</param>
                                     <param id="1" name="X co-ordinate">690</param>
                                 </condition>
-                                <condition id="-2" name="Compare Y" sid="617382781524746" type="YellowBlockL">
+                                <condition id="-2" name="Compare Y" sid="617382781524746" type="BlueBlockHard">
                                     <param id="0" name="Comparison">2</param>
-                                    <param id="1" name="Y co-ordinate">710</param>
+                                    <param id="1" name="Y co-ordinate">653</param>
                                 </condition>
-                                <condition id="-2" name="Compare Y" sid="561177870640238" type="YellowBlockL">
+                                <condition id="-2" name="Compare Y" sid="561177870640238" type="BlueBlockHard">
                                     <param id="0" name="Comparison">4</param>
-                                    <param id="1" name="Y co-ordinate">967</param>
+                                    <param id="1" name="Y co-ordinate">893</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-3" name="Set position" sid="261011727591647" type="YellowBlockL">
+                                <action id="-3" name="Set position" sid="261011727591647" type="BlueBlockHard">
                                     <param id="0" name="X">Self.originX</param>
                                     <param id="1" name="Y">Self.originY</param>
                                 </action>
-                                <action id="9" name="Set scale" sid="575370705296712" type="YellowBlockL">
+                                <action id="9" name="Set scale" sid="575370705296712" type="BlueBlockHard">
                                     <param id="0" name="Scale">0.8</param>
                                 </action>
                             </actions>
                         </event-block>
                         <event-block sid="715107839226314">
                             <conditions>
-                                <condition id="11" name="Collisions enabled" sid="791976034898691" type="YellowBlockL" />
-                                <condition behavior="DragDrop" id="3" name="Is enabled" sid="627802389280066" type="YellowBlockL" />
+                                <condition id="11" name="Collisions enabled" sid="791976034898691" type="BlueBlockHard" />
+                                <condition behavior="DragDrop" id="3" name="Is enabled" sid="627802389280066" type="BlueBlockHard" />
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block any="1" sid="988974304681102">
+                                <event-block any="1" sid="602663497312859">
                                     <conditions>
-                                        <condition id="1" name="Is overlapping another object" sid="107456489148745" type="YellowBlockL">
-                                            <param id="0" name="Object">BlueBlockT</param>
+                                        <condition id="1" name="Is overlapping another object" sid="341159303700444" type="BlueBlockHard">
+                                            <param id="0" name="Object">LBlueBlockHard</param>
                                         </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="575295485040602" type="YellowBlockL">
-                                            <param id="0" name="Object">BlueBlockZ</param>
+                                        <condition id="1" name="Is overlapping another object" sid="696749874984710" type="BlueBlockHard">
+                                            <param id="0" name="Object">BrownBlockHard</param>
                                         </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="873945698508178" type="YellowBlockL">
-                                            <param id="0" name="Object">BrownBlockL</param>
+                                        <condition id="1" name="Is overlapping another object" sid="546763131620039" type="BlueBlockHard">
+                                            <param id="0" name="Object">GreenBlockHard</param>
                                         </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="801738796774506" type="YellowBlockL">
-                                            <param id="0" name="Object">GreenBlockM</param>
+                                        <condition id="1" name="Is overlapping another object" sid="850596997984188" type="BlueBlockHard">
+                                            <param id="0" name="Object">PurpleBlockHard</param>
                                         </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="434406599298761" type="YellowBlockL">
-                                            <param id="0" name="Object">PurpleBlockT</param>
+                                        <condition id="1" name="Is overlapping another object" sid="829594036271672" type="BlueBlockHard">
+                                            <param id="0" name="Object">RedBlockHard</param>
                                         </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="367138881292310" type="YellowBlockL">
-                                            <param id="0" name="Object">RedBlockZ</param>
+                                        <condition id="1" name="Is overlapping another object" sid="481678280019763" type="BlueBlockHard">
+                                            <param id="0" name="Object">YellowBlockHard</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="-3" name="Set position" sid="823779599333573" type="YellowBlockL">
+                                        <action id="-3" name="Set position" sid="483437591504479" type="BlueBlockHard">
                                             <param id="0" name="X">Self.originX</param>
                                             <param id="1" name="Y">Self.originY</param>
                                         </action>
-                                        <action id="9" name="Set scale" sid="168270972136201" type="YellowBlockL">
+                                        <action id="9" name="Set scale" sid="239587160809196" type="BlueBlockHard">
                                             <param id="0" name="Scale">0.8</param>
                                         </action>
                                     </actions>
@@ -602,145 +602,443 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="800132659650111" title="RedBlockLGroup2">
+        <event-group description="" sid="842513397834383" title="HardBlueBlock2">
             <sub-events>
-                <event-block sid="268737874516087">
+                <event-block sid="281786120120690">
                     <conditions>
-                        <condition behavior="DragDrop" id="1" name="On drag start" sid="306732412246602" type="RedBlockZ" />
+                        <condition behavior="DragDrop" id="1" name="On drag start" sid="512505799227783" type="LBlueBlockHard" />
                     </conditions>
                     <actions>
-                        <action id="-24" name="Move to top" sid="543408985336135" type="RedBlockZ" />
-                        <action id="-9" name="Set value" sid="253149569008306" type="System">
+                        <action id="-24" name="Move to top" sid="993503541096951" type="LBlueBlockHard" />
+                        <action id="-9" name="Set value" sid="133892605952059" type="System">
                             <param id="0" name="Variable">PlacedBlock</param>
                             <param id="1" name="Value">PlacedBlock - 1</param>
                         </action>
-                        <action id="-10" name="Set value" sid="642868647708793" type="RedBlockZ">
+                        <action id="-10" name="Set value" sid="220877150208061" type="LBlueBlockHard">
                             <param id="0" name="Instance variable">prevX</param>
                             <param id="1" name="Value">Self.X</param>
                         </action>
-                        <action id="-10" name="Set value" sid="269548895693264" type="RedBlockZ">
+                        <action id="-10" name="Set value" sid="144890133237618" type="LBlueBlockHard">
                             <param id="0" name="Instance variable">prevY</param>
                             <param id="1" name="Value">Self.Y</param>
                         </action>
-                        <action id="9" name="Set scale" sid="731644654811877" type="RedBlockZ">
+                        <action id="9" name="Set scale" sid="305298976530763" type="LBlueBlockHard">
                             <param id="0" name="Scale">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="841915020685751">
+                <event-block sid="604973735502590">
                     <conditions>
-                        <condition behavior="DragDrop" id="2" name="On drop" sid="772084105005137" type="RedBlockZ" />
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="346280232217981" type="LBlueBlockHard" />
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="374359185029126" type="System">
+                        <action id="-9" name="Set value" sid="579925281385889" type="System">
                             <param id="0" name="Variable">PlacedBlock</param>
                             <param id="1" name="Value">PlacedBlock + 1</param>
                         </action>
                     </actions>
                     <sub-events>
-                        <event-block sid="737474341327960">
+                        <event-block sid="984147295564420">
                             <conditions>
-                                <condition id="-1" name="Compare X" sid="784392383139498" type="RedBlockZ">
+                                <condition id="-1" name="Compare X" sid="907107554995767" type="LBlueBlockHard">
                                     <param id="0" name="Comparison">5</param>
-                                    <param id="1" name="X co-ordinate">468</param>
+                                    <param id="1" name="X co-ordinate">354</param>
                                 </condition>
-                                <condition id="-1" name="Compare X" sid="936146398421279" type="RedBlockZ">
+                                <condition id="-1" name="Compare X" sid="730207682791877" type="LBlueBlockHard">
                                     <param id="0" name="Comparison">3</param>
-                                    <param id="1" name="X co-ordinate">508</param>
+                                    <param id="1" name="X co-ordinate">394</param>
                                 </condition>
-                                <condition id="-2" name="Compare Y" sid="410239815102201" type="RedBlockZ">
+                                <condition id="-2" name="Compare Y" sid="712366532114287" type="LBlueBlockHard">
                                     <param id="0" name="Comparison">5</param>
-                                    <param id="1" name="Y co-ordinate">923</param>
+                                    <param id="1" name="Y co-ordinate">1010</param>
                                 </condition>
-                                <condition id="-2" name="Compare Y" sid="341536526524366" type="RedBlockZ">
+                                <condition id="-2" name="Compare Y" sid="381672917280876" type="LBlueBlockHard">
                                     <param id="0" name="Comparison">3</param>
-                                    <param id="1" name="Y co-ordinate">963</param>
+                                    <param id="1" name="Y co-ordinate">1050</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-3" name="Set position" sid="968882496892709" type="RedBlockZ">
-                                    <param id="0" name="X">488</param>
-                                    <param id="1" name="Y">953</param>
+                                <action id="-3" name="Set position" sid="722954518187485" type="LBlueBlockHard">
+                                    <param id="0" name="X">364</param>
+                                    <param id="1" name="Y">1040</param>
                                 </action>
-                                <action behavior="DragDrop" id="0" name="Set enabled" sid="520895815352045" type="RedBlockZ">
+                                <action behavior="DragDrop" id="0" name="Set enabled" sid="368256272604996" type="LBlueBlockHard">
                                     <param id="0" name="State">0</param>
                                 </action>
-                                <action id="9" name="Set scale" sid="933010341838747" type="RedBlockZ">
+                                <action id="9" name="Set scale" sid="577309589078382" type="LBlueBlockHard">
                                     <param id="0" name="Scale">1</param>
                                 </action>
-                                <action id="-29" name="Move to object" sid="584918383671898" type="RedBlockZ">
+                                <action id="-29" name="Move to object" sid="270140256649917" type="LBlueBlockHard">
                                     <param id="0" name="Where">0</param>
                                     <param id="1" name="Object">TiledBackground</param>
                                 </action>
-                                <action id="-9" name="Set value" sid="334561561676844" type="System">
+                                <action id="-9" name="Set value" sid="814155666201731" type="System">
                                     <param id="0" name="Variable">PlacedBlock</param>
                                     <param id="1" name="Value">PlacedBlock + 1</param>
                                 </action>
                             </actions>
                         </event-block>
-                        <event-block any="1" sid="470882536670833">
+                        <event-block any="1" sid="270740814875573">
                             <conditions>
-                                <condition id="-1" name="Compare X" sid="484680740156753" type="RedBlockZ">
+                                <condition id="-1" name="Compare X" sid="370871056133506" type="LBlueBlockHard">
                                     <param id="0" name="Comparison">2</param>
-                                    <param id="1" name="X co-ordinate">395</param>
+                                    <param id="1" name="X co-ordinate">354</param>
                                 </condition>
-                                <condition id="-1" name="Compare X" sid="602852335618346" type="RedBlockZ">
+                                <condition id="-1" name="Compare X" sid="741005477427993" type="LBlueBlockHard">
                                     <param id="0" name="Comparison">4</param>
-                                    <param id="1" name="X co-ordinate">735</param>
+                                    <param id="1" name="X co-ordinate">694</param>
                                 </condition>
-                                <condition id="-2" name="Compare Y" sid="546568124327494" type="RedBlockZ">
+                                <condition id="-2" name="Compare Y" sid="126060318376788" type="LBlueBlockHard">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="Y co-ordinate">711</param>
+                                </condition>
+                                <condition id="-2" name="Compare Y" sid="886002973093522" type="LBlueBlockHard">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="Y co-ordinate">1050</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="537331227193411" type="LBlueBlockHard">
+                                    <param id="0" name="X">Self.originX</param>
+                                    <param id="1" name="Y">Self.originY</param>
+                                </action>
+                                <action id="9" name="Set scale" sid="735147158333336" type="LBlueBlockHard">
+                                    <param id="0" name="Scale">0.8</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="624021365177073">
+                            <conditions>
+                                <condition id="11" name="Collisions enabled" sid="258609224110446" type="LBlueBlockHard" />
+                                <condition behavior="DragDrop" id="3" name="Is enabled" sid="220357836827371" type="LBlueBlockHard" />
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block any="1" sid="978172945592546">
+                                    <conditions>
+                                        <condition id="1" name="Is overlapping another object" sid="439365470105315" type="LBlueBlockHard">
+                                            <param id="0" name="Object">BlueBlockHard</param>
+                                        </condition>
+                                        <condition id="1" name="Is overlapping another object" sid="531251692917439" type="LBlueBlockHard">
+                                            <param id="0" name="Object">BrownBlockHard</param>
+                                        </condition>
+                                        <condition id="1" name="Is overlapping another object" sid="805068394632817" type="LBlueBlockHard">
+                                            <param id="0" name="Object">GreenBlockHard</param>
+                                        </condition>
+                                        <condition id="1" name="Is overlapping another object" sid="657775979532683" type="LBlueBlockHard">
+                                            <param id="0" name="Object">PurpleBlockHard</param>
+                                        </condition>
+                                        <condition id="1" name="Is overlapping another object" sid="326150708790674" type="LBlueBlockHard">
+                                            <param id="0" name="Object">RedBlockHard</param>
+                                        </condition>
+                                        <condition id="1" name="Is overlapping another object" sid="338310814247153" type="LBlueBlockHard">
+                                            <param id="0" name="Object">YellowBlockHard</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-3" name="Set position" sid="404788002909941" type="LBlueBlockHard">
+                                            <param id="0" name="X">Self.originX</param>
+                                            <param id="1" name="Y">Self.originY</param>
+                                        </action>
+                                        <action id="9" name="Set scale" sid="582173798746748" type="LBlueBlockHard">
+                                            <param id="0" name="Scale">0.8</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="541406874269593" title="HardBrownBlock">
+            <sub-events>
+                <event-block sid="520596480699889">
+                    <conditions>
+                        <condition behavior="DragDrop" id="1" name="On drag start" sid="952604370308143" type="BrownBlockHard" />
+                    </conditions>
+                    <actions>
+                        <action id="-24" name="Move to top" sid="414410268727416" type="BrownBlockHard" />
+                        <action id="-9" name="Set value" sid="152223089800853" type="System">
+                            <param id="0" name="Variable">PlacedBlock</param>
+                            <param id="1" name="Value">PlacedBlock - 1</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="853351223733669" type="BrownBlockHard">
+                            <param id="0" name="Instance variable">prevX</param>
+                            <param id="1" name="Value">Self.X</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="454008150153698" type="BrownBlockHard">
+                            <param id="0" name="Instance variable">prevY</param>
+                            <param id="1" name="Value">Self.Y</param>
+                        </action>
+                        <action id="9" name="Set scale" sid="315788005982926" type="BrownBlockHard">
+                            <param id="0" name="Scale">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="103619767403919">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="413109407446313" type="BrownBlockHard" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="479487159721358" type="System">
+                            <param id="0" name="Variable">PlacedBlock</param>
+                            <param id="1" name="Value">PlacedBlock + 1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="587166827534026">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="592786257785331" type="BrownBlockHard">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="X co-ordinate">671</param>
+                                </condition>
+                                <condition id="-1" name="Compare X" sid="865853402476513" type="BrownBlockHard">
+                                    <param id="0" name="Comparison">3</param>
+                                    <param id="1" name="X co-ordinate">701</param>
+                                </condition>
+                                <condition id="-2" name="Compare Y" sid="190811301190849" type="BrownBlockHard">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="Y co-ordinate">1004</param>
+                                </condition>
+                                <condition id="-2" name="Compare Y" sid="669204071363598" type="BrownBlockHard">
+                                    <param id="0" name="Comparison">3</param>
+                                    <param id="1" name="Y co-ordinate">1034</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="459509210307599" type="BrownBlockHard">
+                                    <param id="0" name="X">691</param>
+                                    <param id="1" name="Y">1024</param>
+                                </action>
+                                <action behavior="DragDrop" id="0" name="Set enabled" sid="786528339982823" type="BrownBlockHard">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action id="9" name="Set scale" sid="913542381641455" type="BrownBlockHard">
+                                    <param id="0" name="Scale">1</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="551031761807432" type="BrownBlockHard">
+                                    <param id="0" name="Where">0</param>
+                                    <param id="1" name="Object">TiledBackground</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="237809564538546" type="System">
+                                    <param id="0" name="Variable">PlacedBlock</param>
+                                    <param id="1" name="Value">PlacedBlock + 1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block any="1" sid="491886910878403">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="247182520540080" type="BrownBlockHard">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="X co-ordinate">441</param>
+                                </condition>
+                                <condition id="-1" name="Compare X" sid="753828931848474" type="BrownBlockHard">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="X co-ordinate">701</param>
+                                </condition>
+                                <condition id="-2" name="Compare Y" sid="149291124203815" type="BrownBlockHard">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="Y co-ordinate">696</param>
+                                </condition>
+                                <condition id="-2" name="Compare Y" sid="129316090933622" type="BrownBlockHard">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="Y co-ordinate">1034</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="619337063500066" type="BrownBlockHard">
+                                    <param id="0" name="X">Self.originX</param>
+                                    <param id="1" name="Y">Self.originY</param>
+                                </action>
+                                <action id="9" name="Set scale" sid="696754909471814" type="BrownBlockHard">
+                                    <param id="0" name="Scale">0.8</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="548584926389885">
+                            <conditions>
+                                <condition id="11" name="Collisions enabled" sid="939010263325113" type="BrownBlockHard" />
+                                <condition behavior="DragDrop" id="3" name="Is enabled" sid="958191578784754" type="BrownBlockHard" />
+                            </conditions>
+                            <actions />
+                            <sub-events>
+                                <event-block any="1" sid="548462478925291">
+                                    <conditions>
+                                        <condition id="1" name="Is overlapping another object" sid="472139672889367" type="BrownBlockHard">
+                                            <param id="0" name="Object">BlueBlockHard</param>
+                                        </condition>
+                                        <condition id="1" name="Is overlapping another object" sid="102593936432184" type="BrownBlockHard">
+                                            <param id="0" name="Object">LBlueBlockHard</param>
+                                        </condition>
+                                        <condition id="1" name="Is overlapping another object" sid="750115303113339" type="BrownBlockHard">
+                                            <param id="0" name="Object">GreenBlockHard</param>
+                                        </condition>
+                                        <condition id="1" name="Is overlapping another object" sid="991649371647769" type="BrownBlockHard">
+                                            <param id="0" name="Object">RedBlockHard</param>
+                                        </condition>
+                                        <condition id="1" name="Is overlapping another object" sid="963838343409741" type="BrownBlockHard">
+                                            <param id="0" name="Object">PurpleBlockHard</param>
+                                        </condition>
+                                        <condition id="1" name="Is overlapping another object" sid="508988579592193" type="BrownBlockHard">
+                                            <param id="0" name="Object">YellowBlockHard</param>
+                                        </condition>
+                                    </conditions>
+                                    <actions>
+                                        <action id="-3" name="Set position" sid="994749972141469" type="BrownBlockHard">
+                                            <param id="0" name="X">Self.originX</param>
+                                            <param id="1" name="Y">Self.originY</param>
+                                        </action>
+                                        <action id="9" name="Set scale" sid="180834339919556" type="BrownBlockHard">
+                                            <param id="0" name="Scale">0.8</param>
+                                        </action>
+                                    </actions>
+                                </event-block>
+                            </sub-events>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="109997152173625" title="HardGreenBlock">
+            <sub-events>
+                <event-block sid="347992986261992">
+                    <conditions>
+                        <condition behavior="DragDrop" id="1" name="On drag start" sid="731159278765967" type="GreenBlockHard" />
+                    </conditions>
+                    <actions>
+                        <action id="-24" name="Move to top" sid="638645980860950" type="GreenBlockHard" />
+                        <action id="-9" name="Set value" sid="527367499408452" type="System">
+                            <param id="0" name="Variable">PlacedBlock</param>
+                            <param id="1" name="Value">PlacedBlock - 1</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="327046193699046" type="GreenBlockHard">
+                            <param id="0" name="Instance variable">prevX</param>
+                            <param id="1" name="Value">Self.X</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="305224893574158" type="GreenBlockHard">
+                            <param id="0" name="Instance variable">prevY</param>
+                            <param id="1" name="Value">Self.Y</param>
+                        </action>
+                        <action id="9" name="Set scale" sid="768584063845176" type="GreenBlockHard">
+                            <param id="0" name="Scale">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="989007921547774">
+                    <conditions>
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="632549145103929" type="GreenBlockHard" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="333561962251872" type="System">
+                            <param id="0" name="Variable">PlacedBlock</param>
+                            <param id="1" name="Value">PlacedBlock + 1</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="195159589774674">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="210054270214029" type="GreenBlockHard">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="X co-ordinate">509</param>
+                                </condition>
+                                <condition id="-1" name="Compare X" sid="588341814066188" type="GreenBlockHard">
+                                    <param id="0" name="Comparison">3</param>
+                                    <param id="1" name="X co-ordinate">549</param>
+                                </condition>
+                                <condition id="-2" name="Compare Y" sid="413762427850309" type="GreenBlockHard">
+                                    <param id="0" name="Comparison">5</param>
+                                    <param id="1" name="Y co-ordinate">926</param>
+                                </condition>
+                                <condition id="-2" name="Compare Y" sid="216069305435169" type="GreenBlockHard">
+                                    <param id="0" name="Comparison">3</param>
+                                    <param id="1" name="Y co-ordinate">966</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-3" name="Set position" sid="670498071240577" type="GreenBlockHard">
+                                    <param id="0" name="X">529</param>
+                                    <param id="1" name="Y">956</param>
+                                </action>
+                                <action behavior="DragDrop" id="0" name="Set enabled" sid="957924618095346" type="GreenBlockHard">
+                                    <param id="0" name="State">0</param>
+                                </action>
+                                <action id="9" name="Set scale" sid="851035836007978" type="GreenBlockHard">
+                                    <param id="0" name="Scale">1</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="204433471551424" type="GreenBlockHard">
+                                    <param id="0" name="Where">0</param>
+                                    <param id="1" name="Object">TiledBackground</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="660972283567976" type="System">
+                                    <param id="0" name="Variable">PlacedBlock</param>
+                                    <param id="1" name="Value">PlacedBlock + 1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block any="1" sid="841791932577833">
+                            <conditions>
+                                <condition id="-1" name="Compare X" sid="990513537125070" type="GreenBlockHard">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="X co-ordinate">437</param>
+                                </condition>
+                                <condition id="-1" name="Compare X" sid="833626566807064" type="GreenBlockHard">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="X co-ordinate">698</param>
+                                </condition>
+                                <condition id="-2" name="Compare Y" sid="200020802914323" type="GreenBlockHard">
+                                    <param id="0" name="Comparison">2</param>
+                                    <param id="1" name="Y co-ordinate">706</param>
+                                </condition>
+                                <condition id="-2" name="Compare Y" sid="662507957653532" type="GreenBlockHard">
                                     <param id="0" name="Comparison">4</param>
                                     <param id="1" name="Y co-ordinate">967</param>
                                 </condition>
-                                <condition id="-2" name="Compare Y" sid="748777805034115" type="RedBlockZ">
-                                    <param id="0" name="Comparison">2</param>
-                                    <param id="1" name="Y co-ordinate">710</param>
-                                </condition>
                             </conditions>
                             <actions>
-                                <action id="-3" name="Set position" sid="582394618007514" type="RedBlockZ">
+                                <action id="-3" name="Set position" sid="857401551807892" type="GreenBlockHard">
                                     <param id="0" name="X">Self.originX</param>
                                     <param id="1" name="Y">Self.originY</param>
                                 </action>
-                                <action id="9" name="Set scale" sid="412973606520787" type="RedBlockZ">
+                                <action id="9" name="Set scale" sid="285470012805866" type="GreenBlockHard">
                                     <param id="0" name="Scale">0.8</param>
                                 </action>
                             </actions>
                         </event-block>
-                        <event-block sid="732171639597065">
+                        <event-block sid="574599697019028">
                             <conditions>
-                                <condition id="11" name="Collisions enabled" sid="373837017638035" type="RedBlockZ" />
-                                <condition behavior="DragDrop" id="3" name="Is enabled" sid="956788248797902" type="RedBlockZ" />
+                                <condition id="11" name="Collisions enabled" sid="715053554702513" type="GreenBlockHard" />
+                                <condition behavior="DragDrop" id="3" name="Is enabled" sid="235347203068097" type="GreenBlockHard" />
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block any="1" sid="641578229307109">
+                                <event-block any="1" sid="414420060950488">
                                     <conditions>
-                                        <condition id="1" name="Is overlapping another object" sid="835159785192270" type="RedBlockZ">
-                                            <param id="0" name="Object">BlueBlockT</param>
+                                        <condition id="1" name="Is overlapping another object" sid="208915294330792" type="GreenBlockHard">
+                                            <param id="0" name="Object">BlueBlockHard</param>
                                         </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="186547432174482" type="RedBlockZ">
-                                            <param id="0" name="Object">BlueBlockZ</param>
+                                        <condition id="1" name="Is overlapping another object" sid="309546372178491" type="GreenBlockHard">
+                                            <param id="0" name="Object">LBlueBlockHard</param>
                                         </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="497709545886416" type="RedBlockZ">
-                                            <param id="0" name="Object">BrownBlockL</param>
+                                        <condition id="1" name="Is overlapping another object" sid="567471272490316" type="GreenBlockHard">
+                                            <param id="0" name="Object">BrownBlockHard</param>
                                         </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="760178011440867" type="RedBlockZ">
-                                            <param id="0" name="Object">GreenBlockM</param>
+                                        <condition id="1" name="Is overlapping another object" sid="926396971419801" type="GreenBlockHard">
+                                            <param id="0" name="Object">PurpleBlockHard</param>
                                         </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="286011084473011" type="RedBlockZ">
-                                            <param id="0" name="Object">PurpleBlockT</param>
+                                        <condition id="1" name="Is overlapping another object" sid="437561512504756" type="GreenBlockHard">
+                                            <param id="0" name="Object">RedBlockHard</param>
                                         </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="851716842959347" type="RedBlockZ">
-                                            <param id="0" name="Object">YellowBlockL</param>
+                                        <condition id="1" name="Is overlapping another object" sid="697413753587345" type="GreenBlockHard">
+                                            <param id="0" name="Object">YellowBlockHard</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="-3" name="Set position" sid="626916280512545" type="RedBlockZ">
+                                        <action id="-3" name="Set position" sid="172390031733028" type="GreenBlockHard">
                                             <param id="0" name="X">Self.originX</param>
                                             <param id="1" name="Y">Self.originY</param>
                                         </action>
-                                        <action id="9" name="Set scale" sid="336936978421169" type="RedBlockZ">
+                                        <action id="9" name="Set scale" sid="503838971901772" type="GreenBlockHard">
                                             <param id="0" name="Scale">0.8</param>
                                         </action>
                                     </actions>
@@ -751,141 +1049,145 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="656466792152806" title="BlueBlockGroup2">
+        <event-group description="" sid="560515999431280" title="HardPurpleBlock">
             <sub-events>
-                <event-block sid="821786128808658">
+                <event-block sid="923093393164953">
                     <conditions>
-                        <condition behavior="DragDrop" id="1" name="On drag start" sid="392427621540443" type="BlueBlockT" />
+                        <condition behavior="DragDrop" id="1" name="On drag start" sid="664408842176882" type="PurpleBlockHard" />
                     </conditions>
                     <actions>
-                        <action id="-24" name="Move to top" sid="889772888308765" type="BlueBlockT" />
-                        <action id="-9" name="Set value" sid="527481150651194" type="System">
+                        <action id="-24" name="Move to top" sid="219605391812320" type="PurpleBlockHard" />
+                        <action id="-9" name="Set value" sid="186403466996604" type="System">
                             <param id="0" name="Variable">PlacedBlock</param>
                             <param id="1" name="Value">PlacedBlock - 1</param>
                         </action>
-                        <action id="-10" name="Set value" sid="994188406470724" type="BlueBlockT">
+                        <action id="-10" name="Set value" sid="108623618260572" type="PurpleBlockHard">
                             <param id="0" name="Instance variable">prevX</param>
                             <param id="1" name="Value">Self.X</param>
                         </action>
-                        <action id="-10" name="Set value" sid="893886025465680" type="BlueBlockT">
+                        <action id="-10" name="Set value" sid="791518167802305" type="PurpleBlockHard">
                             <param id="0" name="Instance variable">prevY</param>
                             <param id="1" name="Value">Self.Y</param>
                         </action>
-                        <action id="9" name="Set scale" sid="649694048629456" type="BlueBlockT">
+                        <action id="9" name="Set scale" sid="772678828541233" type="PurpleBlockHard">
                             <param id="0" name="Scale">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="941182298148631">
+                <event-block sid="424920031389357">
                     <conditions>
-                        <condition behavior="DragDrop" id="2" name="On drop" sid="568718690489451" type="BlueBlockT" />
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="223682728723855" type="PurpleBlockHard" />
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="290137153122841" type="System">
+                        <action id="-9" name="Set value" sid="657675332687041" type="System">
                             <param id="0" name="Variable">PlacedBlock</param>
                             <param id="1" name="Value">PlacedBlock + 1</param>
                         </action>
                     </actions>
                     <sub-events>
-                        <event-block sid="466310871004589">
+                        <event-block sid="548230399372606">
                             <conditions>
-                                <condition id="-1" name="Compare X" sid="427283267936741" type="BlueBlockT">
+                                <condition id="-1" name="Compare X" sid="261412990833129" type="PurpleBlockHard">
                                     <param id="0" name="Comparison">5</param>
-                                    <param id="1" name="X co-ordinate">665</param>
+                                    <param id="1" name="X co-ordinate">655</param>
                                 </condition>
-                                <condition id="-1" name="Compare X" sid="778027011576223" type="BlueBlockT">
+                                <condition id="-1" name="Compare X" sid="587594431351169" type="PurpleBlockHard">
                                     <param id="0" name="Comparison">3</param>
                                     <param id="1" name="X co-ordinate">695</param>
                                 </condition>
-                                <condition id="-2" name="Compare Y" sid="599279032575065" type="BlueBlockT">
+                                <condition id="-2" name="Compare Y" sid="860474537683226" type="PurpleBlockHard">
                                     <param id="0" name="Comparison">5</param>
-                                    <param id="1" name="Y co-ordinate">1016</param>
+                                    <param id="1" name="Y co-ordinate">778</param>
                                 </condition>
-                                <condition id="-2" name="Compare Y" sid="319816627576169" type="BlueBlockT">
+                                <condition id="-2" name="Compare Y" sid="308165083368905" type="PurpleBlockHard">
                                     <param id="0" name="Comparison">3</param>
-                                    <param id="1" name="Y co-ordinate">1046</param>
+                                    <param id="1" name="Y co-ordinate">818</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-3" name="Set position" sid="254019066272658" type="BlueBlockT">
+                                <action id="-3" name="Set position" sid="481012679435909" type="PurpleBlockHard">
                                     <param id="0" name="X">685</param>
-                                    <param id="1" name="Y">1036</param>
+                                    <param id="1" name="Y">798</param>
                                 </action>
-                                <action behavior="DragDrop" id="0" name="Set enabled" sid="277873795883604" type="BlueBlockT">
+                                <action behavior="DragDrop" id="0" name="Set enabled" sid="414916246867904" type="PurpleBlockHard">
                                     <param id="0" name="State">0</param>
                                 </action>
-                                <action id="9" name="Set scale" sid="425838023316530" type="BlueBlockT">
+                                <action id="9" name="Set scale" sid="282286325995070" type="PurpleBlockHard">
                                     <param id="0" name="Scale">1</param>
                                 </action>
-                                <action id="-9" name="Set value" sid="584898975760371" type="System">
+                                <action id="-29" name="Move to object" sid="913455227697979" type="PurpleBlockHard">
+                                    <param id="0" name="Where">0</param>
+                                    <param id="1" name="Object">TiledBackground</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="350329791147298" type="System">
                                     <param id="0" name="Variable">PlacedBlock</param>
                                     <param id="1" name="Value">PlacedBlock + 1</param>
                                 </action>
                             </actions>
                         </event-block>
-                        <event-block any="1" sid="201185384142107">
+                        <event-block any="1" sid="646590395334760">
                             <conditions>
-                                <condition id="-1" name="Compare X" sid="146141443836977" type="BlueBlockT">
+                                <condition id="-1" name="Compare X" sid="730416143726451" type="PurpleBlockHard">
                                     <param id="0" name="Comparison">2</param>
-                                    <param id="1" name="X co-ordinate">436</param>
+                                    <param id="1" name="X co-ordinate">439</param>
                                 </condition>
-                                <condition id="-1" name="Compare X" sid="239256137179940" type="BlueBlockT">
+                                <condition id="-1" name="Compare X" sid="528809785744300" type="PurpleBlockHard">
                                     <param id="0" name="Comparison">4</param>
                                     <param id="1" name="X co-ordinate">695</param>
                                 </condition>
-                                <condition id="-2" name="Compare Y" sid="722251073327589" type="BlueBlockT">
-                                    <param id="0" name="Comparison">4</param>
-                                    <param id="1" name="Y co-ordinate">1046</param>
-                                </condition>
-                                <condition id="-2" name="Compare Y" sid="625174610979076" type="BlueBlockT">
+                                <condition id="-2" name="Compare Y" sid="961104558338922" type="PurpleBlockHard">
                                     <param id="0" name="Comparison">2</param>
-                                    <param id="1" name="Y co-ordinate">707</param>
+                                    <param id="1" name="Y co-ordinate">709</param>
+                                </condition>
+                                <condition id="-2" name="Compare Y" sid="957888560954292" type="PurpleBlockHard">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="Y co-ordinate">969</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-3" name="Set position" sid="857495774429792" type="BlueBlockT">
+                                <action id="-3" name="Set position" sid="337448812232298" type="PurpleBlockHard">
                                     <param id="0" name="X">Self.originX</param>
                                     <param id="1" name="Y">Self.originY</param>
                                 </action>
-                                <action id="9" name="Set scale" sid="567903350892928" type="BlueBlockT">
+                                <action id="9" name="Set scale" sid="583060077021293" type="PurpleBlockHard">
                                     <param id="0" name="Scale">0.8</param>
                                 </action>
                             </actions>
                         </event-block>
-                        <event-block sid="514495368348625">
+                        <event-block sid="355900726704585">
                             <conditions>
-                                <condition id="11" name="Collisions enabled" sid="208543672013800" type="BlueBlockT" />
-                                <condition behavior="DragDrop" id="3" name="Is enabled" sid="917240014027864" type="BlueBlockT" />
+                                <condition id="11" name="Collisions enabled" sid="186657372083939" type="PurpleBlockHard" />
+                                <condition behavior="DragDrop" id="3" name="Is enabled" sid="177644116816134" type="PurpleBlockHard" />
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block any="1" sid="816106670265102">
+                                <event-block any="1" sid="906746358260494">
                                     <conditions>
-                                        <condition id="1" name="Is overlapping another object" sid="995413556566089" type="BlueBlockT">
-                                            <param id="0" name="Object">BlueBlockZ</param>
+                                        <condition id="1" name="Is overlapping another object" sid="962120059442357" type="PurpleBlockHard">
+                                            <param id="0" name="Object">BlueBlockHard</param>
                                         </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="253900488056855" type="BlueBlockT">
-                                            <param id="0" name="Object">BrownBlockL</param>
+                                        <condition id="1" name="Is overlapping another object" sid="694640205024600" type="PurpleBlockHard">
+                                            <param id="0" name="Object">LBlueBlockHard</param>
                                         </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="221563811466276" type="BlueBlockT">
-                                            <param id="0" name="Object">GreenBlockM</param>
+                                        <condition id="1" name="Is overlapping another object" sid="700157910951876" type="PurpleBlockHard">
+                                            <param id="0" name="Object">BrownBlockHard</param>
                                         </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="158739045004200" type="BlueBlockT">
-                                            <param id="0" name="Object">PurpleBlockT</param>
+                                        <condition id="1" name="Is overlapping another object" sid="383714425883411" type="PurpleBlockHard">
+                                            <param id="0" name="Object">GreenBlockHard</param>
                                         </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="167915846502602" type="BlueBlockT">
-                                            <param id="0" name="Object">RedBlockZ</param>
+                                        <condition id="1" name="Is overlapping another object" sid="795477511127588" type="PurpleBlockHard">
+                                            <param id="0" name="Object">RedBlockHard</param>
                                         </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="786909195257779" type="BlueBlockT">
-                                            <param id="0" name="Object">YellowBlockL</param>
+                                        <condition id="1" name="Is overlapping another object" sid="225090430034261" type="PurpleBlockHard">
+                                            <param id="0" name="Object">YellowBlockHard</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="-3" name="Set position" sid="576467384653251" type="BlueBlockT">
+                                        <action id="-3" name="Set position" sid="610712390508043" type="PurpleBlockHard">
                                             <param id="0" name="X">Self.originX</param>
                                             <param id="1" name="Y">Self.originY</param>
                                         </action>
-                                        <action id="9" name="Set scale" sid="195759125753966" type="BlueBlockT">
+                                        <action id="9" name="Set scale" sid="253155964544690" type="PurpleBlockHard">
                                             <param id="0" name="Scale">0.8</param>
                                         </action>
                                     </actions>
@@ -896,141 +1198,145 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="561454846709001" title="GreenBlockGroup2">
+        <event-group description="" sid="906107728259618" title="HardRedBlock">
             <sub-events>
-                <event-block sid="173385744154729">
+                <event-block sid="487127391750461">
                     <conditions>
-                        <condition behavior="DragDrop" id="1" name="On drag start" sid="536091569475398" type="GreenBlockM" />
+                        <condition behavior="DragDrop" id="1" name="On drag start" sid="805582690034076" type="RedBlockHard" />
                     </conditions>
                     <actions>
-                        <action id="-24" name="Move to top" sid="273599271107488" type="GreenBlockM" />
-                        <action id="-9" name="Set value" sid="810086113259729" type="System">
+                        <action id="-24" name="Move to top" sid="433260432778300" type="RedBlockHard" />
+                        <action id="-9" name="Set value" sid="653231202055621" type="System">
                             <param id="0" name="Variable">PlacedBlock</param>
                             <param id="1" name="Value">PlacedBlock - 1</param>
                         </action>
-                        <action id="-10" name="Set value" sid="717520230575241" type="GreenBlockM">
+                        <action id="-10" name="Set value" sid="426689741904173" type="RedBlockHard">
                             <param id="0" name="Instance variable">prevX</param>
                             <param id="1" name="Value">Self.X</param>
                         </action>
-                        <action id="-10" name="Set value" sid="513856913886906" type="GreenBlockM">
+                        <action id="-10" name="Set value" sid="764395613515087" type="RedBlockHard">
                             <param id="0" name="Instance variable">prevY</param>
                             <param id="1" name="Value">Self.Y</param>
                         </action>
-                        <action id="9" name="Set scale" sid="526569223939026" type="GreenBlockM">
+                        <action id="9" name="Set scale" sid="408073901547505" type="RedBlockHard">
                             <param id="0" name="Scale">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="838916472326000">
+                <event-block sid="239010061573041">
                     <conditions>
-                        <condition behavior="DragDrop" id="2" name="On drop" sid="879095077033690" type="GreenBlockM" />
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="938941532326222" type="RedBlockHard" />
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="593169301894459" type="System">
+                        <action id="-9" name="Set value" sid="715215532037796" type="System">
                             <param id="0" name="Variable">PlacedBlock</param>
                             <param id="1" name="Value">PlacedBlock + 1</param>
                         </action>
                     </actions>
                     <sub-events>
-                        <event-block sid="152726231242412">
+                        <event-block sid="721567803815886">
                             <conditions>
-                                <condition id="-1" name="Compare X" sid="488298480567794" type="GreenBlockM">
+                                <condition id="-1" name="Compare X" sid="349969532396083" type="RedBlockHard">
                                     <param id="0" name="Comparison">5</param>
-                                    <param id="1" name="X co-ordinate">516</param>
+                                    <param id="1" name="X co-ordinate">474</param>
                                 </condition>
-                                <condition id="-1" name="Compare X" sid="961063666610696" type="GreenBlockM">
+                                <condition id="-1" name="Compare X" sid="687296797771316" type="RedBlockHard">
                                     <param id="0" name="Comparison">3</param>
-                                    <param id="1" name="X co-ordinate">556</param>
+                                    <param id="1" name="X co-ordinate">514</param>
                                 </condition>
-                                <condition id="-2" name="Compare Y" sid="521349526758245" type="GreenBlockM">
+                                <condition id="-2" name="Compare Y" sid="482485424487812" type="RedBlockHard">
                                     <param id="0" name="Comparison">5</param>
-                                    <param id="1" name="Y co-ordinate">857</param>
+                                    <param id="1" name="Y co-ordinate">627</param>
                                 </condition>
-                                <condition id="-2" name="Compare Y" sid="498482225445113" type="GreenBlockM">
+                                <condition id="-2" name="Compare Y" sid="519193336854506" type="RedBlockHard">
                                     <param id="0" name="Comparison">3</param>
-                                    <param id="1" name="Y co-ordinate">897</param>
+                                    <param id="1" name="Y co-ordinate">667</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-3" name="Set position" sid="410427896797494" type="GreenBlockM">
-                                    <param id="0" name="X">526</param>
-                                    <param id="1" name="Y">877</param>
+                                <action id="-3" name="Set position" sid="846699671930674" type="RedBlockHard">
+                                    <param id="0" name="X">484</param>
+                                    <param id="1" name="Y">637</param>
                                 </action>
-                                <action behavior="DragDrop" id="0" name="Set enabled" sid="263566601926139" type="GreenBlockM">
+                                <action behavior="DragDrop" id="0" name="Set enabled" sid="658929724895759" type="RedBlockHard">
                                     <param id="0" name="State">0</param>
                                 </action>
-                                <action id="9" name="Set scale" sid="694150328890538" type="GreenBlockM">
+                                <action id="9" name="Set scale" sid="175515537881742" type="RedBlockHard">
                                     <param id="0" name="Scale">1</param>
                                 </action>
-                                <action id="-9" name="Set value" sid="680722480751875" type="System">
+                                <action id="-29" name="Move to object" sid="772823344765919" type="RedBlockHard">
+                                    <param id="0" name="Where">0</param>
+                                    <param id="1" name="Object">TiledBackground</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="125583556871357" type="System">
                                     <param id="0" name="Variable">PlacedBlock</param>
                                     <param id="1" name="Value">PlacedBlock + 1</param>
                                 </action>
                             </actions>
                         </event-block>
-                        <event-block any="1" sid="520232846748679">
+                        <event-block any="1" sid="800518333675884">
                             <conditions>
-                                <condition id="-1" name="Compare X" sid="385891693493005" type="GreenBlockM">
+                                <condition id="-1" name="Compare X" sid="270345640007041" type="RedBlockHard">
                                     <param id="0" name="Comparison">2</param>
-                                    <param id="1" name="X co-ordinate">516</param>
+                                    <param id="1" name="X co-ordinate">474</param>
                                 </condition>
-                                <condition id="-1" name="Compare X" sid="283171879707034" type="GreenBlockM">
+                                <condition id="-1" name="Compare X" sid="611258302546594" type="RedBlockHard">
                                     <param id="0" name="Comparison">4</param>
-                                    <param id="1" name="X co-ordinate">693</param>
+                                    <param id="1" name="X co-ordinate">653</param>
                                 </condition>
-                                <condition id="-2" name="Compare Y" sid="362250967554022" type="GreenBlockM">
-                                    <param id="0" name="Comparison">4</param>
-                                    <param id="1" name="Y co-ordinate">968</param>
-                                </condition>
-                                <condition id="-2" name="Compare Y" sid="420672300208320" type="GreenBlockM">
+                                <condition id="-2" name="Compare Y" sid="921177247396313" type="RedBlockHard">
                                     <param id="0" name="Comparison">2</param>
-                                    <param id="1" name="Y co-ordinate">707</param>
+                                    <param id="1" name="Y co-ordinate">627</param>
+                                </condition>
+                                <condition id="-2" name="Compare Y" sid="289084113978747" type="RedBlockHard">
+                                    <param id="0" name="Comparison">4</param>
+                                    <param id="1" name="Y co-ordinate">965</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-3" name="Set position" sid="148977633467414" type="GreenBlockM">
+                                <action id="-3" name="Set position" sid="802153821574315" type="RedBlockHard">
                                     <param id="0" name="X">Self.originX</param>
                                     <param id="1" name="Y">Self.originY</param>
                                 </action>
-                                <action id="9" name="Set scale" sid="197998867982706" type="GreenBlockM">
+                                <action id="9" name="Set scale" sid="530397310167605" type="RedBlockHard">
                                     <param id="0" name="Scale">0.8</param>
                                 </action>
                             </actions>
                         </event-block>
-                        <event-block sid="711654620032341">
+                        <event-block sid="128535301481070">
                             <conditions>
-                                <condition id="11" name="Collisions enabled" sid="670661854558497" type="GreenBlockM" />
-                                <condition behavior="DragDrop" id="3" name="Is enabled" sid="782021905124252" type="GreenBlockM" />
+                                <condition id="11" name="Collisions enabled" sid="422346687781972" type="RedBlockHard" />
+                                <condition behavior="DragDrop" id="3" name="Is enabled" sid="858912837478474" type="RedBlockHard" />
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block any="1" sid="907819271717351">
+                                <event-block any="1" sid="833197378512821">
                                     <conditions>
-                                        <condition id="1" name="Is overlapping another object" sid="614326423295662" type="GreenBlockM">
-                                            <param id="0" name="Object">BlueBlockT</param>
+                                        <condition id="1" name="Is overlapping another object" sid="798048417950845" type="RedBlockHard">
+                                            <param id="0" name="Object">BlueBlockHard</param>
                                         </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="725916425003445" type="GreenBlockM">
-                                            <param id="0" name="Object">BlueBlockZ</param>
+                                        <condition id="1" name="Is overlapping another object" sid="131507802750860" type="RedBlockHard">
+                                            <param id="0" name="Object">LBlueBlockHard</param>
                                         </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="244151021378549" type="GreenBlockM">
-                                            <param id="0" name="Object">BrownBlockL</param>
+                                        <condition id="1" name="Is overlapping another object" sid="677151295116640" type="RedBlockHard">
+                                            <param id="0" name="Object">BrownBlockHard</param>
                                         </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="449557808640121" type="GreenBlockM">
-                                            <param id="0" name="Object">PurpleBlockT</param>
+                                        <condition id="1" name="Is overlapping another object" sid="174078053684431" type="RedBlockHard">
+                                            <param id="0" name="Object">GreenBlockHard</param>
                                         </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="668130225278458" type="GreenBlockM">
-                                            <param id="0" name="Object">RedBlockZ</param>
+                                        <condition id="1" name="Is overlapping another object" sid="827562374149099" type="RedBlockHard">
+                                            <param id="0" name="Object">PurpleBlockHard</param>
                                         </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="597860157579246" type="GreenBlockM">
-                                            <param id="0" name="Object">YellowBlockL</param>
+                                        <condition id="1" name="Is overlapping another object" sid="861232206176623" type="RedBlockHard">
+                                            <param id="0" name="Object">YellowBlockHard</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="-3" name="Set position" sid="745303234227331" type="GreenBlockM">
+                                        <action id="-3" name="Set position" sid="211407993471709" type="RedBlockHard">
                                             <param id="0" name="X">Self.originX</param>
                                             <param id="1" name="Y">Self.originY</param>
                                         </action>
-                                        <action id="9" name="Set scale" sid="267336019257899" type="GreenBlockM">
+                                        <action id="9" name="Set scale" sid="936832933714277" type="RedBlockHard">
                                             <param id="0" name="Scale">0.8</param>
                                         </action>
                                     </actions>
@@ -1041,431 +1347,145 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="726529756684313" title="PurpleBlockGroup2">
+        <event-group description="" sid="715892742903011" title="HardYellowBlock">
             <sub-events>
-                <event-block sid="197337641358008">
+                <event-block sid="444771251228896">
                     <conditions>
-                        <condition behavior="DragDrop" id="1" name="On drag start" sid="988617668301978" type="PurpleBlockT" />
+                        <condition behavior="DragDrop" id="1" name="On drag start" sid="290481331436641" type="YellowBlockHard" />
                     </conditions>
                     <actions>
-                        <action id="-24" name="Move to top" sid="601000600353316" type="PurpleBlockT" />
-                        <action id="-9" name="Set value" sid="610916675817374" type="System">
+                        <action id="-24" name="Move to top" sid="419839067782478" type="YellowBlockHard" />
+                        <action id="-9" name="Set value" sid="658631355194108" type="System">
                             <param id="0" name="Variable">PlacedBlock</param>
                             <param id="1" name="Value">PlacedBlock - 1</param>
                         </action>
-                        <action id="-10" name="Set value" sid="124010536412641" type="PurpleBlockT">
+                        <action id="-10" name="Set value" sid="665639368869904" type="YellowBlockHard">
                             <param id="0" name="Instance variable">prevX</param>
                             <param id="1" name="Value">Self.X</param>
                         </action>
-                        <action id="-10" name="Set value" sid="365579659413604" type="PurpleBlockT">
+                        <action id="-10" name="Set value" sid="847589360662779" type="YellowBlockHard">
                             <param id="0" name="Instance variable">prevY</param>
                             <param id="1" name="Value">Self.Y</param>
                         </action>
-                        <action id="9" name="Set scale" sid="769061422574417" type="PurpleBlockT">
+                        <action id="9" name="Set scale" sid="161764377107402" type="YellowBlockHard">
                             <param id="0" name="Scale">1</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="916351987566286">
+                <event-block sid="833915721281960">
                     <conditions>
-                        <condition behavior="DragDrop" id="2" name="On drop" sid="697591958702652" type="PurpleBlockT" />
+                        <condition behavior="DragDrop" id="2" name="On drop" sid="989577130787157" type="YellowBlockHard" />
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="295360368539360" type="System">
+                        <action id="-9" name="Set value" sid="631359097300650" type="System">
                             <param id="0" name="Variable">PlacedBlock</param>
                             <param id="1" name="Value">PlacedBlock + 1</param>
                         </action>
                     </actions>
                     <sub-events>
-                        <event-block sid="807253211823940">
+                        <event-block sid="285824110711076">
                             <conditions>
-                                <condition id="-1" name="Compare X" sid="224820711797564" type="PurpleBlockT">
+                                <condition id="-1" name="Compare X" sid="961436630790221" type="YellowBlockHard">
                                     <param id="0" name="Comparison">5</param>
-                                    <param id="1" name="X co-ordinate">731</param>
+                                    <param id="1" name="X co-ordinate">435</param>
                                 </condition>
-                                <condition id="-1" name="Compare X" sid="787249889318933" type="PurpleBlockT">
+                                <condition id="-1" name="Compare X" sid="441082240321172" type="YellowBlockHard">
                                     <param id="0" name="Comparison">3</param>
-                                    <param id="1" name="X co-ordinate">771</param>
+                                    <param id="1" name="X co-ordinate">475</param>
                                 </condition>
-                                <condition id="-2" name="Compare Y" sid="538751468087680" type="PurpleBlockT">
+                                <condition id="-2" name="Compare Y" sid="283074278688282" type="YellowBlockHard">
                                     <param id="0" name="Comparison">5</param>
-                                    <param id="1" name="Y co-ordinate">787</param>
+                                    <param id="1" name="Y co-ordinate">777</param>
                                 </condition>
-                                <condition id="-2" name="Compare Y" sid="604131433819171" type="PurpleBlockT">
+                                <condition id="-2" name="Compare Y" sid="173936803107087" type="YellowBlockHard">
                                     <param id="0" name="Comparison">3</param>
-                                    <param id="1" name="Y co-ordinate">827</param>
+                                    <param id="1" name="Y co-ordinate">817</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-3" name="Set position" sid="607514561627215" type="PurpleBlockT">
-                                    <param id="0" name="X">761</param>
+                                <action id="-3" name="Set position" sid="133808566502390" type="YellowBlockHard">
+                                    <param id="0" name="X">445</param>
                                     <param id="1" name="Y">797</param>
                                 </action>
-                                <action behavior="DragDrop" id="0" name="Set enabled" sid="873742354126386" type="PurpleBlockT">
+                                <action behavior="DragDrop" id="0" name="Set enabled" sid="316559552050851" type="YellowBlockHard">
                                     <param id="0" name="State">0</param>
                                 </action>
-                                <action id="9" name="Set scale" sid="195089597889201" type="PurpleBlockT">
+                                <action id="9" name="Set scale" sid="485793727913464" type="YellowBlockHard">
                                     <param id="0" name="Scale">1</param>
                                 </action>
-                                <action id="-9" name="Set value" sid="669849361765301" type="System">
+                                <action id="-29" name="Move to object" sid="632303026630584" type="YellowBlockHard">
+                                    <param id="0" name="Where">0</param>
+                                    <param id="1" name="Object">TiledBackground</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="818667207964185" type="System">
                                     <param id="0" name="Variable">PlacedBlock</param>
                                     <param id="1" name="Value">PlacedBlock + 1</param>
                                 </action>
                             </actions>
                         </event-block>
-                        <event-block any="1" sid="835239014305992">
+                        <event-block any="1" sid="165022534685384">
                             <conditions>
-                                <condition id="-1" name="Compare X" sid="606548310672481" type="PurpleBlockT">
+                                <condition id="-1" name="Compare X" sid="151691751109075" type="YellowBlockHard">
                                     <param id="0" name="Comparison">2</param>
-                                    <param id="1" name="X co-ordinate">436</param>
+                                    <param id="1" name="X co-ordinate">434</param>
                                 </condition>
-                                <condition id="-1" name="Compare X" sid="424493154850771" type="PurpleBlockT">
+                                <condition id="-1" name="Compare X" sid="618561076767662" type="YellowBlockHard">
                                     <param id="0" name="Comparison">4</param>
-                                    <param id="1" name="X co-ordinate">771</param>
+                                    <param id="1" name="X co-ordinate">694</param>
                                 </condition>
-                                <condition id="-2" name="Compare Y" sid="764080661391139" type="PurpleBlockT">
+                                <condition id="-2" name="Compare Y" sid="844468852069640" type="YellowBlockHard">
                                     <param id="0" name="Comparison">2</param>
-                                    <param id="1" name="Y co-ordinate">787</param>
+                                    <param id="1" name="Y co-ordinate">706</param>
                                 </condition>
-                                <condition id="-2" name="Compare Y" sid="911213536738505" type="PurpleBlockT">
+                                <condition id="-2" name="Compare Y" sid="525831341846540" type="YellowBlockHard">
                                     <param id="0" name="Comparison">4</param>
-                                    <param id="1" name="Y co-ordinate">890</param>
+                                    <param id="1" name="Y co-ordinate">965</param>
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="-3" name="Set position" sid="403729818410068" type="PurpleBlockT">
+                                <action id="-3" name="Set position" sid="700749996789108" type="YellowBlockHard">
                                     <param id="0" name="X">Self.originX</param>
                                     <param id="1" name="Y">Self.originY</param>
                                 </action>
-                                <action id="9" name="Set scale" sid="823843061953695" type="PurpleBlockT">
+                                <action id="9" name="Set scale" sid="884432164009426" type="YellowBlockHard">
                                     <param id="0" name="Scale">0.8</param>
                                 </action>
                             </actions>
                         </event-block>
-                        <event-block sid="278636953618252">
+                        <event-block sid="819968730387629">
                             <conditions>
-                                <condition id="11" name="Collisions enabled" sid="846559195935893" type="PurpleBlockT" />
-                                <condition behavior="DragDrop" id="3" name="Is enabled" sid="950458752282926" type="PurpleBlockT" />
+                                <condition id="11" name="Collisions enabled" sid="792747264199974" type="YellowBlockHard" />
+                                <condition behavior="DragDrop" id="3" name="Is enabled" sid="302224490143155" type="YellowBlockHard" />
                             </conditions>
                             <actions />
                             <sub-events>
-                                <event-block sid="678806697176950">
+                                <event-block any="1" sid="901824689112164">
                                     <conditions>
-                                        <condition id="1" name="Is overlapping another object" sid="702936974892297" type="PurpleBlockT">
-                                            <param id="0" name="Object">BlueBlockT</param>
+                                        <condition id="1" name="Is overlapping another object" sid="370276079493130" type="YellowBlockHard">
+                                            <param id="0" name="Object">BlueBlockHard</param>
                                         </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="826366977943272" type="PurpleBlockT">
-                                            <param id="0" name="Object">BlueBlockZ</param>
+                                        <condition id="1" name="Is overlapping another object" sid="667416994010008" type="YellowBlockHard">
+                                            <param id="0" name="Object">LBlueBlockHard</param>
                                         </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="901147672724147" type="PurpleBlockT">
-                                            <param id="0" name="Object">BrownBlockL</param>
+                                        <condition id="1" name="Is overlapping another object" sid="332900172230956" type="YellowBlockHard">
+                                            <param id="0" name="Object">BrownBlockHard</param>
                                         </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="904098680785341" type="PurpleBlockT">
-                                            <param id="0" name="Object">GreenBlockM</param>
+                                        <condition id="1" name="Is overlapping another object" sid="812048707118422" type="YellowBlockHard">
+                                            <param id="0" name="Object">GreenBlockHard</param>
                                         </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="876261982593657" type="PurpleBlockT">
-                                            <param id="0" name="Object">RedBlockZ</param>
+                                        <condition id="1" name="Is overlapping another object" sid="691038664786808" type="YellowBlockHard">
+                                            <param id="0" name="Object">PurpleBlockHard</param>
                                         </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="366233694149349" type="PurpleBlockT">
-                                            <param id="0" name="Object">YellowBlockL</param>
+                                        <condition id="1" name="Is overlapping another object" sid="784001697802833" type="YellowBlockHard">
+                                            <param id="0" name="Object">RedBlockHard</param>
                                         </condition>
                                     </conditions>
                                     <actions>
-                                        <action id="-3" name="Set position" sid="577277561156864" type="PurpleBlockT">
+                                        <action id="-3" name="Set position" sid="937465639594308" type="YellowBlockHard">
                                             <param id="0" name="X">Self.originX</param>
                                             <param id="1" name="Y">Self.originY</param>
                                         </action>
-                                        <action id="9" name="Set scale" sid="947960540716431" type="PurpleBlockT">
-                                            <param id="0" name="Scale">0.8</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                            </sub-events>
-                        </event-block>
-                    </sub-events>
-                </event-block>
-            </sub-events>
-        </event-group>
-        <event-group description="" sid="465601633410553" title="BlueBlockZGroup2">
-            <sub-events>
-                <event-block sid="935548432889894">
-                    <conditions>
-                        <condition behavior="DragDrop" id="1" name="On drag start" sid="575877428265470" type="BlueBlockZ" />
-                    </conditions>
-                    <actions>
-                        <action id="-24" name="Move to top" sid="481411436276569" type="BlueBlockZ" />
-                        <action id="-9" name="Set value" sid="445825795894378" type="System">
-                            <param id="0" name="Variable">PlacedBlock</param>
-                            <param id="1" name="Value">PlacedBlock - 1</param>
-                        </action>
-                        <action id="-10" name="Set value" sid="366324776681625" type="BlueBlockZ">
-                            <param id="0" name="Instance variable">prevX</param>
-                            <param id="1" name="Value">Self.X</param>
-                        </action>
-                        <action id="-10" name="Set value" sid="420193838183111" type="BlueBlockZ">
-                            <param id="0" name="Instance variable">prevY</param>
-                            <param id="1" name="Value">Self.Y</param>
-                        </action>
-                        <action id="9" name="Set scale" sid="528578454224579" type="BlueBlockZ">
-                            <param id="0" name="Scale">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="656798333249052">
-                    <conditions>
-                        <condition behavior="DragDrop" id="2" name="On drop" sid="551760314177389" type="BlueBlockZ" />
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Set value" sid="340136377867772" type="System">
-                            <param id="0" name="Variable">PlacedBlock</param>
-                            <param id="1" name="Value">PlacedBlock + 1</param>
-                        </action>
-                    </actions>
-                    <sub-events>
-                        <event-block sid="854554553554992">
-                            <conditions>
-                                <condition id="-1" name="Compare X" sid="250510832083650" type="BlueBlockZ">
-                                    <param id="0" name="Comparison">5</param>
-                                    <param id="1" name="X co-ordinate">517</param>
-                                </condition>
-                                <condition id="-2" name="Compare Y" sid="177247656335158" type="BlueBlockZ">
-                                    <param id="0" name="Comparison">5</param>
-                                    <param id="1" name="Y co-ordinate">698</param>
-                                </condition>
-                                <condition id="-1" name="Compare X" sid="812269246534425" type="BlueBlockZ">
-                                    <param id="0" name="Comparison">3</param>
-                                    <param id="1" name="X co-ordinate">557</param>
-                                </condition>
-                                <condition id="-2" name="Compare Y" sid="332099237686487" type="BlueBlockZ">
-                                    <param id="0" name="Comparison">3</param>
-                                    <param id="1" name="Y co-ordinate">738</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-3" name="Set position" sid="812910569670803" type="BlueBlockZ">
-                                    <param id="0" name="X">527</param>
-                                    <param id="1" name="Y">718</param>
-                                </action>
-                                <action behavior="DragDrop" id="0" name="Set enabled" sid="907821785414921" type="BlueBlockZ">
-                                    <param id="0" name="State">0</param>
-                                </action>
-                                <action id="9" name="Set scale" sid="748200352909296" type="BlueBlockZ">
-                                    <param id="0" name="Scale">1</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="777258505962576" type="System">
-                                    <param id="0" name="Variable">PlacedBlock</param>
-                                    <param id="1" name="Value">PlacedBlock + 1</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block any="1" sid="449817796644633">
-                            <conditions>
-                                <condition id="-1" name="Compare X" sid="967380222492117" type="BlueBlockZ">
-                                    <param id="0" name="Comparison">2</param>
-                                    <param id="1" name="X co-ordinate">517</param>
-                                </condition>
-                                <condition id="-1" name="Compare X" sid="743607373665403" type="BlueBlockZ">
-                                    <param id="0" name="Comparison">4</param>
-                                    <param id="1" name="X co-ordinate">615</param>
-                                </condition>
-                                <condition id="-2" name="Compare Y" sid="766666367051240" type="BlueBlockZ">
-                                    <param id="0" name="Comparison">2</param>
-                                    <param id="1" name="Y co-ordinate">631</param>
-                                </condition>
-                                <condition id="-2" name="Compare Y" sid="636248864686169" type="BlueBlockZ">
-                                    <param id="0" name="Comparison">4</param>
-                                    <param id="1" name="Y co-ordinate">968</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-3" name="Set position" sid="796211287501571" type="BlueBlockZ">
-                                    <param id="0" name="X">Self.originX</param>
-                                    <param id="1" name="Y">Self.originY</param>
-                                </action>
-                                <action id="9" name="Set scale" sid="604288132207189" type="BlueBlockZ">
-                                    <param id="0" name="Scale">0.8</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="254956596026371">
-                            <conditions>
-                                <condition id="11" name="Collisions enabled" sid="314978339652142" type="BlueBlockZ" />
-                                <condition behavior="DragDrop" id="3" name="Is enabled" sid="110638233708363" type="BlueBlockZ" />
-                            </conditions>
-                            <actions />
-                            <sub-events>
-                                <event-block any="1" sid="350642749709843">
-                                    <conditions>
-                                        <condition id="1" name="Is overlapping another object" sid="313436594195656" type="BlueBlockZ">
-                                            <param id="0" name="Object">BlueBlockT</param>
-                                        </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="693394773941790" type="BlueBlockZ">
-                                            <param id="0" name="Object">BrownBlockL</param>
-                                        </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="836038276009558" type="BlueBlockZ">
-                                            <param id="0" name="Object">GreenBlockM</param>
-                                        </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="278765486681613" type="BlueBlockZ">
-                                            <param id="0" name="Object">PurpleBlockT</param>
-                                        </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="299942310539581" type="BlueBlockZ">
-                                            <param id="0" name="Object">RedBlockZ</param>
-                                        </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="156114770448452" type="BlueBlockZ">
-                                            <param id="0" name="Object">YellowBlockL</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-3" name="Set position" sid="958871222179927" type="BlueBlockZ">
-                                            <param id="0" name="X">Self.originX</param>
-                                            <param id="1" name="Y">Self.originY</param>
-                                        </action>
-                                        <action id="9" name="Set scale" sid="238529790033014" type="BlueBlockZ">
-                                            <param id="0" name="Scale">0.8</param>
-                                        </action>
-                                    </actions>
-                                </event-block>
-                            </sub-events>
-                        </event-block>
-                    </sub-events>
-                </event-block>
-            </sub-events>
-        </event-group>
-        <event-group description="" sid="925232682621670" title="BrownBlockLGroup2">
-            <sub-events>
-                <event-block sid="953432985506948">
-                    <conditions>
-                        <condition behavior="DragDrop" id="1" name="On drag start" sid="730153297734664" type="BrownBlockL" />
-                    </conditions>
-                    <actions>
-                        <action id="-24" name="Move to top" sid="127874159655011" type="BrownBlockL" />
-                        <action id="-9" name="Set value" sid="439880469812413" type="System">
-                            <param id="0" name="Variable">PlacedBlock</param>
-                            <param id="1" name="Value">PlacedBlock - 1</param>
-                        </action>
-                        <action id="-10" name="Set value" sid="231009889532799" type="BrownBlockL">
-                            <param id="0" name="Instance variable">prevX</param>
-                            <param id="1" name="Value">Self.X</param>
-                        </action>
-                        <action id="-10" name="Set value" sid="569632749516368" type="BrownBlockL">
-                            <param id="0" name="Instance variable">prevY</param>
-                            <param id="1" name="Value">Self.Y</param>
-                        </action>
-                        <action id="9" name="Set scale" sid="516270023704473" type="BrownBlockL">
-                            <param id="0" name="Scale">1</param>
-                        </action>
-                    </actions>
-                </event-block>
-                <event-block sid="769614649299998">
-                    <conditions>
-                        <condition behavior="DragDrop" id="2" name="On drop" sid="130256004743629" type="BrownBlockL" />
-                    </conditions>
-                    <actions>
-                        <action id="-9" name="Set value" sid="414705316541706" type="System">
-                            <param id="0" name="Variable">PlacedBlock</param>
-                            <param id="1" name="Value">PlacedBlock + 1</param>
-                        </action>
-                    </actions>
-                    <sub-events>
-                        <event-block sid="478987411931631">
-                            <conditions>
-                                <condition id="-1" name="Compare X" sid="152693236074287" type="BrownBlockL">
-                                    <param id="0" name="Comparison">5</param>
-                                    <param id="1" name="X co-ordinate">516</param>
-                                </condition>
-                                <condition id="-1" name="Compare X" sid="176608454492412" type="BrownBlockL">
-                                    <param id="0" name="Comparison">3</param>
-                                    <param id="1" name="X co-ordinate">546</param>
-                                </condition>
-                                <condition id="-2" name="Compare Y" sid="444509296630495" type="BrownBlockL">
-                                    <param id="0" name="Comparison">5</param>
-                                    <param id="1" name="Y co-ordinate">628</param>
-                                </condition>
-                                <condition id="-2" name="Compare Y" sid="118040021780587" type="BrownBlockL">
-                                    <param id="0" name="Comparison">3</param>
-                                    <param id="1" name="Y co-ordinate">668</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-3" name="Set position" sid="766142131299500" type="BrownBlockL">
-                                    <param id="0" name="X">526</param>
-                                    <param id="1" name="Y">638</param>
-                                </action>
-                                <action behavior="DragDrop" id="0" name="Set enabled" sid="455327866386344" type="BrownBlockL">
-                                    <param id="0" name="State">0</param>
-                                </action>
-                                <action id="9" name="Set scale" sid="548512147610051" type="BrownBlockL">
-                                    <param id="0" name="Scale">1</param>
-                                </action>
-                                <action id="-9" name="Set value" sid="998612723703804" type="System">
-                                    <param id="0" name="Variable">PlacedBlock</param>
-                                    <param id="1" name="Value">PlacedBlock + 1</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block any="1" sid="319839360011833">
-                            <conditions>
-                                <condition id="-1" name="Compare X" sid="977162443557646" type="BrownBlockL">
-                                    <param id="0" name="Comparison">2</param>
-                                    <param id="1" name="X co-ordinate">516</param>
-                                </condition>
-                                <condition id="-1" name="Compare X" sid="113140294088816" type="BrownBlockL">
-                                    <param id="0" name="Comparison">4</param>
-                                    <param id="1" name="X co-ordinate">615</param>
-                                </condition>
-                                <condition id="-2" name="Compare Y" sid="991482167016183" type="BrownBlockL">
-                                    <param id="0" name="Comparison">2</param>
-                                    <param id="1" name="Y co-ordinate">628</param>
-                                </condition>
-                                <condition id="-2" name="Compare Y" sid="154352056389493" type="BrownBlockL">
-                                    <param id="0" name="Comparison">4</param>
-                                    <param id="1" name="Y co-ordinate">967</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="-3" name="Set position" sid="602547137546531" type="BrownBlockL">
-                                    <param id="0" name="X">Self.originX</param>
-                                    <param id="1" name="Y">Self.originY</param>
-                                </action>
-                                <action id="9" name="Set scale" sid="692177948789435" type="BrownBlockL">
-                                    <param id="0" name="Scale">0.8</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="956914073950913">
-                            <conditions>
-                                <condition id="11" name="Collisions enabled" sid="243963552822979" type="BrownBlockL" />
-                                <condition behavior="DragDrop" id="3" name="Is enabled" sid="803070799719846" type="BrownBlockL" />
-                            </conditions>
-                            <actions />
-                            <sub-events>
-                                <event-block any="1" sid="871388029001110">
-                                    <conditions>
-                                        <condition id="1" name="Is overlapping another object" sid="881058485899668" type="BrownBlockL">
-                                            <param id="0" name="Object">BlueBlockT</param>
-                                        </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="107088001645630" type="BrownBlockL">
-                                            <param id="0" name="Object">BlueBlockZ</param>
-                                        </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="432236390449726" type="BrownBlockL">
-                                            <param id="0" name="Object">GreenBlockM</param>
-                                        </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="236737338439036" type="BrownBlockL">
-                                            <param id="0" name="Object">PurpleBlockT</param>
-                                        </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="960843260640241" type="BrownBlockL">
-                                            <param id="0" name="Object">RedBlockZ</param>
-                                        </condition>
-                                        <condition id="1" name="Is overlapping another object" sid="276138280086866" type="BrownBlockL">
-                                            <param id="0" name="Object">YellowBlockL</param>
-                                        </condition>
-                                    </conditions>
-                                    <actions>
-                                        <action id="-3" name="Set position" sid="265262281566375" type="BrownBlockL">
-                                            <param id="0" name="X">Self.originX</param>
-                                            <param id="1" name="Y">Self.originY</param>
-                                        </action>
-                                        <action id="9" name="Set scale" sid="814666381006401" type="BrownBlockL">
+                                        <action id="9" name="Set scale" sid="382518900387673" type="YellowBlockHard">
                                             <param id="0" name="Scale">0.8</param>
                                         </action>
                                     </actions>
@@ -1653,7 +1673,7 @@
                             </conditions>
                             <actions>
                                 <action id="-2" name="Go to layout" sid="288703357350668" type="System">
-                                    <param id="0" name="Layout">EasyLevel</param>
+                                    <param id="0" name="Layout">HardLevel</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -1689,83 +1709,83 @@
                 <event-block sid="491000253653879">
                     <conditions>
                         <condition id="18" name="On double-tap object" sid="711960193616766" type="Touch">
-                            <param id="0" name="Object">YellowBlockL</param>
+                            <param id="0" name="Object">BlueBlockHard</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-18" name="Rotate clockwise" sid="506188360050866" type="YellowBlockL">
+                        <action id="-18" name="Rotate clockwise" sid="506188360050866" type="BlueBlockHard">
                             <param id="0" name="Degrees">180</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="122590665814187">
+                <event-block sid="977157010940473">
                     <conditions>
-                        <condition id="18" name="On double-tap object" sid="231591748285775" type="Touch">
-                            <param id="0" name="Object">RedBlockZ</param>
+                        <condition id="18" name="On double-tap object" sid="715253060953021" type="Touch">
+                            <param id="0" name="Object">LBlueBlockHard</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-18" name="Rotate clockwise" sid="382212360135343" type="RedBlockZ">
+                        <action id="-18" name="Rotate clockwise" sid="754294575157132" type="LBlueBlockHard">
                             <param id="0" name="Degrees">180</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="274385623122112">
+                <event-block sid="639646899414205">
                     <conditions>
-                        <condition id="18" name="On double-tap object" sid="355976251957856" type="Touch">
-                            <param id="0" name="Object">BlueBlockT</param>
+                        <condition id="18" name="On double-tap object" sid="322074717603199" type="Touch">
+                            <param id="0" name="Object">BrownBlockHard</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-18" name="Rotate clockwise" sid="156439708869919" type="BlueBlockT">
+                        <action id="-18" name="Rotate clockwise" sid="747841506274741" type="BrownBlockHard">
                             <param id="0" name="Degrees">180</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="403423200343383">
+                <event-block sid="912019445034963">
                     <conditions>
-                        <condition id="18" name="On double-tap object" sid="448822044199217" type="Touch">
-                            <param id="0" name="Object">GreenBlockM</param>
+                        <condition id="18" name="On double-tap object" sid="443129382412709" type="Touch">
+                            <param id="0" name="Object">GreenBlockHard</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-18" name="Rotate clockwise" sid="433347786991979" type="GreenBlockM">
+                        <action id="-18" name="Rotate clockwise" sid="572428529493025" type="GreenBlockHard">
                             <param id="0" name="Degrees">180</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="355878661121902">
+                <event-block sid="860064207317702">
                     <conditions>
-                        <condition id="18" name="On double-tap object" sid="341330837820348" type="Touch">
-                            <param id="0" name="Object">BrownBlockL</param>
+                        <condition id="18" name="On double-tap object" sid="751213873570262" type="Touch">
+                            <param id="0" name="Object">PurpleBlockHard</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-18" name="Rotate clockwise" sid="831605186084479" type="BrownBlockL">
+                        <action id="-18" name="Rotate clockwise" sid="450616896429762" type="PurpleBlockHard">
                             <param id="0" name="Degrees">180</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="113207659634149">
+                <event-block sid="949777839143408">
                     <conditions>
-                        <condition id="18" name="On double-tap object" sid="937080309778474" type="Touch">
-                            <param id="0" name="Object">BlueBlockZ</param>
+                        <condition id="18" name="On double-tap object" sid="335893243698065" type="Touch">
+                            <param id="0" name="Object">RedBlockHard</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-18" name="Rotate clockwise" sid="651963742909887" type="BlueBlockZ">
+                        <action id="-18" name="Rotate clockwise" sid="991556732090112" type="RedBlockHard">
                             <param id="0" name="Degrees">180</param>
                         </action>
                     </actions>
                 </event-block>
-                <event-block sid="182335218841274">
+                <event-block sid="661468696385690">
                     <conditions>
-                        <condition id="18" name="On double-tap object" sid="129320719995694" type="Touch">
-                            <param id="0" name="Object">PurpleBlockT</param>
+                        <condition id="18" name="On double-tap object" sid="969613647415941" type="Touch">
+                            <param id="0" name="Object">YellowBlockHard</param>
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-18" name="Rotate clockwise" sid="392906134736499" type="PurpleBlockT">
+                        <action id="-18" name="Rotate clockwise" sid="498393682977608" type="YellowBlockHard">
                             <param id="0" name="Degrees">180</param>
                         </action>
                     </actions>
@@ -1838,18 +1858,18 @@
                             <sub-events>
                                 <event-block sid="332724510044188">
                                     <conditions>
-                                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="753220269403149" type="YellowBlockL" />
+                                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="753220269403149" type="BlueBlockHard" />
                                     </conditions>
                                     <actions>
-                                        <action id="-10" name="Set value" sid="548613317073098" type="YellowBlockL">
+                                        <action id="-10" name="Set value" sid="548613317073098" type="BlueBlockHard">
                                             <param id="0" name="Instance variable">nextX</param>
                                             <param id="1" name="Value">Self.X</param>
                                         </action>
-                                        <action id="-10" name="Set value" sid="740959493686883" type="YellowBlockL">
+                                        <action id="-10" name="Set value" sid="740959493686883" type="BlueBlockHard">
                                             <param id="0" name="Instance variable">nextY</param>
                                             <param id="1" name="Value">Self.Y</param>
                                         </action>
-                                        <action id="-3" name="Set position" sid="750264771327416" type="YellowBlockL">
+                                        <action id="-3" name="Set position" sid="750264771327416" type="BlueBlockHard">
                                             <param id="0" name="X">Self.prevX</param>
                                             <param id="1" name="Y">Self.prevY</param>
                                         </action>
@@ -1857,18 +1877,18 @@
                                 </event-block>
                                 <event-block sid="418448183941821">
                                     <conditions>
-                                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="658241843042729" type="BlueBlockT" />
+                                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="658241843042729" type="BrownBlockHard" />
                                     </conditions>
                                     <actions>
-                                        <action id="-10" name="Set value" sid="200021768824355" type="BlueBlockT">
+                                        <action id="-10" name="Set value" sid="200021768824355" type="BrownBlockHard">
                                             <param id="0" name="Instance variable">nextX</param>
                                             <param id="1" name="Value">Self.X</param>
                                         </action>
-                                        <action id="-10" name="Set value" sid="147562657050312" type="BlueBlockT">
+                                        <action id="-10" name="Set value" sid="147562657050312" type="BrownBlockHard">
                                             <param id="0" name="Instance variable">nextY</param>
                                             <param id="1" name="Value">Self.Y</param>
                                         </action>
-                                        <action id="-3" name="Set position" sid="538421710534766" type="BlueBlockT">
+                                        <action id="-3" name="Set position" sid="538421710534766" type="BrownBlockHard">
                                             <param id="0" name="X">Self.prevX</param>
                                             <param id="1" name="Y">Self.prevY</param>
                                         </action>
@@ -1876,18 +1896,18 @@
                                 </event-block>
                                 <event-block sid="779872566068222">
                                     <conditions>
-                                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="422056708438382" type="BlueBlockZ" />
+                                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="422056708438382" type="GreenBlockHard" />
                                     </conditions>
                                     <actions>
-                                        <action id="-10" name="Set value" sid="809224455944967" type="BlueBlockZ">
+                                        <action id="-10" name="Set value" sid="809224455944967" type="GreenBlockHard">
                                             <param id="0" name="Instance variable">nextX</param>
                                             <param id="1" name="Value">Self.X</param>
                                         </action>
-                                        <action id="-10" name="Set value" sid="124219054294778" type="BlueBlockZ">
+                                        <action id="-10" name="Set value" sid="124219054294778" type="GreenBlockHard">
                                             <param id="0" name="Instance variable">nextY</param>
                                             <param id="1" name="Value">Self.Y</param>
                                         </action>
-                                        <action id="-3" name="Set position" sid="453946665670271" type="BlueBlockZ">
+                                        <action id="-3" name="Set position" sid="453946665670271" type="GreenBlockHard">
                                             <param id="0" name="X">Self.prevX</param>
                                             <param id="1" name="Y">Self.prevY</param>
                                         </action>
@@ -1895,18 +1915,18 @@
                                 </event-block>
                                 <event-block sid="247213600968879">
                                     <conditions>
-                                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="150713258623411" type="BrownBlockL" />
+                                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="150713258623411" type="LBlueBlockHard" />
                                     </conditions>
                                     <actions>
-                                        <action id="-10" name="Set value" sid="634268973553095" type="BrownBlockL">
+                                        <action id="-10" name="Set value" sid="634268973553095" type="LBlueBlockHard">
                                             <param id="0" name="Instance variable">nextX</param>
                                             <param id="1" name="Value">Self.X</param>
                                         </action>
-                                        <action id="-10" name="Set value" sid="192835370638437" type="BrownBlockL">
+                                        <action id="-10" name="Set value" sid="192835370638437" type="LBlueBlockHard">
                                             <param id="0" name="Instance variable">nextY</param>
                                             <param id="1" name="Value">Self.Y</param>
                                         </action>
-                                        <action id="-3" name="Set position" sid="397934041711051" type="BrownBlockL">
+                                        <action id="-3" name="Set position" sid="397934041711051" type="LBlueBlockHard">
                                             <param id="0" name="X">Self.prevX</param>
                                             <param id="1" name="Y">Self.prevY</param>
                                         </action>
@@ -1914,18 +1934,18 @@
                                 </event-block>
                                 <event-block sid="744244091495422">
                                     <conditions>
-                                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="769153727525151" type="GreenBlockM" />
+                                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="769153727525151" type="PurpleBlockHard" />
                                     </conditions>
                                     <actions>
-                                        <action id="-10" name="Set value" sid="925960949516641" type="GreenBlockM">
+                                        <action id="-10" name="Set value" sid="925960949516641" type="PurpleBlockHard">
                                             <param id="0" name="Instance variable">nextX</param>
                                             <param id="1" name="Value">Self.X</param>
                                         </action>
-                                        <action id="-10" name="Set value" sid="576175506766404" type="GreenBlockM">
+                                        <action id="-10" name="Set value" sid="576175506766404" type="PurpleBlockHard">
                                             <param id="0" name="Instance variable">nextY</param>
                                             <param id="1" name="Value">Self.Y</param>
                                         </action>
-                                        <action id="-3" name="Set position" sid="873383264457748" type="GreenBlockM">
+                                        <action id="-3" name="Set position" sid="873383264457748" type="PurpleBlockHard">
                                             <param id="0" name="X">Self.prevX</param>
                                             <param id="1" name="Y">Self.prevY</param>
                                         </action>
@@ -1933,18 +1953,18 @@
                                 </event-block>
                                 <event-block sid="475209464044025">
                                     <conditions>
-                                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="346785822383204" type="PurpleBlockT" />
+                                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="346785822383204" type="RedBlockHard" />
                                     </conditions>
                                     <actions>
-                                        <action id="-10" name="Set value" sid="447582946537341" type="PurpleBlockT">
+                                        <action id="-10" name="Set value" sid="447582946537341" type="RedBlockHard">
                                             <param id="0" name="Instance variable">nextX</param>
                                             <param id="1" name="Value">Self.X</param>
                                         </action>
-                                        <action id="-10" name="Set value" sid="648217722798934" type="PurpleBlockT">
+                                        <action id="-10" name="Set value" sid="648217722798934" type="RedBlockHard">
                                             <param id="0" name="Instance variable">nextY</param>
                                             <param id="1" name="Value">Self.Y</param>
                                         </action>
-                                        <action id="-3" name="Set position" sid="240025036424760" type="PurpleBlockT">
+                                        <action id="-3" name="Set position" sid="240025036424760" type="RedBlockHard">
                                             <param id="0" name="X">Self.prevX</param>
                                             <param id="1" name="Y">Self.prevY</param>
                                         </action>
@@ -1952,18 +1972,18 @@
                                 </event-block>
                                 <event-block sid="710774098097430">
                                     <conditions>
-                                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="666601981922488" type="RedBlockZ" />
+                                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="666601981922488" type="YellowBlockHard" />
                                     </conditions>
                                     <actions>
-                                        <action id="-10" name="Set value" sid="784827690624625" type="RedBlockZ">
+                                        <action id="-10" name="Set value" sid="784827690624625" type="YellowBlockHard">
                                             <param id="0" name="Instance variable">nextX</param>
                                             <param id="1" name="Value">Self.X</param>
                                         </action>
-                                        <action id="-10" name="Set value" sid="646384723638629" type="RedBlockZ">
+                                        <action id="-10" name="Set value" sid="646384723638629" type="YellowBlockHard">
                                             <param id="0" name="Instance variable">nextY</param>
                                             <param id="1" name="Value">Self.Y</param>
                                         </action>
-                                        <action id="-3" name="Set position" sid="245501168438563" type="RedBlockZ">
+                                        <action id="-3" name="Set position" sid="245501168438563" type="YellowBlockHard">
                                             <param id="0" name="X">Self.prevX</param>
                                             <param id="1" name="Y">Self.prevY</param>
                                         </action>
@@ -2006,18 +2026,18 @@
                             <sub-events>
                                 <event-block sid="846773481556433">
                                     <conditions>
-                                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="505728924516345" type="YellowBlockL" />
+                                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="505728924516345" type="BlueBlockHard" />
                                     </conditions>
                                     <actions>
-                                        <action id="-10" name="Set value" sid="107914938385460" type="YellowBlockL">
+                                        <action id="-10" name="Set value" sid="107914938385460" type="BlueBlockHard">
                                             <param id="0" name="Instance variable">prevX</param>
                                             <param id="1" name="Value">Self.X</param>
                                         </action>
-                                        <action id="-10" name="Set value" sid="163090253245934" type="YellowBlockL">
+                                        <action id="-10" name="Set value" sid="163090253245934" type="BlueBlockHard">
                                             <param id="0" name="Instance variable">prevY</param>
                                             <param id="1" name="Value">Self.Y</param>
                                         </action>
-                                        <action id="-3" name="Set position" sid="823843757050332" type="YellowBlockL">
+                                        <action id="-3" name="Set position" sid="823843757050332" type="BlueBlockHard">
                                             <param id="0" name="X">Self.nextX</param>
                                             <param id="1" name="Y">Self.nextY</param>
                                         </action>
@@ -2025,18 +2045,18 @@
                                 </event-block>
                                 <event-block sid="229076961357130">
                                     <conditions>
-                                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="805251799130298" type="BlueBlockT" />
+                                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="805251799130298" type="BrownBlockHard" />
                                     </conditions>
                                     <actions>
-                                        <action id="-10" name="Set value" sid="687734412292566" type="BlueBlockT">
+                                        <action id="-10" name="Set value" sid="687734412292566" type="BrownBlockHard">
                                             <param id="0" name="Instance variable">prevX</param>
                                             <param id="1" name="Value">Self.X</param>
                                         </action>
-                                        <action id="-10" name="Set value" sid="362855307957709" type="BlueBlockT">
+                                        <action id="-10" name="Set value" sid="362855307957709" type="BrownBlockHard">
                                             <param id="0" name="Instance variable">prevY</param>
                                             <param id="1" name="Value">Self.Y</param>
                                         </action>
-                                        <action id="-3" name="Set position" sid="211993960167017" type="BlueBlockT">
+                                        <action id="-3" name="Set position" sid="211993960167017" type="BrownBlockHard">
                                             <param id="0" name="X">Self.nextX</param>
                                             <param id="1" name="Y">Self.nextY</param>
                                         </action>
@@ -2044,18 +2064,18 @@
                                 </event-block>
                                 <event-block sid="172317537621115">
                                     <conditions>
-                                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="610957002274695" type="BlueBlockZ" />
+                                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="610957002274695" type="GreenBlockHard" />
                                     </conditions>
                                     <actions>
-                                        <action id="-10" name="Set value" sid="334998555517894" type="BlueBlockZ">
+                                        <action id="-10" name="Set value" sid="334998555517894" type="GreenBlockHard">
                                             <param id="0" name="Instance variable">prevX</param>
                                             <param id="1" name="Value">Self.X</param>
                                         </action>
-                                        <action id="-10" name="Set value" sid="389685705267988" type="BlueBlockZ">
+                                        <action id="-10" name="Set value" sid="389685705267988" type="GreenBlockHard">
                                             <param id="0" name="Instance variable">prevY</param>
                                             <param id="1" name="Value">Self.Y</param>
                                         </action>
-                                        <action id="-3" name="Set position" sid="493538482532213" type="BlueBlockZ">
+                                        <action id="-3" name="Set position" sid="493538482532213" type="GreenBlockHard">
                                             <param id="0" name="X">Self.nextX</param>
                                             <param id="1" name="Y">Self.nextY</param>
                                         </action>
@@ -2063,18 +2083,18 @@
                                 </event-block>
                                 <event-block sid="981842632806956">
                                     <conditions>
-                                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="224929117132443" type="BrownBlockL" />
+                                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="224929117132443" type="LBlueBlockHard" />
                                     </conditions>
                                     <actions>
-                                        <action id="-10" name="Set value" sid="251637041425184" type="BrownBlockL">
+                                        <action id="-10" name="Set value" sid="251637041425184" type="LBlueBlockHard">
                                             <param id="0" name="Instance variable">prevX</param>
                                             <param id="1" name="Value">Self.X</param>
                                         </action>
-                                        <action id="-10" name="Set value" sid="594993274319370" type="BrownBlockL">
+                                        <action id="-10" name="Set value" sid="594993274319370" type="LBlueBlockHard">
                                             <param id="0" name="Instance variable">prevY</param>
                                             <param id="1" name="Value">Self.Y</param>
                                         </action>
-                                        <action id="-3" name="Set position" sid="194739373493148" type="BrownBlockL">
+                                        <action id="-3" name="Set position" sid="194739373493148" type="LBlueBlockHard">
                                             <param id="0" name="X">Self.nextX</param>
                                             <param id="1" name="Y">Self.nextY</param>
                                         </action>
@@ -2082,18 +2102,18 @@
                                 </event-block>
                                 <event-block sid="462874204286273">
                                     <conditions>
-                                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="115635948695793" type="GreenBlockM" />
+                                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="115635948695793" type="PurpleBlockHard" />
                                     </conditions>
                                     <actions>
-                                        <action id="-10" name="Set value" sid="154820748989708" type="GreenBlockM">
+                                        <action id="-10" name="Set value" sid="154820748989708" type="PurpleBlockHard">
                                             <param id="0" name="Instance variable">prevX</param>
                                             <param id="1" name="Value">Self.X</param>
                                         </action>
-                                        <action id="-10" name="Set value" sid="593465551693814" type="GreenBlockM">
+                                        <action id="-10" name="Set value" sid="593465551693814" type="PurpleBlockHard">
                                             <param id="0" name="Instance variable">prevY</param>
                                             <param id="1" name="Value">Self.Y</param>
                                         </action>
-                                        <action id="-3" name="Set position" sid="359240961525470" type="GreenBlockM">
+                                        <action id="-3" name="Set position" sid="359240961525470" type="PurpleBlockHard">
                                             <param id="0" name="X">Self.nextX</param>
                                             <param id="1" name="Y">Self.nextY</param>
                                         </action>
@@ -2101,18 +2121,18 @@
                                 </event-block>
                                 <event-block sid="192197401759760">
                                     <conditions>
-                                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="556699487092842" type="PurpleBlockT" />
+                                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="556699487092842" type="RedBlockHard" />
                                     </conditions>
                                     <actions>
-                                        <action id="-10" name="Set value" sid="494376450851541" type="PurpleBlockT">
+                                        <action id="-10" name="Set value" sid="494376450851541" type="RedBlockHard">
                                             <param id="0" name="Instance variable">prevX</param>
                                             <param id="1" name="Value">Self.X</param>
                                         </action>
-                                        <action id="-10" name="Set value" sid="831256597645009" type="PurpleBlockT">
+                                        <action id="-10" name="Set value" sid="831256597645009" type="RedBlockHard">
                                             <param id="0" name="Instance variable">prevY</param>
                                             <param id="1" name="Value">Self.Y</param>
                                         </action>
-                                        <action id="-3" name="Set position" sid="732525489707319" type="PurpleBlockT">
+                                        <action id="-3" name="Set position" sid="732525489707319" type="RedBlockHard">
                                             <param id="0" name="X">Self.nextX</param>
                                             <param id="1" name="Y">Self.nextY</param>
                                         </action>
@@ -2120,18 +2140,18 @@
                                 </event-block>
                                 <event-block sid="667748361600627">
                                     <conditions>
-                                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="466343244468665" type="RedBlockZ" />
+                                        <condition behavior="DragDrop" id="3" name="Is enabled" sid="466343244468665" type="YellowBlockHard" />
                                     </conditions>
                                     <actions>
-                                        <action id="-10" name="Set value" sid="276366586629481" type="RedBlockZ">
+                                        <action id="-10" name="Set value" sid="276366586629481" type="YellowBlockHard">
                                             <param id="0" name="Instance variable">prevX</param>
                                             <param id="1" name="Value">Self.X</param>
                                         </action>
-                                        <action id="-10" name="Set value" sid="460518068868373" type="RedBlockZ">
+                                        <action id="-10" name="Set value" sid="460518068868373" type="YellowBlockHard">
                                             <param id="0" name="Instance variable">prevY</param>
                                             <param id="1" name="Value">Self.Y</param>
                                         </action>
-                                        <action id="-3" name="Set position" sid="456343283310443" type="RedBlockZ">
+                                        <action id="-3" name="Set position" sid="456343283310443" type="YellowBlockHard">
                                             <param id="0" name="X">Self.nextX</param>
                                             <param id="1" name="Y">Self.nextY</param>
                                         </action>

@@ -47,6 +47,267 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
+        <object-folder name="HardBlock">
+            <object-type name="BlueBlockHard" sid="479460234336426">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="sequence" sid="864114489842354" type="number" />
+                    <instance-variable name="originX" sid="152547477324432" type="number" />
+                    <instance-variable name="originY" sid="343237979222090" type="number" />
+                    <instance-variable name="rotated" sid="779735245478519" type="number" />
+                    <instance-variable name="prevX" sid="336517389732980" type="number" />
+                    <instance-variable name="prevY" sid="470930936518268" type="number" />
+                    <instance-variable name="nextX" sid="673190392107847" type="number" />
+                    <instance-variable name="nextY" sid="881507918545950" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="902116527542702">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                    <behavior-type name="Pin" sid="758461269748600">
+                        <behavior id="Pin" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="473657296810885" speed="5">
+                        <frame duration="1" hotspotX="0.506173" hotspotY="0.728395" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\PSD-Design\Export\HardBlock\BlueBlock.png">
+                            <collision-poly>
+                                <point x="0.0389344" y="0.01227" />
+                                <point x="0.5" y="0.364008" />
+                                <point x="0.469262" y="0.339468" />
+                                <point x="0.506148" y="0.503067" />
+                                <point x="0.961066" y="0.993865" />
+                                <point x="0.5" y="0.642127" />
+                                <point x="0.0389344" y="0.993865" />
+                                <point x="0.0143442" y="0.503067" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="LBlueBlockHard" sid="524110941916313">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="sequence" sid="507556800386665" type="number" />
+                    <instance-variable name="originX" sid="978430526570567" type="number" />
+                    <instance-variable name="originY" sid="890620481160455" type="number" />
+                    <instance-variable name="rotated" sid="295178564213501" type="number" />
+                    <instance-variable name="prevX" sid="717982167695249" type="number" />
+                    <instance-variable name="prevY" sid="169243284930094" type="number" />
+                    <instance-variable name="nextX" sid="114838401918594" type="number" />
+                    <instance-variable name="nextY" sid="630288483756707" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="568551282073128">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                    <behavior-type name="Pin" sid="915381019108383">
+                        <behavior id="Pin" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="403918866249137" speed="5">
+                        <frame duration="1" hotspotX="0.248447" hotspotY="0.757764" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\PSD-Design\Export\HardBlock\BlueBlockL.png">
+                            <collision-poly>
+                                <point x="0.0389344" y="0.01227" />
+                                <point x="0.5" y="0.364008" />
+                                <point x="0.469262" y="0.339468" />
+                                <point x="0.506148" y="0.503067" />
+                                <point x="0.961066" y="0.993865" />
+                                <point x="0.5" y="0.642127" />
+                                <point x="0.0389344" y="0.993865" />
+                                <point x="0.0143442" y="0.503067" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="BrownBlockHard" sid="752658067111561">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="sequence" sid="768129895492804" type="number" />
+                    <instance-variable name="originX" sid="285458159104898" type="number" />
+                    <instance-variable name="originY" sid="881391694091649" type="number" />
+                    <instance-variable name="rotated" sid="837817308265839" type="number" />
+                    <instance-variable name="prevX" sid="590617230789621" type="number" />
+                    <instance-variable name="prevY" sid="822128848595461" type="number" />
+                    <instance-variable name="nextX" sid="682334158166737" type="number" />
+                    <instance-variable name="nextY" sid="131393867482537" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="665695462016972">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                    <behavior-type name="Pin" sid="209104827596913">
+                        <behavior id="Pin" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="555045200413628" speed="5">
+                        <frame duration="1" hotspotX="0.534979" hotspotY="0.660494" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\PSD-Design\Export\HardBlock\BrownBlock.png">
+                            <collision-poly>
+                                <point x="0.0389344" y="0.01227" />
+                                <point x="0.5" y="0.364008" />
+                                <point x="0.469262" y="0.339468" />
+                                <point x="0.506148" y="0.503067" />
+                                <point x="0.961066" y="0.993865" />
+                                <point x="0.5" y="0.642127" />
+                                <point x="0.0389344" y="0.993865" />
+                                <point x="0.0143442" y="0.503067" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="GreenBlockHard" sid="688834444133273">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="sequence" sid="668860166915840" type="number" />
+                    <instance-variable name="originX" sid="231150670554485" type="number" />
+                    <instance-variable name="originY" sid="251946645262455" type="number" />
+                    <instance-variable name="rotated" sid="492207483784364" type="number" />
+                    <instance-variable name="prevX" sid="573727985025990" type="number" />
+                    <instance-variable name="prevY" sid="923918802080548" type="number" />
+                    <instance-variable name="nextX" sid="864666541499936" type="number" />
+                    <instance-variable name="nextY" sid="521072263122888" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="512494556046953">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                    <behavior-type name="Pin" sid="500220027775872">
+                        <behavior id="Pin" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="959623689979519" speed="5">
+                        <frame duration="1" hotspotX="0.518519" hotspotY="0.493827" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\PSD-Design\Export\HardBlock\GreenBlock.png">
+                            <collision-poly>
+                                <point x="0.0389344" y="0.01227" />
+                                <point x="0.5" y="0.364008" />
+                                <point x="0.469262" y="0.339468" />
+                                <point x="0.506148" y="0.503067" />
+                                <point x="0.961066" y="0.993865" />
+                                <point x="0.5" y="0.642127" />
+                                <point x="0.0389344" y="0.993865" />
+                                <point x="0.0143442" y="0.503067" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="PurpleBlockHard" sid="740366056326025">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="sequence" sid="992144841728423" type="number" />
+                    <instance-variable name="originX" sid="551264902003462" type="number" />
+                    <instance-variable name="originY" sid="124684586811005" type="number" />
+                    <instance-variable name="rotated" sid="656511968773876" type="number" />
+                    <instance-variable name="prevX" sid="592548545994113" type="number" />
+                    <instance-variable name="prevY" sid="337370916672281" type="number" />
+                    <instance-variable name="nextX" sid="442923209971039" type="number" />
+                    <instance-variable name="nextY" sid="267172388220916" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="412455040739135">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                    <behavior-type name="Pin" sid="821119161962057">
+                        <behavior id="Pin" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="171680378235377" speed="5">
+                        <frame duration="1" hotspotX="0.514403" hotspotY="0.506173" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\PSD-Design\Export\HardBlock\PurpleBlock.png">
+                            <collision-poly>
+                                <point x="0.0389344" y="0.01227" />
+                                <point x="0.5" y="0.364008" />
+                                <point x="0.469262" y="0.339468" />
+                                <point x="0.506148" y="0.503067" />
+                                <point x="0.961066" y="0.993865" />
+                                <point x="0.5" y="0.642127" />
+                                <point x="0.0389344" y="0.993865" />
+                                <point x="0.0143442" y="0.503067" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="RedBlockHard" sid="680985029364835">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="sequence" sid="906246783629580" type="number" />
+                    <instance-variable name="originX" sid="373565780520235" type="number" />
+                    <instance-variable name="originY" sid="836543739189235" type="number" />
+                    <instance-variable name="rotated" sid="986045792493051" type="number" />
+                    <instance-variable name="prevX" sid="786665230717172" type="number" />
+                    <instance-variable name="prevY" sid="636584353468860" type="number" />
+                    <instance-variable name="nextX" sid="360804804556256" type="number" />
+                    <instance-variable name="nextY" sid="116658608697529" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="521684639150210">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                    <behavior-type name="Pin" sid="424996378822168">
+                        <behavior id="Pin" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="280235311741400" speed="5">
+                        <frame duration="1" hotspotX="0.496914" hotspotY="0.228395" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\PSD-Design\Export\HardBlock\RedBlock.png">
+                            <collision-poly>
+                                <point x="0.0389344" y="0.01227" />
+                                <point x="0.5" y="0.364008" />
+                                <point x="0.469262" y="0.339468" />
+                                <point x="0.506148" y="0.503067" />
+                                <point x="0.961066" y="0.993865" />
+                                <point x="0.5" y="0.642127" />
+                                <point x="0.0389344" y="0.993865" />
+                                <point x="0.0143442" y="0.503067" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="YellowBlockHard" sid="350782466744846">
+                <plugin id="Sprite" />
+                <instance-variables>
+                    <instance-variable name="sequence" sid="463425464832883" type="number" />
+                    <instance-variable name="originX" sid="407392719675782" type="number" />
+                    <instance-variable name="originY" sid="521735728862682" type="number" />
+                    <instance-variable name="rotated" sid="166522943927770" type="number" />
+                    <instance-variable name="prevX" sid="139639022309340" type="number" />
+                    <instance-variable name="prevY" sid="533903178777687" type="number" />
+                    <instance-variable name="nextX" sid="228018542585073" type="number" />
+                    <instance-variable name="nextY" sid="337183583848351" type="number" />
+                </instance-variables>
+                <behaviors>
+                    <behavior-type name="DragDrop" sid="614398457342466">
+                        <behavior id="DragnDrop" />
+                    </behavior-type>
+                    <behavior-type name="Pin" sid="117931377103574">
+                        <behavior id="Pin" />
+                    </behavior-type>
+                </behaviors>
+                <animation-folder>
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="416832272249801" speed="5">
+                        <frame duration="1" hotspotX="0.506173" hotspotY="0.489712" original-source="D:\!!dataKuliah\Semester4\PerancanganAntarMuka-TR\Asset\PSD-Design\Export\HardBlock\YelloBlockFork.png">
+                            <collision-poly>
+                                <point x="0.0389344" y="0.01227" />
+                                <point x="0.5" y="0.364008" />
+                                <point x="0.469262" y="0.339468" />
+                                <point x="0.506148" y="0.503067" />
+                                <point x="0.961066" y="0.993865" />
+                                <point x="0.5" y="0.642127" />
+                                <point x="0.0389344" y="0.993865" />
+                                <point x="0.0143442" y="0.503067" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
         <object-type name="AdBlockLogo" sid="452929455741554">
             <plugin id="Sprite" />
             <animation-folder>

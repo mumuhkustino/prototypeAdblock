@@ -534,7 +534,7 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>544</x>
+                        <x>543</x>
                         <y>1829</y>
                         <z>0</z>
                         <width>1098</width>
@@ -668,6 +668,293 @@
                         <hotspotX>0.496932507</hotspotX>
                         <hotspotY>0.444915265</hotspotY>
                         <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="GreenBlockHard" uid="294">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <sequence>0</sequence>
+                        <originX>0</originX>
+                        <originY>0</originY>
+                        <rotated>0</rotated>
+                        <prevX>0</prevX>
+                        <prevY>0</prevY>
+                        <nextX>0</nextX>
+                        <nextY>0</nextY>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="DragDrop">
+                            <properties>
+                                <axes>Both</axes>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>885</x>
+                        <y>1632</y>
+                        <z>0</z>
+                        <width>243</width>
+                        <height>243</height>
+                        <depth>0</depth>
+                        <hotspotX>0.518518507</hotspotX>
+                        <hotspotY>0.493827164</hotspotY>
+                        <angle>3.141592741</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="BrownBlockHard" uid="293">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <sequence>0</sequence>
+                        <originX>0</originX>
+                        <originY>0</originY>
+                        <rotated>0</rotated>
+                        <prevX>0</prevX>
+                        <prevY>0</prevY>
+                        <nextX>0</nextX>
+                        <nextY>0</nextY>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="DragDrop">
+                            <properties>
+                                <axes>Both</axes>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>607</x>
+                        <y>1700</y>
+                        <z>0</z>
+                        <width>243</width>
+                        <height>162</height>
+                        <depth>0</depth>
+                        <hotspotX>0.534979403</hotspotX>
+                        <hotspotY>0.660493851</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="LBlueBlockHard" uid="292">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <sequence>0</sequence>
+                        <originX>0</originX>
+                        <originY>0</originY>
+                        <rotated>0</rotated>
+                        <prevX>0</prevX>
+                        <prevY>0</prevY>
+                        <nextX>0</nextX>
+                        <nextY>0</nextY>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="DragDrop">
+                            <properties>
+                                <axes>Both</axes>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>341</x>
+                        <y>1713</y>
+                        <z>0</z>
+                        <width>161</width>
+                        <height>161</height>
+                        <depth>0</depth>
+                        <hotspotX>0.24844721</hotspotX>
+                        <hotspotY>0.757763982</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="BlueBlockHard" uid="288">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <sequence>0</sequence>
+                        <originX>0</originX>
+                        <originY>0</originY>
+                        <rotated>0</rotated>
+                        <prevX>0</prevX>
+                        <prevY>0</prevY>
+                        <nextX>0</nextX>
+                        <nextY>0</nextY>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="DragDrop">
+                            <properties>
+                                <axes>Both</axes>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>156</x>
+                        <y>1585</y>
+                        <z>0</z>
+                        <width>243</width>
+                        <height>243</height>
+                        <depth>0</depth>
+                        <hotspotX>0.506172836</hotspotX>
+                        <hotspotY>0.728395045</hotspotY>
+                        <angle>3.141592741</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="PurpleBlockHard" uid="295">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <sequence>0</sequence>
+                        <originX>0</originX>
+                        <originY>0</originY>
+                        <rotated>0</rotated>
+                        <prevX>0</prevX>
+                        <prevY>0</prevY>
+                        <nextX>0</nextX>
+                        <nextY>0</nextY>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="DragDrop">
+                            <properties>
+                                <axes>Both</axes>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>151</x>
+                        <y>1962</y>
+                        <z>0</z>
+                        <width>243</width>
+                        <height>243</height>
+                        <depth>0</depth>
+                        <hotspotX>0.514403284</hotspotX>
+                        <hotspotY>0.506172836</hotspotY>
+                        <angle>3.141592741</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="RedBlockHard" uid="296">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <sequence>0</sequence>
+                        <originX>0</originX>
+                        <originY>0</originY>
+                        <rotated>0</rotated>
+                        <prevX>0</prevX>
+                        <prevY>0</prevY>
+                        <nextX>0</nextX>
+                        <nextY>0</nextY>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="DragDrop">
+                            <properties>
+                                <axes>Both</axes>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>457</x>
+                        <y>1955</y>
+                        <z>0</z>
+                        <width>324</width>
+                        <height>162</height>
+                        <depth>0</depth>
+                        <hotspotX>0.496913582</hotspotX>
+                        <hotspotY>0.22839506</hotspotY>
+                        <angle>0</angle>
+                        <opacity>1</opacity>
+                    </world>
+                </instance>
+                <instance type="YellowBlockHard" uid="297">
+                    <properties>
+                        <initial-visibility>Visible</initial-visibility>
+                        <initial-animation>Default</initial-animation>
+                        <initial-frame>0</initial-frame>
+                        <collisions>Enabled</collisions>
+                    </properties>
+                    <instance-variables>
+                        <sequence>0</sequence>
+                        <originX>0</originX>
+                        <originY>0</originY>
+                        <rotated>0</rotated>
+                        <prevX>0</prevX>
+                        <prevY>0</prevY>
+                        <nextX>0</nextX>
+                        <nextY>0</nextY>
+                    </instance-variables>
+                    <behavior-instances>
+                        <behavior-instance type="DragDrop">
+                            <properties>
+                                <axes>Both</axes>
+                                <initial-state>Enabled</initial-state>
+                            </properties>
+                        </behavior-instance>
+                        <behavior-instance type="Pin" />
+                    </behavior-instances>
+                    <blend-mode>0</blend-mode>
+                    <effect-fallback>0</effect-fallback>
+                    <world>
+                        <x>767</x>
+                        <y>1956</y>
+                        <z>0</z>
+                        <width>243</width>
+                        <height>243</height>
+                        <depth>0</depth>
+                        <hotspotX>0.506172836</hotspotX>
+                        <hotspotY>0.48971194</hotspotY>
+                        <angle>3.141592741</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>

@@ -10,15 +10,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout order="5">EasyStage21</layout>
-        <layout active="1" order="7">HardStage1</layout>
-        <layout order="8">HardLevel</layout>
-        <event-sheet order="0">EasyStage21Event</event-sheet>
-        <event-sheet order="1">EventEasyLevel</event-sheet>
-        <event-sheet order="2">EventExpertLevel</event-sheet>
-        <event-sheet order="3">EventHardLevel</event-sheet>
-        <event-sheet order="4">EventMediumLevel</event-sheet>
-        <event-sheet order="6">HardStage1Event</event-sheet>
+        <layout active="1" order="0">HardStage1</layout>
+        <event-sheet order="1">HardStage1Event</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -29,12 +22,20 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     <families-expanded root="1" />
     <folders-expanded>
         <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="object-folder/HardBlock/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />
         <folder expanded="0" path="file-folder/" />
         <folder expanded="1" path="sound-folder/" />
         <folder expanded="1" path="music-folder/" />
         <folder expanded="0" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/BlueBlockHard/" />
+        <folder expanded="1" path="animation-folder/LBlueBlockHard/" />
+        <folder expanded="1" path="animation-folder/BrownBlockHard/" />
+        <folder expanded="1" path="animation-folder/GreenBlockHard/" />
+        <folder expanded="1" path="animation-folder/PurpleBlockHard/" />
+        <folder expanded="1" path="animation-folder/RedBlockHard/" />
+        <folder expanded="1" path="animation-folder/YellowBlockHard/" />
         <folder expanded="1" path="animation-folder/AdBlockLogo/" />
         <folder expanded="1" path="animation-folder/BackgroundImage/" />
         <folder expanded="1" path="animation-folder/StartButton/" />
