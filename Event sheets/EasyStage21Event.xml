@@ -322,6 +322,15 @@
                     <param id="0" name="Where">0</param>
                     <param id="1" name="Object">BlockOrigin</param>
                 </action>
+                <action id="-15" name="Set visible" sid="295200886447288" type="UndoButton">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="801785586427340" type="RedoButton">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="358615823649409" type="ResetButton">
+                    <param id="0" name="Visibility">1</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="861772942016722">
@@ -355,6 +364,15 @@
                 <action id="0" name="Call function" sid="935032980389866" type="Function">
                     <param id="0" name="Name">&quot;update.list&quot;</param>
                     <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="-15" name="Set visible" sid="717231038653111" type="UndoButton">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="665045287984573" type="RedoButton">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="660522302522608" type="ResetButton">
+                    <param id="0" name="Visibility">0</param>
                 </action>
             </actions>
         </event-block>
@@ -1951,6 +1969,7 @@
                         <condition id="4" name="Is touching object" sid="116711915318450" type="Touch">
                             <param id="0" name="Object">ResetButton</param>
                         </condition>
+                        <condition id="-9" name="Is visible" sid="995116781416641" type="ResetButton" />
                     </conditions>
                     <actions>
                         <action id="9" name="Set scale" sid="917319489942047" type="ResetButton">
@@ -1983,6 +2002,7 @@
                         <condition id="4" name="Is touching object" sid="281819714714371" type="Touch">
                             <param id="0" name="Object">UndoButton</param>
                         </condition>
+                        <condition id="-9" name="Is visible" sid="347766852773162" type="UndoButton" />
                     </conditions>
                     <actions>
                         <action id="9" name="Set scale" sid="447544198460567" type="UndoButton">
@@ -2151,6 +2171,7 @@
                         <condition id="4" name="Is touching object" sid="848992933322817" type="Touch">
                             <param id="0" name="Object">RedoButton</param>
                         </condition>
+                        <condition id="-9" name="Is visible" sid="188262998069069" type="RedoButton" />
                     </conditions>
                     <actions>
                         <action id="9" name="Set scale" sid="180854533132909" type="RedoButton">
@@ -2319,6 +2340,7 @@
                         <condition id="4" name="Is touching object" sid="385934835468819" type="Touch">
                             <param id="0" name="Object">HelpButtonCircle</param>
                         </condition>
+                        <condition id="-9" name="Is visible" sid="295017409015627" type="HelpButtonCircle" />
                     </conditions>
                     <actions>
                         <action id="9" name="Set scale" sid="214037182755972" type="HelpButtonCircle">
