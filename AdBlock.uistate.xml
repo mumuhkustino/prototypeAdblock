@@ -10,10 +10,12 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1" order="0">SplashScreen</layout>
-        <event-sheet order="1">EventChooseLevel</event-sheet>
-        <event-sheet order="2">EvtHelp</event-sheet>
-        <event-sheet order="0">HardStage1Event</event-sheet>
+        <layout order="0">SplashScreen</layout>
+        <layout order="4">EasyStage21</layout>
+        <event-sheet order="1">HardStage1Event</event-sheet>
+        <event-sheet order="2">EventChooseLevel</event-sheet>
+        <event-sheet order="3">EvtHelp</event-sheet>
+        <event-sheet active="1" order="5">EasyStage21Event</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
