@@ -689,6 +689,12 @@
                                     <param id="0" name="Variable">PlacedBlock</param>
                                     <param id="1" name="Value">PlacedBlock + 1</param>
                                 </action>
+                                <action id="0" name="Play" sid="627102604293287" type="Audio">
+                                    <param id="0" name="Audio file">zapsplat_foley_wood_panel_fall_over_hit_ground_002_29943</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block any="1" sid="812474930581119">
@@ -838,6 +844,12 @@
                                     <param id="0" name="Variable">PlacedBlock</param>
                                     <param id="1" name="Value">PlacedBlock + 1</param>
                                 </action>
+                                <action id="0" name="Play" sid="148640179087571" type="Audio">
+                                    <param id="0" name="Audio file">zapsplat_foley_wood_panel_fall_over_hit_ground_002_29943</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block any="1" sid="566717014056119">
@@ -982,6 +994,12 @@
                                 <action id="-9" name="Set value" sid="188467348801032" type="System">
                                     <param id="0" name="Variable">PlacedBlock</param>
                                     <param id="1" name="Value">PlacedBlock + 1</param>
+                                </action>
+                                <action id="0" name="Play" sid="927525400886670" type="Audio">
+                                    <param id="0" name="Audio file">zapsplat_foley_wood_panel_fall_over_hit_ground_002_29943</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -1128,6 +1146,12 @@
                                     <param id="0" name="Variable">PlacedBlock</param>
                                     <param id="1" name="Value">PlacedBlock + 1</param>
                                 </action>
+                                <action id="0" name="Play" sid="433626932325850" type="Audio">
+                                    <param id="0" name="Audio file">zapsplat_foley_wood_panel_fall_over_hit_ground_002_29943</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block any="1" sid="408991195890628">
@@ -1272,6 +1296,12 @@
                                 <action id="-9" name="Set value" sid="344871722166629" type="System">
                                     <param id="0" name="Variable">PlacedBlock</param>
                                     <param id="1" name="Value">PlacedBlock + 1</param>
+                                </action>
+                                <action id="0" name="Play" sid="910114498792849" type="Audio">
+                                    <param id="0" name="Audio file">zapsplat_foley_wood_panel_fall_over_hit_ground_002_29943</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -1418,6 +1448,12 @@
                                     <param id="0" name="Variable">PlacedBlock</param>
                                     <param id="1" name="Value">PlacedBlock + 1</param>
                                 </action>
+                                <action id="0" name="Play" sid="132267041075693" type="Audio">
+                                    <param id="0" name="Audio file">zapsplat_foley_wood_panel_fall_over_hit_ground_002_29943</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block any="1" sid="355299149268802">
@@ -1563,6 +1599,12 @@
                                     <param id="0" name="Variable">PlacedBlock</param>
                                     <param id="1" name="Value">PlacedBlock + 1</param>
                                 </action>
+                                <action id="0" name="Play" sid="473311295159821" type="Audio">
+                                    <param id="0" name="Audio file">zapsplat_foley_wood_panel_fall_over_hit_ground_002_29943</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block any="1" sid="167302289034101">
@@ -1648,43 +1690,7 @@
                     </conditions>
                     <actions>
                         <action id="9" name="Set scale" sid="401299297471997" type="PauseButton">
-                            <param id="0" name="Scale">0.8</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="557870262022009" type="System">
-                            <param id="0" name="Variable">isPause</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="-24" name="Move to top" sid="602420299927785" type="PauseBackground" />
-                        <action id="3" name="Start" sid="803067169510576" type="PauseBackground">
-                            <param id="0" name="From">1</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="552418106574799" type="ResumeButton">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="631188092338288" type="PauseScreenText">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="446785401602269" type="MainMenuButton">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="642977718892763" type="AdBlockLogo">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="-29" name="Move to object" sid="990063960994242" type="ResumeButton">
-                            <param id="0" name="Where">0</param>
-                            <param id="1" name="Object">PauseBackground</param>
-                        </action>
-                        <action id="-29" name="Move to object" sid="959526075749163" type="PauseScreenText">
-                            <param id="0" name="Where">0</param>
-                            <param id="1" name="Object">PauseBackground</param>
-                        </action>
-                        <action id="-29" name="Move to object" sid="754785942141689" type="MainMenuButton">
-                            <param id="0" name="Where">0</param>
-                            <param id="1" name="Object">PauseBackground</param>
-                        </action>
-                        <action id="-29" name="Move to object" sid="206174413022780" type="AdBlockLogo">
-                            <param id="0" name="Where">0</param>
-                            <param id="1" name="Object">PauseBackground</param>
+                            <param id="0" name="Scale">0.62</param>
                         </action>
                     </actions>
                     <sub-events>
@@ -1695,6 +1701,42 @@
                                 </condition>
                             </conditions>
                             <actions>
+                                <action id="-9" name="Set value" sid="557870262022009" type="System">
+                                    <param id="0" name="Variable">isPause</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-24" name="Move to top" sid="602420299927785" type="PauseBackground" />
+                                <action id="3" name="Start" sid="803067169510576" type="PauseBackground">
+                                    <param id="0" name="From">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="552418106574799" type="ResumeButton">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="631188092338288" type="PauseScreenText">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="446785401602269" type="MainMenuButton">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="642977718892763" type="AdBlockLogo">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="990063960994242" type="ResumeButton">
+                                    <param id="0" name="Where">0</param>
+                                    <param id="1" name="Object">PauseBackground</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="959526075749163" type="PauseScreenText">
+                                    <param id="0" name="Where">0</param>
+                                    <param id="1" name="Object">PauseBackground</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="754785942141689" type="MainMenuButton">
+                                    <param id="0" name="Where">0</param>
+                                    <param id="1" name="Object">PauseBackground</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="206174413022780" type="AdBlockLogo">
+                                    <param id="0" name="Where">0</param>
+                                    <param id="1" name="Object">PauseBackground</param>
+                                </action>
                                 <action id="7" name="Play (by name)" sid="206297226048230" type="Audio">
                                     <param id="0" name="Folder">1</param>
                                     <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
@@ -1713,21 +1755,8 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="273859809377475" type="System">
-                            <param id="0" name="Variable">isPause</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="-25" name="Move to bottom" sid="372971789486103" type="PauseBackground" />
                         <action id="9" name="Set scale" sid="548487227157645" type="ResumeButton">
-                            <param id="0" name="Scale">1.05</param>
-                        </action>
-                        <action id="-25" name="Move to bottom" sid="463701688640388" type="ResumeButton" />
-                        <action id="-15" name="Set visible" sid="166909902499728" type="PauseScreenText">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
-                        <action id="-25" name="Move to bottom" sid="739735262498357" type="MainMenuButton" />
-                        <action id="-15" name="Set visible" sid="982232762490341" type="AdBlockLogo">
-                            <param id="0" name="Visibility">0</param>
+                            <param id="0" name="Scale">0.8</param>
                         </action>
                     </actions>
                     <sub-events>
@@ -1739,6 +1768,19 @@
                                 <condition id="-9" name="Is visible" sid="591125217443279" type="ResumeButton" />
                             </conditions>
                             <actions>
+                                <action id="-9" name="Set value" sid="273859809377475" type="System">
+                                    <param id="0" name="Variable">isPause</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-25" name="Move to bottom" sid="372971789486103" type="PauseBackground" />
+                                <action id="-25" name="Move to bottom" sid="463701688640388" type="ResumeButton" />
+                                <action id="-15" name="Set visible" sid="166909902499728" type="PauseScreenText">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-25" name="Move to bottom" sid="739735262498357" type="MainMenuButton" />
+                                <action id="-15" name="Set visible" sid="982232762490341" type="AdBlockLogo">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
                                 <action id="7" name="Play (by name)" sid="995168621115280" type="Audio">
                                     <param id="0" name="Folder">1</param>
                                     <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
@@ -1759,7 +1801,7 @@
                     </conditions>
                     <actions>
                         <action id="9" name="Set scale" sid="981827899421813" type="MainMenuButton">
-                            <param id="0" name="Scale">1.05</param>
+                            <param id="0" name="Scale">0.8</param>
                         </action>
                     </actions>
                     <sub-events>
@@ -1770,21 +1812,17 @@
                                 </condition>
                             </conditions>
                             <actions>
-                                <action id="7" name="Play (by name)" sid="276358429847804" type="Audio">
+                                <action id="-2" name="Go to layout" sid="842768610567510" type="System">
+                                    <param id="0" name="Layout">MainMenu</param>
+                                </action>
+                                <action id="7" name="Play (by name)" sid="151275029901866" type="Audio">
                                     <param id="0" name="Folder">1</param>
                                     <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
                                     <param id="3" name="Loop">0</param>
                                     <param id="4" name="Volume">40</param>
                                     <param id="2" name="Tag (optional)">&quot;&quot;</param>
                                 </action>
-                                <action id="-2" name="Go to layout" sid="842768610567510" type="System">
-                                    <param id="0" name="Layout">MainMenu</param>
-                                </action>
                             </actions>
-                        </event-block>
-                        <event-block sid="862806971987921">
-                            <conditions />
-                            <actions />
                         </event-block>
                     </sub-events>
                 </event-block>
@@ -1795,15 +1833,8 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="7" name="Play (by name)" sid="398447894283373" type="Audio">
-                            <param id="0" name="Folder">1</param>
-                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
-                            <param id="3" name="Loop">0</param>
-                            <param id="4" name="Volume">40</param>
-                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
-                        </action>
                         <action id="9" name="Set scale" sid="332826706237833" type="BackButton">
-                            <param id="0" name="Scale">0.8</param>
+                            <param id="0" name="Scale">0.62</param>
                         </action>
                     </actions>
                     <sub-events>
@@ -1817,36 +1848,16 @@
                                 <action id="-2" name="Go to layout" sid="991724580772086" type="System">
                                     <param id="0" name="Layout">EasyLevel</param>
                                 </action>
+                                <action id="7" name="Play (by name)" sid="398447894283373" type="Audio">
+                                    <param id="0" name="Folder">1</param>
+                                    <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                                    <param id="3" name="Loop">0</param>
+                                    <param id="4" name="Volume">40</param>
+                                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
                             </actions>
                         </event-block>
                     </sub-events>
-                </event-block>
-                <event-block sid="315617042263074">
-                    <conditions>
-                        <condition id="11" name="On Nth touch end" sid="456057588368498" type="Touch">
-                            <param id="0" name="Touch number">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="9" name="Set scale" sid="870402708556895" type="PauseButton">
-                            <param id="0" name="Scale">0.72</param>
-                        </action>
-                        <action id="9" name="Set scale" sid="709779643892356" type="ResumeButton">
-                            <param id="0" name="Scale">1</param>
-                        </action>
-                        <action id="9" name="Set scale" sid="281572850991547" type="BackButton">
-                            <param id="0" name="Scale">0.72</param>
-                        </action>
-                        <action id="9" name="Set scale" sid="278182076332335" type="HelpButtonCircle">
-                            <param id="0" name="Scale">0.72</param>
-                        </action>
-                        <action id="9" name="Set scale" sid="660912491790727" type="RedoButton">
-                            <param id="0" name="Scale">0.72</param>
-                        </action>
-                        <action id="9" name="Set scale" sid="673800372726287" type="UndoButton">
-                            <param id="0" name="Scale">0.72</param>
-                        </action>
-                    </actions>
                 </event-block>
                 <event-block sid="839757684904883">
                     <conditions>
@@ -1940,7 +1951,7 @@
                     </conditions>
                     <actions>
                         <action id="9" name="Set scale" sid="917319489942047" type="ResetButton">
-                            <param id="0" name="Scale">1.1</param>
+                            <param id="0" name="Scale">0.8</param>
                         </action>
                     </actions>
                     <sub-events>
@@ -1949,11 +1960,10 @@
                                 <condition id="17" name="On tap object" sid="466327641789799" type="Touch">
                                     <param id="0" name="Object">ResetButton</param>
                                 </condition>
-                                <condition id="18" name="On double-tap object" sid="223697375491737" type="Touch">
-                                    <param id="0" name="Object">ResetButton</param>
-                                </condition>
                             </conditions>
                             <actions>
+                                <action id="-26" name="Restart layout" sid="589473284020727" type="System" />
+                                <action id="-21" name="Reset global variables" sid="823283415324998" type="System" />
                                 <action id="7" name="Play (by name)" sid="894463257973572" type="Audio">
                                     <param id="0" name="Folder">1</param>
                                     <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
@@ -1961,8 +1971,6 @@
                                     <param id="4" name="Volume">40</param>
                                     <param id="2" name="Tag (optional)">&quot;&quot;</param>
                                 </action>
-                                <action id="-26" name="Restart layout" sid="589473284020727" type="System" />
-                                <action id="-21" name="Reset global variables" sid="823283415324998" type="System" />
                             </actions>
                         </event-block>
                     </sub-events>
@@ -1975,7 +1983,7 @@
                     </conditions>
                     <actions>
                         <action id="9" name="Set scale" sid="447544198460567" type="UndoButton">
-                            <param id="0" name="Scale">0.8</param>
+                            <param id="0" name="Scale">0.62</param>
                         </action>
                     </actions>
                     <sub-events>
@@ -2143,7 +2151,7 @@
                     </conditions>
                     <actions>
                         <action id="9" name="Set scale" sid="180854533132909" type="RedoButton">
-                            <param id="0" name="Scale">0.8</param>
+                            <param id="0" name="Scale">0.62</param>
                         </action>
                     </actions>
                     <sub-events>
@@ -2311,7 +2319,7 @@
                     </conditions>
                     <actions>
                         <action id="9" name="Set scale" sid="214037182755972" type="HelpButtonCircle">
-                            <param id="0" name="Scale">0.8</param>
+                            <param id="0" name="Scale">0.62</param>
                         </action>
                     </actions>
                     <sub-events>
@@ -2320,11 +2328,11 @@
                                 <condition id="17" name="On tap object" sid="290160107088771" type="Touch">
                                     <param id="0" name="Object">HelpButtonCircle</param>
                                 </condition>
-                                <condition id="18" name="On double-tap object" sid="314973025714438" type="Touch">
-                                    <param id="0" name="Object">HelpButtonCircle</param>
-                                </condition>
                             </conditions>
                             <actions>
+                                <action id="-2" name="Go to layout" sid="324347796297405" type="System">
+                                    <param id="0" name="Layout">Help</param>
+                                </action>
                                 <action id="7" name="Play (by name)" sid="758767279725822" type="Audio">
                                     <param id="0" name="Folder">1</param>
                                     <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
@@ -2332,15 +2340,45 @@
                                     <param id="4" name="Volume">40</param>
                                     <param id="2" name="Tag (optional)">&quot;&quot;</param>
                                 </action>
-                                <action id="-2" name="Go to layout" sid="324347796297405" type="System">
-                                    <param id="0" name="Layout">Help</param>
-                                </action>
                             </actions>
                         </event-block>
                     </sub-events>
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="315617042263074">
+            <conditions>
+                <condition id="11" name="On Nth touch end" sid="456057588368498" type="Touch">
+                    <param id="0" name="Touch number">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="526719617734792" type="MainMenuButton">
+                    <param id="0" name="Scale">1</param>
+                </action>
+                <action id="9" name="Set scale" sid="709779643892356" type="ResumeButton">
+                    <param id="0" name="Scale">1</param>
+                </action>
+                <action id="9" name="Set scale" sid="789057596161659" type="ResetButton">
+                    <param id="0" name="Scale">1</param>
+                </action>
+                <action id="9" name="Set scale" sid="870402708556895" type="PauseButton">
+                    <param id="0" name="Scale">0.72</param>
+                </action>
+                <action id="9" name="Set scale" sid="281572850991547" type="BackButton">
+                    <param id="0" name="Scale">0.72</param>
+                </action>
+                <action id="9" name="Set scale" sid="278182076332335" type="HelpButtonCircle">
+                    <param id="0" name="Scale">0.72</param>
+                </action>
+                <action id="9" name="Set scale" sid="660912491790727" type="RedoButton">
+                    <param id="0" name="Scale">0.72</param>
+                </action>
+                <action id="9" name="Set scale" sid="673800372726287" type="UndoButton">
+                    <param id="0" name="Scale">0.72</param>
+                </action>
+            </actions>
+        </event-block>
         <variable constant="0" name="cur_score" sid="841452752222411" static="0" type="number">0</variable>
         <variable constant="0" name="insert" sid="487143860420181" static="0" type="number">0</variable>
         <variable constant="0" name="cur_index" sid="944957577598712" static="0" type="number">0</variable>

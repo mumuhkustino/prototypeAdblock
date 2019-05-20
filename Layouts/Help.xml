@@ -61,8 +61,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>105</x>
-                        <y>108</y>
+                        <x>128</x>
+                        <y>128</y>
                         <z>0</z>
                         <width>180</width>
                         <height>180</height>

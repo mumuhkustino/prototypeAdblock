@@ -2749,6 +2749,25 @@
         <object-type name="noText" sid="799840947599295">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Stage05Blue" sid="977294485974065">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="145314540540023" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="D:\Kuliah\Perancangan Antar Muka\ExportAn\Stage 5 - Blue.png">
+                        <collision-poly>
+                            <point x="0.03125" y="0.03125" />
+                            <point x="0.5" y="0" />
+                            <point x="0.96875" y="0.03125" />
+                            <point x="1" y="0.5" />
+                            <point x="0.96875" y="0.96875" />
+                            <point x="0.5" y="1" />
+                            <point x="0.03125" y="0.96875" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -2808,6 +2827,7 @@
         <file name="zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872.ogg" />
         <file name="zapsplat_impact_gaval_x1.ogg" />
         <file name="audio_hero_Make-It-Snappy_SIPML_C-1039.ogg" />
+        <file name="zapsplat_foley_wood_panel_fall_over_hit_ground_002_29943.ogg" />
     </music-folder>
     <files-folder>
         <file-folder name="Icons">

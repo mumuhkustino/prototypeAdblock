@@ -47,6 +47,26 @@
                     <param id="0" name="Variable">isPause</param>
                     <param id="1" name="Value">0</param>
                 </action>
+                <action id="3" name="Set volume" sid="741678543717853" type="Audio">
+                    <param id="0" name="Tag">&quot;BackgroundMusic&quot;</param>
+                    <param id="1" name="dB">-10</param>
+                </action>
+                <action id="-15" name="Set visible" sid="599923076128626" type="EndScreenText">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="497246965657602" type="System">
+                    <param id="0" name="Variable">nameScreen</param>
+                    <param id="1" name="Value">LayoutName</param>
+                </action>
+                <action id="1" name="Set size" sid="478532000641430" type="highest">
+                    <param id="0" name="Width">show_list</param>
+                    <param id="1" name="Height">2</param>
+                    <param id="2" name="Depth">4</param>
+                </action>
+                <action id="0" name="Call function" sid="306833961450484" type="Function">
+                    <param id="0" name="Name">&quot;update.list&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="341839201353041">
@@ -62,7 +82,148 @@
                     <param id="0" name="Variable">isPause</param>
                     <param id="1" name="Value">1</param>
                 </action>
+                <action id="-24" name="Move to top" sid="513981039761862" type="PauseBackground" />
+                <action id="3" name="Start" sid="735761542653181" type="PauseBackground">
+                    <param id="0" name="From">1</param>
+                </action>
+                <action id="-15" name="Set visible" sid="516955882885300" type="EndScreenText">
+                    <param id="0" name="Visibility">1</param>
+                </action>
+                <action id="-29" name="Move to object" sid="948611881181721" type="EndScreenText">
+                    <param id="0" name="Where">0</param>
+                    <param id="1" name="Object">PauseBackground</param>
+                </action>
+                <action id="0" name="Call function" sid="711218200050323" type="Function">
+                    <param id="0" name="Name">&quot;add.data&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+                <action id="0" name="Call function" sid="970560081294539" type="Function">
+                    <param id="0" name="Name">&quot;update.list&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
             </actions>
+        </event-block>
+        <event-block sid="954067413696944">
+            <conditions>
+                <condition id="0" name="On function" sid="581281231491790" type="Function">
+                    <param id="0" name="Name">&quot;update.list&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="415368281610369" type="EasyText">
+                    <param id="0" name="Text">&quot;&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="297888359893121" type="StageEasyText">
+                    <param id="0" name="Text">&quot;&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="166234092902597" type="noText">
+                    <param id="0" name="Text">&quot;&quot;</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="778325891928634">
+                    <conditions>
+                        <condition id="-10" name="For" sid="961599189973878" type="System">
+                            <param id="0" name="Name">&quot;i&quot;</param>
+                            <param id="1" name="Start index">0</param>
+                            <param id="2" name="End index">show_list-1</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="185660568991500">
+            <conditions>
+                <condition id="0" name="On function" sid="832511187640562" type="Function">
+                    <param id="0" name="Name">&quot;add.data&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="882153505216145" type="System">
+                    <param id="0" name="Variable">curScore</param>
+                    <param id="1" name="Value">SecondTimeText.value + (MinuteTimeText.value*60) + (HourTimeText.value * 3600)</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="968628392787103">
+                    <conditions>
+                        <condition id="3" name="For each element" sid="167166630165929" type="highest">
+                            <param id="0" name="Axes">1</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="675637726975090">
+                            <conditions>
+                                <condition id="1" name="Compare at XY" sid="950287126078183" type="highest">
+                                    <param id="0" name="X">highest.CurX</param>
+                                    <param id="1" name="Y">1</param>
+                                    <param id="2" name="Comparison">4</param>
+                                    <param id="3" name="Value">curScore</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="-9" name="Set value" sid="422763264989495" type="System">
+                                    <param id="0" name="Variable">curIndex</param>
+                                    <param id="1" name="Value">highest.CurX</param>
+                                </action>
+                                <action id="-9" name="Set value" sid="458346255912060" type="System">
+                                    <param id="0" name="Variable">add</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="587665383328739">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="212044132986004" type="System">
+                            <param id="0" name="Variable">add</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="1" name="Append text" sid="282867180053952" type="noText">
+                            <param id="0" name="Text">loopindex(&quot;i&quot;)+1.</param>
+                        </action>
+                    </actions>
+                    <sub-events>
+                        <event-block sid="458043329128748">
+                            <conditions>
+                                <condition id="-10" name="For" sid="199352259311816" type="System">
+                                    <param id="0" name="Name">&quot;i&quot;</param>
+                                    <param id="1" name="Start index">show_list</param>
+                                    <param id="2" name="End index">curIndex</param>
+                                </condition>
+                            </conditions>
+                            <actions />
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="641460936893115">
+                    <conditions>
+                        <condition id="-10" name="For" sid="518192143859481" type="System">
+                            <param id="0" name="Name">&quot;i&quot;</param>
+                            <param id="1" name="Start index">show_list</param>
+                            <param id="2" name="End index">curIndex</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <event-block sid="715955063869645">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="475103527438953" type="highest">
+                            <param id="0" name="X">loopindex(&quot;i&quot;)</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">0</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="121289135556173">
             <conditions>
@@ -534,6 +695,12 @@
                                     <param id="0" name="Variable">PlacedBlock</param>
                                     <param id="1" name="Value">PlacedBlock + 1</param>
                                 </action>
+                                <action id="0" name="Play" sid="480035627793504" type="Audio">
+                                    <param id="0" name="Audio file">zapsplat_foley_wood_panel_fall_over_hit_ground_002_29943</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block any="1" sid="303545158321400">
@@ -687,6 +854,12 @@
                                 <action id="-9" name="Set value" sid="814155666201731" type="System">
                                     <param id="0" name="Variable">PlacedBlock</param>
                                     <param id="1" name="Value">PlacedBlock + 1</param>
+                                </action>
+                                <action id="0" name="Play" sid="568447082625913" type="Audio">
+                                    <param id="0" name="Audio file">zapsplat_foley_wood_panel_fall_over_hit_ground_002_29943</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -842,6 +1015,12 @@
                                     <param id="0" name="Variable">PlacedBlock</param>
                                     <param id="1" name="Value">PlacedBlock + 1</param>
                                 </action>
+                                <action id="0" name="Play" sid="268927743759388" type="Audio">
+                                    <param id="0" name="Audio file">zapsplat_foley_wood_panel_fall_over_hit_ground_002_29943</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block any="1" sid="491886910878403">
@@ -995,6 +1174,12 @@
                                 <action id="-9" name="Set value" sid="660972283567976" type="System">
                                     <param id="0" name="Variable">PlacedBlock</param>
                                     <param id="1" name="Value">PlacedBlock + 1</param>
+                                </action>
+                                <action id="0" name="Play" sid="215650669314144" type="Audio">
+                                    <param id="0" name="Audio file">zapsplat_foley_wood_panel_fall_over_hit_ground_002_29943</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -1150,6 +1335,12 @@
                                     <param id="0" name="Variable">PlacedBlock</param>
                                     <param id="1" name="Value">PlacedBlock + 1</param>
                                 </action>
+                                <action id="0" name="Play" sid="927205732027601" type="Audio">
+                                    <param id="0" name="Audio file">zapsplat_foley_wood_panel_fall_over_hit_ground_002_29943</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block any="1" sid="646590395334760">
@@ -1303,6 +1494,12 @@
                                 <action id="-9" name="Set value" sid="125583556871357" type="System">
                                     <param id="0" name="Variable">PlacedBlock</param>
                                     <param id="1" name="Value">PlacedBlock + 1</param>
+                                </action>
+                                <action id="0" name="Play" sid="820568947411671" type="Audio">
+                                    <param id="0" name="Audio file">zapsplat_foley_wood_panel_fall_over_hit_ground_002_29943</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -1458,6 +1655,12 @@
                                     <param id="0" name="Variable">PlacedBlock</param>
                                     <param id="1" name="Value">PlacedBlock + 1</param>
                                 </action>
+                                <action id="0" name="Play" sid="551942220295232" type="Audio">
+                                    <param id="0" name="Audio file">zapsplat_foley_wood_panel_fall_over_hit_ground_002_29943</param>
+                                    <param id="2" name="Loop">0</param>
+                                    <param id="3" name="Volume">0</param>
+                                    <param id="1" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
                             </actions>
                         </event-block>
                         <event-block any="1" sid="165022534685384">
@@ -1543,43 +1746,7 @@
                     </conditions>
                     <actions>
                         <action id="9" name="Set scale" sid="717134022117715" type="PauseButton">
-                            <param id="0" name="Scale">0.8</param>
-                        </action>
-                        <action id="-9" name="Set value" sid="610236770072019" type="System">
-                            <param id="0" name="Variable">isPause</param>
-                            <param id="1" name="Value">1</param>
-                        </action>
-                        <action id="-24" name="Move to top" sid="378032784451027" type="PauseBackground" />
-                        <action id="3" name="Start" sid="528020100082025" type="PauseBackground">
-                            <param id="0" name="From">1</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="198167953308504" type="ResumeButton">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="603490954116319" type="PauseScreenText">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="563453641681980" type="MainMenuButton">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="-15" name="Set visible" sid="838801444140540" type="AdBlockLogo">
-                            <param id="0" name="Visibility">1</param>
-                        </action>
-                        <action id="-29" name="Move to object" sid="684305242961479" type="ResumeButton">
-                            <param id="0" name="Where">0</param>
-                            <param id="1" name="Object">PauseBackground</param>
-                        </action>
-                        <action id="-29" name="Move to object" sid="355347867608301" type="PauseScreenText">
-                            <param id="0" name="Where">0</param>
-                            <param id="1" name="Object">PauseBackground</param>
-                        </action>
-                        <action id="-29" name="Move to object" sid="874210983606089" type="MainMenuButton">
-                            <param id="0" name="Where">0</param>
-                            <param id="1" name="Object">PauseBackground</param>
-                        </action>
-                        <action id="-29" name="Move to object" sid="435361348809753" type="AdBlockLogo">
-                            <param id="0" name="Where">0</param>
-                            <param id="1" name="Object">PauseBackground</param>
+                            <param id="0" name="Scale">0.62</param>
                         </action>
                     </actions>
                     <sub-events>
@@ -1597,6 +1764,42 @@
                                     <param id="4" name="Volume">40</param>
                                     <param id="2" name="Tag (optional)">&quot;&quot;</param>
                                 </action>
+                                <action id="-9" name="Set value" sid="610236770072019" type="System">
+                                    <param id="0" name="Variable">isPause</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="-24" name="Move to top" sid="378032784451027" type="PauseBackground" />
+                                <action id="3" name="Start" sid="528020100082025" type="PauseBackground">
+                                    <param id="0" name="From">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="198167953308504" type="ResumeButton">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="603490954116319" type="PauseScreenText">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="563453641681980" type="MainMenuButton">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-15" name="Set visible" sid="838801444140540" type="AdBlockLogo">
+                                    <param id="0" name="Visibility">1</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="684305242961479" type="ResumeButton">
+                                    <param id="0" name="Where">0</param>
+                                    <param id="1" name="Object">PauseBackground</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="355347867608301" type="PauseScreenText">
+                                    <param id="0" name="Where">0</param>
+                                    <param id="1" name="Object">PauseBackground</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="874210983606089" type="MainMenuButton">
+                                    <param id="0" name="Where">0</param>
+                                    <param id="1" name="Object">PauseBackground</param>
+                                </action>
+                                <action id="-29" name="Move to object" sid="435361348809753" type="AdBlockLogo">
+                                    <param id="0" name="Where">0</param>
+                                    <param id="1" name="Object">PauseBackground</param>
+                                </action>
                             </actions>
                         </event-block>
                     </sub-events>
@@ -1608,21 +1811,8 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-9" name="Set value" sid="168049742313374" type="System">
-                            <param id="0" name="Variable">isPause</param>
-                            <param id="1" name="Value">0</param>
-                        </action>
-                        <action id="-25" name="Move to bottom" sid="905274881006276" type="PauseBackground" />
                         <action id="9" name="Set scale" sid="532038377083073" type="ResumeButton">
-                            <param id="0" name="Scale">1.05</param>
-                        </action>
-                        <action id="-25" name="Move to bottom" sid="868453336481469" type="ResumeButton" />
-                        <action id="-15" name="Set visible" sid="869879798632809" type="PauseScreenText">
-                            <param id="0" name="Visibility">0</param>
-                        </action>
-                        <action id="-25" name="Move to bottom" sid="961389647606046" type="MainMenuButton" />
-                        <action id="-15" name="Set visible" sid="352427455648581" type="AdBlockLogo">
-                            <param id="0" name="Visibility">0</param>
+                            <param id="0" name="Scale">0.8</param>
                         </action>
                     </actions>
                     <sub-events>
@@ -1634,6 +1824,19 @@
                                 <condition id="-9" name="Is visible" sid="940892186977440" type="ResumeButton" />
                             </conditions>
                             <actions>
+                                <action id="-9" name="Set value" sid="168049742313374" type="System">
+                                    <param id="0" name="Variable">isPause</param>
+                                    <param id="1" name="Value">0</param>
+                                </action>
+                                <action id="-25" name="Move to bottom" sid="905274881006276" type="PauseBackground" />
+                                <action id="-25" name="Move to bottom" sid="868453336481469" type="ResumeButton" />
+                                <action id="-15" name="Set visible" sid="869879798632809" type="PauseScreenText">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
+                                <action id="-25" name="Move to bottom" sid="961389647606046" type="MainMenuButton" />
+                                <action id="-15" name="Set visible" sid="352427455648581" type="AdBlockLogo">
+                                    <param id="0" name="Visibility">0</param>
+                                </action>
                                 <action id="7" name="Play (by name)" sid="177295526680380" type="Audio">
                                     <param id="0" name="Folder">1</param>
                                     <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
@@ -1654,7 +1857,7 @@
                     </conditions>
                     <actions>
                         <action id="9" name="Set scale" sid="718122753862529" type="MainMenuButton">
-                            <param id="0" name="Scale">1.05</param>
+                            <param id="0" name="Scale">0.8</param>
                         </action>
                     </actions>
                     <sub-events>
@@ -1665,6 +1868,9 @@
                                 </condition>
                             </conditions>
                             <actions>
+                                <action id="-2" name="Go to layout" sid="598461038887103" type="System">
+                                    <param id="0" name="Layout">MainMenu</param>
+                                </action>
                                 <action id="7" name="Play (by name)" sid="251738956206129" type="Audio">
                                     <param id="0" name="Folder">1</param>
                                     <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
@@ -1672,14 +1878,7 @@
                                     <param id="4" name="Volume">40</param>
                                     <param id="2" name="Tag (optional)">&quot;&quot;</param>
                                 </action>
-                                <action id="-2" name="Go to layout" sid="598461038887103" type="System">
-                                    <param id="0" name="Layout">MainMenu</param>
-                                </action>
                             </actions>
-                        </event-block>
-                        <event-block sid="923847879334295">
-                            <conditions />
-                            <actions />
                         </event-block>
                     </sub-events>
                 </event-block>
@@ -1690,15 +1889,8 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="7" name="Play (by name)" sid="564623730687254" type="Audio">
-                            <param id="0" name="Folder">1</param>
-                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
-                            <param id="3" name="Loop">0</param>
-                            <param id="4" name="Volume">40</param>
-                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
-                        </action>
                         <action id="9" name="Set scale" sid="569002727698636" type="BackButton">
-                            <param id="0" name="Scale">0.8</param>
+                            <param id="0" name="Scale">0.62</param>
                         </action>
                     </actions>
                     <sub-events>
@@ -1712,36 +1904,16 @@
                                 <action id="-2" name="Go to layout" sid="288703357350668" type="System">
                                     <param id="0" name="Layout">HardLevel</param>
                                 </action>
+                                <action id="7" name="Play (by name)" sid="564623730687254" type="Audio">
+                                    <param id="0" name="Folder">1</param>
+                                    <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                                    <param id="3" name="Loop">0</param>
+                                    <param id="4" name="Volume">40</param>
+                                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                                </action>
                             </actions>
                         </event-block>
                     </sub-events>
-                </event-block>
-                <event-block sid="762259551638583">
-                    <conditions>
-                        <condition id="11" name="On Nth touch end" sid="997206815193859" type="Touch">
-                            <param id="0" name="Touch number">0</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="9" name="Set scale" sid="138945363699953" type="PauseButton">
-                            <param id="0" name="Scale">0.72</param>
-                        </action>
-                        <action id="9" name="Set scale" sid="638113549711175" type="ResumeButton">
-                            <param id="0" name="Scale">1</param>
-                        </action>
-                        <action id="9" name="Set scale" sid="503665698998359" type="BackButton">
-                            <param id="0" name="Scale">0.72</param>
-                        </action>
-                        <action id="9" name="Set scale" sid="707942140421762" type="HelpButtonCircle">
-                            <param id="0" name="Scale">0.72</param>
-                        </action>
-                        <action id="9" name="Set scale" sid="135495512264666" type="RedoButton">
-                            <param id="0" name="Scale">0.72</param>
-                        </action>
-                        <action id="9" name="Set scale" sid="114152625259096" type="UndoButton">
-                            <param id="0" name="Scale">0.72</param>
-                        </action>
-                    </actions>
                 </event-block>
                 <event-block sid="491000253653879">
                     <conditions>
@@ -1863,7 +2035,7 @@
                     </conditions>
                     <actions>
                         <action id="9" name="Set scale" sid="232253448394647" type="ResetButton">
-                            <param id="0" name="Scale">1.1</param>
+                            <param id="0" name="Scale">0.8</param>
                         </action>
                     </actions>
                     <sub-events>
@@ -1898,7 +2070,7 @@
                     </conditions>
                     <actions>
                         <action id="9" name="Set scale" sid="616084185277181" type="UndoButton">
-                            <param id="0" name="Scale">0.8</param>
+                            <param id="0" name="Scale">0.62</param>
                         </action>
                     </actions>
                     <sub-events>
@@ -2066,7 +2238,7 @@
                     </conditions>
                     <actions>
                         <action id="9" name="Set scale" sid="964402815018360" type="RedoButton">
-                            <param id="0" name="Scale">0.8</param>
+                            <param id="0" name="Scale">0.62</param>
                         </action>
                     </actions>
                     <sub-events>
@@ -2234,7 +2406,7 @@
                     </conditions>
                     <actions>
                         <action id="9" name="Set scale" sid="893871165143771" type="HelpButtonCircle">
-                            <param id="0" name="Scale">0.8</param>
+                            <param id="0" name="Scale">0.62</param>
                         </action>
                     </actions>
                     <sub-events>
@@ -2243,11 +2415,11 @@
                                 <condition id="17" name="On tap object" sid="222287263639637" type="Touch">
                                     <param id="0" name="Object">HelpButtonCircle</param>
                                 </condition>
-                                <condition id="18" name="On double-tap object" sid="865861200325262" type="Touch">
-                                    <param id="0" name="Object">HelpButtonCircle</param>
-                                </condition>
                             </conditions>
                             <actions>
+                                <action id="-2" name="Go to layout" sid="210623245203070" type="System">
+                                    <param id="0" name="Layout">Help</param>
+                                </action>
                                 <action id="7" name="Play (by name)" sid="258906631957098" type="Audio">
                                     <param id="0" name="Folder">1</param>
                                     <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
@@ -2255,14 +2427,44 @@
                                     <param id="4" name="Volume">40</param>
                                     <param id="2" name="Tag (optional)">&quot;&quot;</param>
                                 </action>
-                                <action id="-2" name="Go to layout" sid="210623245203070" type="System">
-                                    <param id="0" name="Layout">Help</param>
-                                </action>
                             </actions>
                         </event-block>
                     </sub-events>
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="909059314791551">
+            <conditions>
+                <condition id="11" name="On Nth touch end" sid="281775374659431" type="Touch">
+                    <param id="0" name="Touch number">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="621623252494654" type="MainMenuButton">
+                    <param id="0" name="Scale">1</param>
+                </action>
+                <action id="9" name="Set scale" sid="637874304379371" type="ResumeButton">
+                    <param id="0" name="Scale">1</param>
+                </action>
+                <action id="9" name="Set scale" sid="607023937019532" type="ResetButton">
+                    <param id="0" name="Scale">1</param>
+                </action>
+                <action id="9" name="Set scale" sid="948255629337911" type="PauseButton">
+                    <param id="0" name="Scale">0.72</param>
+                </action>
+                <action id="9" name="Set scale" sid="861056480290681" type="BackButton">
+                    <param id="0" name="Scale">0.72</param>
+                </action>
+                <action id="9" name="Set scale" sid="841616595627978" type="HelpButtonCircle">
+                    <param id="0" name="Scale">0.72</param>
+                </action>
+                <action id="9" name="Set scale" sid="101772284283050" type="RedoButton">
+                    <param id="0" name="Scale">0.72</param>
+                </action>
+                <action id="9" name="Set scale" sid="903481816235952" type="UndoButton">
+                    <param id="0" name="Scale">0.72</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

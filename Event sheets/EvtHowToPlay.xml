@@ -16,7 +16,7 @@
             </conditions>
             <actions>
                 <action id="9" name="Set scale" sid="270289035553358" type="BackButton">
-                    <param id="0" name="Scale">0.9</param>
+                    <param id="0" name="Scale">0.62</param>
                 </action>
             </actions>
             <sub-events>
@@ -30,9 +30,28 @@
                         <action id="-2" name="Go to layout" sid="217174443253881" type="System">
                             <param id="0" name="Layout">Help</param>
                         </action>
+                        <action id="7" name="Play (by name)" sid="288988978312907" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">40</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block sid="629342766862353">
+            <conditions>
+                <condition id="11" name="On Nth touch end" sid="616817801349766" type="Touch">
+                    <param id="0" name="Touch number">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="251110510663665" type="BackButton">
+                    <param id="0" name="Scale">0.72</param>
+                </action>
+            </actions>
         </event-block>
     </events>
 </c2eventsheet>

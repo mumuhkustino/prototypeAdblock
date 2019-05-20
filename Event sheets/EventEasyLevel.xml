@@ -13,13 +13,6 @@
                 <action id="9" name="Set scale" sid="437343424150143" type="BackButton">
                     <param id="0" name="Scale">0.62</param>
                 </action>
-                <action id="7" name="Play (by name)" sid="708737171656980" type="Audio">
-                    <param id="0" name="Folder">1</param>
-                    <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
-                    <param id="3" name="Loop">0</param>
-                    <param id="4" name="Volume">40</param>
-                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
-                </action>
             </actions>
             <sub-events>
                 <event-block sid="287414165481818">
@@ -31,6 +24,13 @@
                     <actions>
                         <action id="-25" name="Go to layout (by name)" sid="647469510658943" type="System">
                             <param id="0" name="Layout">&quot;ChooseLevel&quot;</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="708737171656980" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">40</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -46,13 +46,6 @@
                 <action id="9" name="Set scale" sid="459037992326711" type="Stage21Blue">
                     <param id="0" name="Scale">0.62</param>
                 </action>
-                <action id="7" name="Play (by name)" sid="507850554359313" type="Audio">
-                    <param id="0" name="Folder">1</param>
-                    <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
-                    <param id="3" name="Loop">0</param>
-                    <param id="4" name="Volume">40</param>
-                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
-                </action>
             </actions>
             <sub-events>
                 <event-block sid="850486598235253">
@@ -65,6 +58,13 @@
                         <action id="-2" name="Go to layout" sid="200504349025301" type="System">
                             <param id="0" name="Layout">EasyStage21</param>
                         </action>
+                        <action id="7" name="Play (by name)" sid="507850554359313" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">40</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
@@ -74,22 +74,10 @@
                 <condition id="4" name="Is touching object" sid="852966906043948" type="Touch">
                     <param id="0" name="Object">LeaderButton</param>
                 </condition>
-                <condition id="-14" name="Compare variable" sid="971243240404608" type="System">
-                    <param id="0" name="Variable">isPause</param>
-                    <param id="1" name="Comparison">0</param>
-                    <param id="2" name="Value">0</param>
-                </condition>
             </conditions>
             <actions>
                 <action id="9" name="Set scale" sid="573174972332724" type="LeaderButton">
                     <param id="0" name="Scale">0.62</param>
-                </action>
-                <action id="7" name="Play (by name)" sid="497093434613628" type="Audio">
-                    <param id="0" name="Folder">1</param>
-                    <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
-                    <param id="3" name="Loop">0</param>
-                    <param id="4" name="Volume">40</param>
-                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
                 </action>
             </actions>
             <sub-events>
@@ -100,11 +88,15 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-25" name="Go to layout (by name)" sid="641594336105007" type="System">
-                            <param id="0" name="Layout">&quot;LeaderBoard&quot;</param>
-                        </action>
                         <action id="-2" name="Go to layout" sid="193005796991054" type="System">
                             <param id="0" name="Layout">LeaderBoard</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="497093434613628" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">40</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -120,13 +112,6 @@
                 <action id="9" name="Set scale" sid="184902206930901" type="HelpButtonCircle">
                     <param id="0" name="Scale">0.62</param>
                 </action>
-                <action id="7" name="Play (by name)" sid="579916806570507" type="Audio">
-                    <param id="0" name="Folder">1</param>
-                    <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
-                    <param id="3" name="Loop">0</param>
-                    <param id="4" name="Volume">40</param>
-                    <param id="2" name="Tag (optional)">&quot;&quot;</param>
-                </action>
             </actions>
             <sub-events>
                 <event-block sid="484882161222887">
@@ -136,15 +121,690 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="-25" name="Go to layout (by name)" sid="838759317045837" type="System">
-                            <param id="0" name="Layout">&quot;Help&quot;</param>
-                        </action>
                         <action id="-2" name="Go to layout" sid="625155699883376" type="System">
                             <param id="0" name="Layout">Help</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="579916806570507" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">40</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
             </sub-events>
+        </event-block>
+        <event-block sid="515857429431146">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="287241071391909" type="Touch">
+                    <param id="0" name="Object">Stage01Green</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="415211107255285" type="Stage01Green">
+                    <param id="0" name="Scale">0.62</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="152800140003868">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="927351654897216" type="Touch">
+                            <param id="0" name="Object">Stage01Green</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="309642061893334" type="System">
+                            <param id="0" name="Layout">&quot;&quot;</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="852996188162733" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">40</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="696342959015756">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="743928837059493" type="Touch">
+                    <param id="0" name="Object">Stage02Green</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="650961007430341" type="Stage02Green">
+                    <param id="0" name="Scale">0.62</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="648053250143655">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="489300146772715" type="Touch">
+                            <param id="0" name="Object">Stage02Green</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="922715960896217" type="System">
+                            <param id="0" name="Layout">&quot;&quot;</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="181069057452862" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">40</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="578541044130071">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="421119455278992" type="Touch">
+                    <param id="0" name="Object">Stage03Green</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="317118426419776" type="Stage03Green">
+                    <param id="0" name="Scale">0.62</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="613194324151126">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="469926951499810" type="Touch">
+                            <param id="0" name="Object">Stage03Green</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="725706168875620" type="System">
+                            <param id="0" name="Layout">&quot;&quot;</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="532823469001034" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">40</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="288907730297927">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="390482341373491" type="Touch">
+                    <param id="0" name="Object">Stage04Green</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="226595639102006" type="Stage04Green">
+                    <param id="0" name="Scale">0.62</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="857931104288375">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="528284800208486" type="Touch">
+                            <param id="0" name="Object">Stage04Green</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="385963007658521" type="System">
+                            <param id="0" name="Layout">&quot;&quot;</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="935762587564443" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">40</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="793658508009863">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="538920190773565" type="Touch">
+                    <param id="0" name="Object">Stage05Green</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="204657180069071" type="Stage05Green">
+                    <param id="0" name="Scale">0.62</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="855189004560021">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="106183201488471" type="Touch">
+                            <param id="0" name="Object">Stage05Green</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="914001832880842" type="System">
+                            <param id="0" name="Layout">&quot;&quot;</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="928995169306312" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">40</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="837590381870659">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="478619519065876" type="Touch">
+                    <param id="0" name="Object">Stage06Green</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="700767843193744" type="Stage06Green">
+                    <param id="0" name="Scale">0.62</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="781089974219900">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="513114363220082" type="Touch">
+                            <param id="0" name="Object">Stage06Green</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="354092543750948" type="System">
+                            <param id="0" name="Layout">&quot;&quot;</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="504928670769614" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">40</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="195937915576750">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="140663861774155" type="Touch">
+                    <param id="0" name="Object">Stage07Green</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="783903507881742" type="Stage07Green">
+                    <param id="0" name="Scale">0.62</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="111553312041028">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="700901934199918" type="Touch">
+                            <param id="0" name="Object">Stage07Green</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="793534451265854" type="System">
+                            <param id="0" name="Layout">&quot;&quot;</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="238199663531443" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">40</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="618519200738180">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="463783144238387" type="Touch">
+                    <param id="0" name="Object">Stage08Green</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="871964781713331" type="Stage08Green">
+                    <param id="0" name="Scale">0.62</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="387685874763086">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="312102182531106" type="Touch">
+                            <param id="0" name="Object">Stage08Green</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="357655945578000" type="System">
+                            <param id="0" name="Layout">&quot;&quot;</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="860780181247277" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">40</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="870604678108511">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="372686110204739" type="Touch">
+                    <param id="0" name="Object">Stage09Green</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="488659038258108" type="Stage09Green">
+                    <param id="0" name="Scale">0.62</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="596916157322269">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="886713183181509" type="Touch">
+                            <param id="0" name="Object">Stage09Green</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="951507997618433" type="System">
+                            <param id="0" name="Layout">&quot;&quot;</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="779778204097890" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">40</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="774012385945201">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="297705085529325" type="Touch">
+                    <param id="0" name="Object">Stage10Green</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="497693296703897" type="Stage10Green">
+                    <param id="0" name="Scale">0.62</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="552105641675115">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="311333349844657" type="Touch">
+                            <param id="0" name="Object">Stage10Green</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="618089367568904" type="System">
+                            <param id="0" name="Layout">&quot;&quot;</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="186677087001673" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">40</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="242256420348224">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="374574543117971" type="Touch">
+                    <param id="0" name="Object">Stage11Green</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="203604707523861" type="Stage11Green">
+                    <param id="0" name="Scale">0.62</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="440873138439001">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="516350369926818" type="Touch">
+                            <param id="0" name="Object">Stage11Green</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="110855320670094" type="System">
+                            <param id="0" name="Layout">&quot;&quot;</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="252306747189816" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">40</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="294360956883475">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="167060146787067" type="Touch">
+                    <param id="0" name="Object">Stage12Green</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="577384504143644" type="Stage12Green">
+                    <param id="0" name="Scale">0.62</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="485840103550194">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="259573562605121" type="Touch">
+                            <param id="0" name="Object">Stage12Green</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="883363170992436" type="System">
+                            <param id="0" name="Layout">&quot;&quot;</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="628415726560264" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">40</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="672767208224817">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="163771549363475" type="Touch">
+                    <param id="0" name="Object">Stage13Green</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="904692540668260" type="Stage13Green">
+                    <param id="0" name="Scale">0.62</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="336300019820172">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="974955580461201" type="Touch">
+                            <param id="0" name="Object">Stage13Green</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="438835836381149" type="System">
+                            <param id="0" name="Layout">&quot;&quot;</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="129691673352075" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">40</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="545765698808322">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="838328714854026" type="Touch">
+                    <param id="0" name="Object">Stage14Green</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="276075920031757" type="Stage14Green">
+                    <param id="0" name="Scale">0.62</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="278446893950906">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="814324314951117" type="Touch">
+                            <param id="0" name="Object">Stage14Green</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="305695530991288" type="System">
+                            <param id="0" name="Layout">&quot;&quot;</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="663914143159280" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">40</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="403623287104180">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="403899779571292" type="Touch">
+                    <param id="0" name="Object">Stage15Green</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="741286596251135" type="Stage15Green">
+                    <param id="0" name="Scale">0.62</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="423722117180813">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="706315991663635" type="Touch">
+                            <param id="0" name="Object">Stage15Green</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="623518407413523" type="System">
+                            <param id="0" name="Layout">&quot;&quot;</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="139756480364022" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">40</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="699628513132858">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="361968760871591" type="Touch">
+                    <param id="0" name="Object">Stage16Green</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="386453316238543" type="Stage16Green">
+                    <param id="0" name="Scale">0.62</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="917302254776613">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="919372801374426" type="Touch">
+                            <param id="0" name="Object">Stage16Green</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="975608966832942" type="System">
+                            <param id="0" name="Layout">&quot;&quot;</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="100325521890232" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">40</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="171454227564697">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="238403013256926" type="Touch">
+                    <param id="0" name="Object">Stage17Green</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="769636789321427" type="Stage17Green">
+                    <param id="0" name="Scale">0.62</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="156308408075937">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="214245892431600" type="Touch">
+                            <param id="0" name="Object">Stage17Green</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="273949690415290" type="System">
+                            <param id="0" name="Layout">&quot;&quot;</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="591477818328591" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">40</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="153512398107886">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="263569671879310" type="Touch">
+                    <param id="0" name="Object">Stage18Green</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="598200766357198" type="Stage18Green">
+                    <param id="0" name="Scale">0.62</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="417914328535907">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="915995697709461" type="Touch">
+                            <param id="0" name="Object">Stage18Green</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="301744350893843" type="System">
+                            <param id="0" name="Layout">&quot;&quot;</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="612736486500624" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">40</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="728785229750342">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="284235582197171" type="Touch">
+                    <param id="0" name="Object">Stage19Green</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="286051077272425" type="Stage19Green">
+                    <param id="0" name="Scale">0.62</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="570092274964482">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="584685749539898" type="Touch">
+                            <param id="0" name="Object">Stage19Green</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="920178582120859" type="System">
+                            <param id="0" name="Layout">&quot;&quot;</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="602273308394727" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">40</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="861879165685486">
+            <conditions>
+                <condition id="4" name="Is touching object" sid="792492274948213" type="Touch">
+                    <param id="0" name="Object">Stage20Green</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="510225731780943" type="Stage20Green">
+                    <param id="0" name="Scale">0.62</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="741572851974341">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="258110472989239" type="Touch">
+                            <param id="0" name="Object">Stage20Green</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-25" name="Go to layout (by name)" sid="677240286682983" type="System">
+                            <param id="0" name="Layout">&quot;&quot;</param>
+                        </action>
+                        <action id="7" name="Play (by name)" sid="108929969437272" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">40</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="847215002886025">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="524473979140059" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="769074453904523" type="System">
+                    <param id="0" name="Variable">nameScreen</param>
+                    <param id="1" name="Value">LayoutName</param>
+                </action>
+            </actions>
         </event-block>
         <event-block sid="754101593304169">
             <conditions>
@@ -155,9 +815,6 @@
             <actions>
                 <action id="9" name="Set scale" sid="608467603221682" type="BackButton">
                     <param id="0" name="Scale">0.72</param>
-                </action>
-                <action id="9" name="Set scale" sid="437276585237664" type="Stage21Blue">
-                    <param id="0" name="Scale">0.75</param>
                 </action>
                 <action id="9" name="Set scale" sid="441605880619601" type="LeaderButton">
                     <param id="0" name="Scale">0.72</param>
@@ -225,536 +882,8 @@
                 <action id="9" name="Set scale" sid="994026460322458" type="Stage20Green">
                     <param id="0" name="Scale">0.75</param>
                 </action>
-            </actions>
-        </event-block>
-        <event-block sid="515857429431146">
-            <conditions>
-                <condition id="4" name="Is touching object" sid="287241071391909" type="Touch">
-                    <param id="0" name="Object">Stage01Green</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="9" name="Set scale" sid="415211107255285" type="Stage01Green">
-                    <param id="0" name="Scale">0.62</param>
-                </action>
-            </actions>
-            <sub-events>
-                <event-block sid="152800140003868">
-                    <conditions>
-                        <condition id="17" name="On tap object" sid="927351654897216" type="Touch">
-                            <param id="0" name="Object">Stage01Green</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-25" name="Go to layout (by name)" sid="309642061893334" type="System">
-                            <param id="0" name="Layout">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="696342959015756">
-            <conditions>
-                <condition id="4" name="Is touching object" sid="743928837059493" type="Touch">
-                    <param id="0" name="Object">Stage02Green</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="9" name="Set scale" sid="650961007430341" type="Stage02Green">
-                    <param id="0" name="Scale">0.62</param>
-                </action>
-            </actions>
-            <sub-events>
-                <event-block sid="648053250143655">
-                    <conditions>
-                        <condition id="17" name="On tap object" sid="489300146772715" type="Touch">
-                            <param id="0" name="Object">Stage02Green</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-25" name="Go to layout (by name)" sid="922715960896217" type="System">
-                            <param id="0" name="Layout">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="578541044130071">
-            <conditions>
-                <condition id="4" name="Is touching object" sid="421119455278992" type="Touch">
-                    <param id="0" name="Object">Stage03Green</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="9" name="Set scale" sid="317118426419776" type="Stage03Green">
-                    <param id="0" name="Scale">0.62</param>
-                </action>
-            </actions>
-            <sub-events>
-                <event-block sid="613194324151126">
-                    <conditions>
-                        <condition id="17" name="On tap object" sid="469926951499810" type="Touch">
-                            <param id="0" name="Object">Stage03Green</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-25" name="Go to layout (by name)" sid="725706168875620" type="System">
-                            <param id="0" name="Layout">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="288907730297927">
-            <conditions>
-                <condition id="4" name="Is touching object" sid="390482341373491" type="Touch">
-                    <param id="0" name="Object">Stage04Green</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="9" name="Set scale" sid="226595639102006" type="Stage04Green">
-                    <param id="0" name="Scale">0.62</param>
-                </action>
-            </actions>
-            <sub-events>
-                <event-block sid="857931104288375">
-                    <conditions>
-                        <condition id="17" name="On tap object" sid="528284800208486" type="Touch">
-                            <param id="0" name="Object">Stage04Green</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-25" name="Go to layout (by name)" sid="385963007658521" type="System">
-                            <param id="0" name="Layout">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="793658508009863">
-            <conditions>
-                <condition id="4" name="Is touching object" sid="538920190773565" type="Touch">
-                    <param id="0" name="Object">Stage05Green</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="9" name="Set scale" sid="204657180069071" type="Stage05Green">
-                    <param id="0" name="Scale">0.62</param>
-                </action>
-            </actions>
-            <sub-events>
-                <event-block sid="855189004560021">
-                    <conditions>
-                        <condition id="17" name="On tap object" sid="106183201488471" type="Touch">
-                            <param id="0" name="Object">Stage05Green</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-25" name="Go to layout (by name)" sid="914001832880842" type="System">
-                            <param id="0" name="Layout">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="837590381870659">
-            <conditions>
-                <condition id="4" name="Is touching object" sid="478619519065876" type="Touch">
-                    <param id="0" name="Object">Stage06Green</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="9" name="Set scale" sid="700767843193744" type="Stage06Green">
-                    <param id="0" name="Scale">0.62</param>
-                </action>
-            </actions>
-            <sub-events>
-                <event-block sid="781089974219900">
-                    <conditions>
-                        <condition id="17" name="On tap object" sid="513114363220082" type="Touch">
-                            <param id="0" name="Object">Stage06Green</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-25" name="Go to layout (by name)" sid="354092543750948" type="System">
-                            <param id="0" name="Layout">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="195937915576750">
-            <conditions>
-                <condition id="4" name="Is touching object" sid="140663861774155" type="Touch">
-                    <param id="0" name="Object">Stage07Green</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="9" name="Set scale" sid="783903507881742" type="Stage07Green">
-                    <param id="0" name="Scale">0.62</param>
-                </action>
-            </actions>
-            <sub-events>
-                <event-block sid="111553312041028">
-                    <conditions>
-                        <condition id="17" name="On tap object" sid="700901934199918" type="Touch">
-                            <param id="0" name="Object">Stage07Green</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-25" name="Go to layout (by name)" sid="793534451265854" type="System">
-                            <param id="0" name="Layout">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="618519200738180">
-            <conditions>
-                <condition id="4" name="Is touching object" sid="463783144238387" type="Touch">
-                    <param id="0" name="Object">Stage08Green</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="9" name="Set scale" sid="871964781713331" type="Stage08Green">
-                    <param id="0" name="Scale">0.62</param>
-                </action>
-            </actions>
-            <sub-events>
-                <event-block sid="387685874763086">
-                    <conditions>
-                        <condition id="17" name="On tap object" sid="312102182531106" type="Touch">
-                            <param id="0" name="Object">Stage08Green</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-25" name="Go to layout (by name)" sid="357655945578000" type="System">
-                            <param id="0" name="Layout">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="870604678108511">
-            <conditions>
-                <condition id="4" name="Is touching object" sid="372686110204739" type="Touch">
-                    <param id="0" name="Object">Stage09Green</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="9" name="Set scale" sid="488659038258108" type="Stage09Green">
-                    <param id="0" name="Scale">0.62</param>
-                </action>
-            </actions>
-            <sub-events>
-                <event-block sid="596916157322269">
-                    <conditions>
-                        <condition id="17" name="On tap object" sid="886713183181509" type="Touch">
-                            <param id="0" name="Object">Stage09Green</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-25" name="Go to layout (by name)" sid="951507997618433" type="System">
-                            <param id="0" name="Layout">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="774012385945201">
-            <conditions>
-                <condition id="4" name="Is touching object" sid="297705085529325" type="Touch">
-                    <param id="0" name="Object">Stage10Green</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="9" name="Set scale" sid="497693296703897" type="Stage10Green">
-                    <param id="0" name="Scale">0.62</param>
-                </action>
-            </actions>
-            <sub-events>
-                <event-block sid="552105641675115">
-                    <conditions>
-                        <condition id="17" name="On tap object" sid="311333349844657" type="Touch">
-                            <param id="0" name="Object">Stage10Green</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-25" name="Go to layout (by name)" sid="618089367568904" type="System">
-                            <param id="0" name="Layout">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="242256420348224">
-            <conditions>
-                <condition id="4" name="Is touching object" sid="374574543117971" type="Touch">
-                    <param id="0" name="Object">Stage11Green</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="9" name="Set scale" sid="203604707523861" type="Stage11Green">
-                    <param id="0" name="Scale">0.62</param>
-                </action>
-            </actions>
-            <sub-events>
-                <event-block sid="440873138439001">
-                    <conditions>
-                        <condition id="17" name="On tap object" sid="516350369926818" type="Touch">
-                            <param id="0" name="Object">Stage11Green</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-25" name="Go to layout (by name)" sid="110855320670094" type="System">
-                            <param id="0" name="Layout">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="294360956883475">
-            <conditions>
-                <condition id="4" name="Is touching object" sid="167060146787067" type="Touch">
-                    <param id="0" name="Object">Stage12Green</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="9" name="Set scale" sid="577384504143644" type="Stage12Green">
-                    <param id="0" name="Scale">0.62</param>
-                </action>
-            </actions>
-            <sub-events>
-                <event-block sid="485840103550194">
-                    <conditions>
-                        <condition id="17" name="On tap object" sid="259573562605121" type="Touch">
-                            <param id="0" name="Object">Stage12Green</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-25" name="Go to layout (by name)" sid="883363170992436" type="System">
-                            <param id="0" name="Layout">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="672767208224817">
-            <conditions>
-                <condition id="4" name="Is touching object" sid="163771549363475" type="Touch">
-                    <param id="0" name="Object">Stage13Green</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="9" name="Set scale" sid="904692540668260" type="Stage13Green">
-                    <param id="0" name="Scale">0.62</param>
-                </action>
-            </actions>
-            <sub-events>
-                <event-block sid="336300019820172">
-                    <conditions>
-                        <condition id="17" name="On tap object" sid="974955580461201" type="Touch">
-                            <param id="0" name="Object">Stage13Green</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-25" name="Go to layout (by name)" sid="438835836381149" type="System">
-                            <param id="0" name="Layout">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="545765698808322">
-            <conditions>
-                <condition id="4" name="Is touching object" sid="838328714854026" type="Touch">
-                    <param id="0" name="Object">Stage14Green</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="9" name="Set scale" sid="276075920031757" type="Stage14Green">
-                    <param id="0" name="Scale">0.62</param>
-                </action>
-            </actions>
-            <sub-events>
-                <event-block sid="278446893950906">
-                    <conditions>
-                        <condition id="17" name="On tap object" sid="814324314951117" type="Touch">
-                            <param id="0" name="Object">Stage14Green</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-25" name="Go to layout (by name)" sid="305695530991288" type="System">
-                            <param id="0" name="Layout">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="403623287104180">
-            <conditions>
-                <condition id="4" name="Is touching object" sid="403899779571292" type="Touch">
-                    <param id="0" name="Object">Stage15Green</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="9" name="Set scale" sid="741286596251135" type="Stage15Green">
-                    <param id="0" name="Scale">0.62</param>
-                </action>
-            </actions>
-            <sub-events>
-                <event-block sid="423722117180813">
-                    <conditions>
-                        <condition id="17" name="On tap object" sid="706315991663635" type="Touch">
-                            <param id="0" name="Object">Stage15Green</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-25" name="Go to layout (by name)" sid="623518407413523" type="System">
-                            <param id="0" name="Layout">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="699628513132858">
-            <conditions>
-                <condition id="4" name="Is touching object" sid="361968760871591" type="Touch">
-                    <param id="0" name="Object">Stage16Green</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="9" name="Set scale" sid="386453316238543" type="Stage16Green">
-                    <param id="0" name="Scale">0.62</param>
-                </action>
-            </actions>
-            <sub-events>
-                <event-block sid="917302254776613">
-                    <conditions>
-                        <condition id="17" name="On tap object" sid="919372801374426" type="Touch">
-                            <param id="0" name="Object">Stage16Green</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-25" name="Go to layout (by name)" sid="975608966832942" type="System">
-                            <param id="0" name="Layout">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="171454227564697">
-            <conditions>
-                <condition id="4" name="Is touching object" sid="238403013256926" type="Touch">
-                    <param id="0" name="Object">Stage17Green</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="9" name="Set scale" sid="769636789321427" type="Stage17Green">
-                    <param id="0" name="Scale">0.62</param>
-                </action>
-            </actions>
-            <sub-events>
-                <event-block sid="156308408075937">
-                    <conditions>
-                        <condition id="17" name="On tap object" sid="214245892431600" type="Touch">
-                            <param id="0" name="Object">Stage17Green</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-25" name="Go to layout (by name)" sid="273949690415290" type="System">
-                            <param id="0" name="Layout">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="153512398107886">
-            <conditions>
-                <condition id="4" name="Is touching object" sid="263569671879310" type="Touch">
-                    <param id="0" name="Object">Stage18Green</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="9" name="Set scale" sid="598200766357198" type="Stage18Green">
-                    <param id="0" name="Scale">0.62</param>
-                </action>
-            </actions>
-            <sub-events>
-                <event-block sid="417914328535907">
-                    <conditions>
-                        <condition id="17" name="On tap object" sid="915995697709461" type="Touch">
-                            <param id="0" name="Object">Stage18Green</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-25" name="Go to layout (by name)" sid="301744350893843" type="System">
-                            <param id="0" name="Layout">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="728785229750342">
-            <conditions>
-                <condition id="4" name="Is touching object" sid="284235582197171" type="Touch">
-                    <param id="0" name="Object">Stage19Green</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="9" name="Set scale" sid="286051077272425" type="Stage19Green">
-                    <param id="0" name="Scale">0.62</param>
-                </action>
-            </actions>
-            <sub-events>
-                <event-block sid="570092274964482">
-                    <conditions>
-                        <condition id="17" name="On tap object" sid="584685749539898" type="Touch">
-                            <param id="0" name="Object">Stage19Green</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-25" name="Go to layout (by name)" sid="920178582120859" type="System">
-                            <param id="0" name="Layout">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="861879165685486">
-            <conditions>
-                <condition id="4" name="Is touching object" sid="792492274948213" type="Touch">
-                    <param id="0" name="Object">Stage20Green</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="9" name="Set scale" sid="510225731780943" type="Stage20Green">
-                    <param id="0" name="Scale">0.62</param>
-                </action>
-            </actions>
-            <sub-events>
-                <event-block sid="741572851974341">
-                    <conditions>
-                        <condition id="17" name="On tap object" sid="258110472989239" type="Touch">
-                            <param id="0" name="Object">Stage20Green</param>
-                        </condition>
-                    </conditions>
-                    <actions>
-                        <action id="-25" name="Go to layout (by name)" sid="677240286682983" type="System">
-                            <param id="0" name="Layout">&quot;&quot;</param>
-                        </action>
-                    </actions>
-                </event-block>
-            </sub-events>
-        </event-block>
-        <event-block sid="847215002886025">
-            <conditions>
-                <condition id="-2" name="On start of layout" sid="524473979140059" type="System" />
-            </conditions>
-            <actions>
-                <action id="-9" name="Set value" sid="769074453904523" type="System">
-                    <param id="0" name="Variable">nameScreen</param>
-                    <param id="1" name="Value">LayoutName</param>
+                <action id="9" name="Set scale" sid="437276585237664" type="Stage21Blue">
+                    <param id="0" name="Scale">0.75</param>
                 </action>
             </actions>
         </event-block>

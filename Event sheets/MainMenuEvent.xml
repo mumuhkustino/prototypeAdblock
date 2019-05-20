@@ -62,27 +62,16 @@
                         <action id="-2" name="Go to layout" sid="948348163668310" type="System">
                             <param id="0" name="Layout">ChooseLevel</param>
                         </action>
+                        <action id="7" name="Play (by name)" sid="956762864712126" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">40</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
-        </event-block>
-        <event-block sid="599421961096882">
-            <conditions>
-                <condition id="11" name="On Nth touch end" sid="337442380325222" type="Touch">
-                    <param id="0" name="Touch number">0</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="9" name="Set scale" sid="728639633157489" type="StartButton">
-                    <param id="0" name="Scale">1</param>
-                </action>
-                <action id="9" name="Set scale" sid="228473877601364" type="HelpButton">
-                    <param id="0" name="Scale">1</param>
-                </action>
-                <action id="9" name="Set scale" sid="407288831729037" type="ExitButton">
-                    <param id="0" name="Scale">1</param>
-                </action>
-            </actions>
         </event-block>
         <event-block sid="943077477105297">
             <conditions>
@@ -111,8 +100,12 @@
                         <action id="-2" name="Go to layout" sid="215543816094336" type="System">
                             <param id="0" name="Layout">Help</param>
                         </action>
-                        <action id="-2" name="Go to layout" sid="487955188309934" type="System">
-                            <param id="0" name="Layout">Help</param>
+                        <action id="7" name="Play (by name)" sid="577373860532566" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">40</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
                         </action>
                     </actions>
                 </event-block>
@@ -128,8 +121,26 @@
                 <action id="9" name="Set scale" sid="264544488414589" type="ExitButton">
                     <param id="0" name="Scale">0.9</param>
                 </action>
-                <action id="-26" name="Restart layout" sid="717754205805407" type="System" />
             </actions>
+            <sub-events>
+                <event-block sid="201790696999700">
+                    <conditions>
+                        <condition id="17" name="On tap object" sid="407511081972098" type="Touch">
+                            <param id="0" name="Object">ExitButton</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-26" name="Restart layout" sid="717754205805407" type="System" />
+                        <action id="7" name="Play (by name)" sid="132666664263703" type="Audio">
+                            <param id="0" name="Folder">1</param>
+                            <param id="1" name="Audio file name">&quot;zapsplat_household_telephone_landline_plastic_dial_single_number_button_004_28872&quot;</param>
+                            <param id="3" name="Loop">0</param>
+                            <param id="4" name="Volume">40</param>
+                            <param id="2" name="Tag (optional)">&quot;&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="281595448022793">
             <conditions>
@@ -146,6 +157,24 @@
                 <action id="-9" name="Set value" sid="126413490068314" type="System">
                     <param id="0" name="Variable">isPause</param>
                     <param id="1" name="Value">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="599421961096882">
+            <conditions>
+                <condition id="11" name="On Nth touch end" sid="337442380325222" type="Touch">
+                    <param id="0" name="Touch number">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="9" name="Set scale" sid="728639633157489" type="StartButton">
+                    <param id="0" name="Scale">1</param>
+                </action>
+                <action id="9" name="Set scale" sid="228473877601364" type="HelpButton">
+                    <param id="0" name="Scale">1</param>
+                </action>
+                <action id="9" name="Set scale" sid="407288831729037" type="ExitButton">
+                    <param id="0" name="Scale">1</param>
                 </action>
             </actions>
         </event-block>
