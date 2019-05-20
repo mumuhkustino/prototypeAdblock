@@ -116,9 +116,9 @@
                 <action id="0" name="Set text" sid="297888359893121" type="StageEasyText">
                     <param id="0" name="Text">&quot;&quot;</param>
                 </action>
-                <action id="0" name="Set text" sid="166234092902597" type="noText">
+                <!-- <action id="0" name="Set text" sid="166234092902597" type="noText">
                     <param id="0" name="Text">&quot;&quot;</param>
-                </action>
+                </action> -->
             </actions>
             <sub-events>
                 <event-block sid="778325891928634">
@@ -185,9 +185,9 @@
                         </condition>
                     </conditions>
                     <actions>
-                        <action id="1" name="Append text" sid="282867180053952" type="noText">
+                        <!-- <action id="1" name="Append text" sid="282867180053952" type="noText">
                             <param id="0" name="Text">loopindex(&quot;i&quot;)+1.</param>
-                        </action>
+                        </action> -->
                     </actions>
                     <sub-events>
                         <event-block sid="458043329128748">
