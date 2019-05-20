@@ -635,15 +635,15 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>408</x>
-                        <y>1780</y>
+                        <x>384</x>
+                        <y>1856</y>
                         <z>0</z>
                         <width>244</width>
                         <height>163</height>
                         <depth>0</depth>
                         <hotspotX>0.508196712</hotspotX>
                         <hotspotY>0.730061352</hotspotY>
-                        <angle>3.135993958</angle>
+                        <angle>0</angle>
                         <opacity>1</opacity>
                     </world>
                 </instance>
@@ -676,8 +676,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>853</x>
-                        <y>1971</y>
+                        <x>832</x>
+                        <y>1984</y>
                         <z>0</z>
                         <width>325</width>
                         <height>244</height>
@@ -799,8 +799,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>596</x>
-                        <y>1677</y>
+                        <x>640</x>
+                        <y>1664</y>
                         <z>0</z>
                         <width>406</width>
                         <height>163</height>
@@ -821,8 +821,8 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>543</x>
-                        <y>1831</y>
+                        <x>544</x>
+                        <y>1824</y>
                         <z>0</z>
                         <width>1098</width>
                         <height>682</height>

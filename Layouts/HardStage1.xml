@@ -687,6 +687,7 @@
                         <prevY>0</prevY>
                         <nextX>0</nextX>
                         <nextY>0</nextY>
+                        <isRotate>1</isRotate>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="DragDrop">
@@ -728,6 +729,7 @@
                         <prevY>0</prevY>
                         <nextX>0</nextX>
                         <nextY>0</nextY>
+                        <isRotate>-1</isRotate>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="DragDrop">
@@ -769,6 +771,7 @@
                         <prevY>0</prevY>
                         <nextX>0</nextX>
                         <nextY>0</nextY>
+                        <isRotate>-1</isRotate>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="DragDrop">
@@ -810,6 +813,7 @@
                         <prevY>0</prevY>
                         <nextX>0</nextX>
                         <nextY>0</nextY>
+                        <isRotate>1</isRotate>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="DragDrop">
@@ -851,6 +855,7 @@
                         <prevY>0</prevY>
                         <nextX>0</nextX>
                         <nextY>0</nextY>
+                        <isRotate>1</isRotate>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="DragDrop">
@@ -892,6 +897,7 @@
                         <prevY>0</prevY>
                         <nextX>0</nextX>
                         <nextY>0</nextY>
+                        <isRotate>-1</isRotate>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="DragDrop">
@@ -933,6 +939,7 @@
                         <prevY>0</prevY>
                         <nextX>0</nextX>
                         <nextY>0</nextY>
+                        <isRotate>1</isRotate>
                     </instance-variables>
                     <behavior-instances>
                         <behavior-instance type="DragDrop">

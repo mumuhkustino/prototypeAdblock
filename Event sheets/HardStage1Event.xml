@@ -509,6 +509,11 @@
                                     <param id="0" name="Comparison">3</param>
                                     <param id="1" name="Y co-ordinate">786</param>
                                 </condition>
+                                <condition id="-7" name="Compare instance variable" sid="484962356354841" type="BlueBlockHard">
+                                    <param id="0" name="Instance variable">isRotate</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">-1</param>
+                                </condition>
                             </conditions>
                             <actions>
                                 <action id="-3" name="Set position" sid="721422344883814" type="BlueBlockHard">
@@ -657,6 +662,11 @@
                                 <condition id="-2" name="Compare Y" sid="381672917280876" type="LBlueBlockHard">
                                     <param id="0" name="Comparison">3</param>
                                     <param id="1" name="Y co-ordinate">1050</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="335754648081219" type="LBlueBlockHard">
+                                    <param id="0" name="Instance variable">isRotate</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">-1</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -807,6 +817,11 @@
                                     <param id="0" name="Comparison">3</param>
                                     <param id="1" name="Y co-ordinate">1034</param>
                                 </condition>
+                                <condition id="-7" name="Compare instance variable" sid="277832383911812" type="BrownBlockHard">
+                                    <param id="0" name="Instance variable">isRotate</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">-1</param>
+                                </condition>
                             </conditions>
                             <actions>
                                 <action id="-3" name="Set position" sid="459509210307599" type="BrownBlockHard">
@@ -955,6 +970,11 @@
                                 <condition id="-2" name="Compare Y" sid="216069305435169" type="GreenBlockHard">
                                     <param id="0" name="Comparison">3</param>
                                     <param id="1" name="Y co-ordinate">966</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="569226418432585" type="GreenBlockHard">
+                                    <param id="0" name="Instance variable">isRotate</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">-1</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -1105,6 +1125,11 @@
                                     <param id="0" name="Comparison">3</param>
                                     <param id="1" name="Y co-ordinate">818</param>
                                 </condition>
+                                <condition id="-7" name="Compare instance variable" sid="121142580951547" type="PurpleBlockHard">
+                                    <param id="0" name="Instance variable">isRotate</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">-1</param>
+                                </condition>
                             </conditions>
                             <actions>
                                 <action id="-3" name="Set position" sid="481012679435909" type="PurpleBlockHard">
@@ -1254,6 +1279,11 @@
                                     <param id="0" name="Comparison">3</param>
                                     <param id="1" name="Y co-ordinate">667</param>
                                 </condition>
+                                <condition id="-7" name="Compare instance variable" sid="372756008053475" type="RedBlockHard">
+                                    <param id="0" name="Instance variable">isRotate</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">-1</param>
+                                </condition>
                             </conditions>
                             <actions>
                                 <action id="-3" name="Set position" sid="846699671930674" type="RedBlockHard">
@@ -1402,6 +1432,11 @@
                                 <condition id="-2" name="Compare Y" sid="173936803107087" type="YellowBlockHard">
                                     <param id="0" name="Comparison">3</param>
                                     <param id="1" name="Y co-ordinate">817</param>
+                                </condition>
+                                <condition id="-7" name="Compare instance variable" sid="440210181052339" type="YellowBlockHard">
+                                    <param id="0" name="Instance variable">isRotate</param>
+                                    <param id="1" name="Comparison">0</param>
+                                    <param id="2" name="Value">-1</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -1718,6 +1753,10 @@
                         <action id="-18" name="Rotate clockwise" sid="506188360050866" type="BlueBlockHard">
                             <param id="0" name="Degrees">180</param>
                         </action>
+                        <action id="-10" name="Set value" sid="928619175667231" type="BlueBlockHard">
+                            <param id="0" name="Instance variable">isRotate</param>
+                            <param id="1" name="Value">Self.isRotate*-1</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="977157010940473">
@@ -1729,6 +1768,10 @@
                     <actions>
                         <action id="-18" name="Rotate clockwise" sid="754294575157132" type="LBlueBlockHard">
                             <param id="0" name="Degrees">180</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="779124013642871" type="LBlueBlockHard">
+                            <param id="0" name="Instance variable">isRotate</param>
+                            <param id="1" name="Value">Self.isRotate*-1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -1742,6 +1785,10 @@
                         <action id="-18" name="Rotate clockwise" sid="747841506274741" type="BrownBlockHard">
                             <param id="0" name="Degrees">180</param>
                         </action>
+                        <action id="-10" name="Set value" sid="989767104588233" type="BrownBlockHard">
+                            <param id="0" name="Instance variable">isRotate</param>
+                            <param id="1" name="Value">Self.isRotate*-1</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="912019445034963">
@@ -1753,6 +1800,10 @@
                     <actions>
                         <action id="-18" name="Rotate clockwise" sid="572428529493025" type="GreenBlockHard">
                             <param id="0" name="Degrees">180</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="187329069002755" type="GreenBlockHard">
+                            <param id="0" name="Instance variable">isRotate</param>
+                            <param id="1" name="Value">Self.isRotate*-1</param>
                         </action>
                     </actions>
                 </event-block>
@@ -1766,6 +1817,10 @@
                         <action id="-18" name="Rotate clockwise" sid="450616896429762" type="PurpleBlockHard">
                             <param id="0" name="Degrees">180</param>
                         </action>
+                        <action id="-10" name="Set value" sid="122150177612022" type="PurpleBlockHard">
+                            <param id="0" name="Instance variable">isRotate</param>
+                            <param id="1" name="Value">Self.isRotate*-1</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="949777839143408">
@@ -1778,6 +1833,10 @@
                         <action id="-18" name="Rotate clockwise" sid="991556732090112" type="RedBlockHard">
                             <param id="0" name="Degrees">180</param>
                         </action>
+                        <action id="-10" name="Set value" sid="416570045415935" type="RedBlockHard">
+                            <param id="0" name="Instance variable">isRotate</param>
+                            <param id="1" name="Value">Self.isRotate*-1</param>
+                        </action>
                     </actions>
                 </event-block>
                 <event-block sid="661468696385690">
@@ -1789,6 +1848,10 @@
                     <actions>
                         <action id="-18" name="Rotate clockwise" sid="498393682977608" type="YellowBlockHard">
                             <param id="0" name="Degrees">180</param>
+                        </action>
+                        <action id="-10" name="Set value" sid="611967105152672" type="YellowBlockHard">
+                            <param id="0" name="Instance variable">isRotate</param>
+                            <param id="1" name="Value">Self.isRotate*-1</param>
                         </action>
                     </actions>
                 </event-block>

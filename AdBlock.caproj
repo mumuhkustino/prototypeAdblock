@@ -62,6 +62,7 @@
                     <instance-variable name="prevY" sid="470930936518268" type="number" />
                     <instance-variable name="nextX" sid="673190392107847" type="number" />
                     <instance-variable name="nextY" sid="881507918545950" type="number" />
+                    <instance-variable name="isRotate" sid="672000846127311" type="number" />
                 </instance-variables>
                 <behaviors>
                     <behavior-type name="DragDrop" sid="902116527542702">
@@ -99,6 +100,7 @@
                     <instance-variable name="prevY" sid="169243284930094" type="number" />
                     <instance-variable name="nextX" sid="114838401918594" type="number" />
                     <instance-variable name="nextY" sid="630288483756707" type="number" />
+                    <instance-variable name="isRotate" sid="578380658860711" type="number" />
                 </instance-variables>
                 <behaviors>
                     <behavior-type name="DragDrop" sid="568551282073128">
@@ -136,6 +138,7 @@
                     <instance-variable name="prevY" sid="822128848595461" type="number" />
                     <instance-variable name="nextX" sid="682334158166737" type="number" />
                     <instance-variable name="nextY" sid="131393867482537" type="number" />
+                    <instance-variable name="isRotate" sid="222386605657161" type="number" />
                 </instance-variables>
                 <behaviors>
                     <behavior-type name="DragDrop" sid="665695462016972">
@@ -173,6 +176,7 @@
                     <instance-variable name="prevY" sid="923918802080548" type="number" />
                     <instance-variable name="nextX" sid="864666541499936" type="number" />
                     <instance-variable name="nextY" sid="521072263122888" type="number" />
+                    <instance-variable name="isRotate" sid="527155078974874" type="number" />
                 </instance-variables>
                 <behaviors>
                     <behavior-type name="DragDrop" sid="512494556046953">
@@ -210,6 +214,7 @@
                     <instance-variable name="prevY" sid="337370916672281" type="number" />
                     <instance-variable name="nextX" sid="442923209971039" type="number" />
                     <instance-variable name="nextY" sid="267172388220916" type="number" />
+                    <instance-variable name="isRotate" sid="498180295903939" type="number" />
                 </instance-variables>
                 <behaviors>
                     <behavior-type name="DragDrop" sid="412455040739135">
@@ -247,6 +252,7 @@
                     <instance-variable name="prevY" sid="636584353468860" type="number" />
                     <instance-variable name="nextX" sid="360804804556256" type="number" />
                     <instance-variable name="nextY" sid="116658608697529" type="number" />
+                    <instance-variable name="isRotate" sid="572245661543973" type="number" />
                 </instance-variables>
                 <behaviors>
                     <behavior-type name="DragDrop" sid="521684639150210">
@@ -284,6 +290,7 @@
                     <instance-variable name="prevY" sid="533903178777687" type="number" />
                     <instance-variable name="nextX" sid="228018542585073" type="number" />
                     <instance-variable name="nextY" sid="337183583848351" type="number" />
+                    <instance-variable name="isRotate" sid="193957173158781" type="number" />
                 </instance-variables>
                 <behaviors>
                     <behavior-type name="DragDrop" sid="614398457342466">
