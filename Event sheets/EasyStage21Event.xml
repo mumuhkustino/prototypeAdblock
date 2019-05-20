@@ -365,13 +365,28 @@
                 </condition>
             </conditions>
             <actions>
-                <action id="0" name="Set text" sid="714345543131104" type="InitHour">
+                <action id="0" name="Set text" sid="999448459696129" type="EasyText">
                     <param id="0" name="Text">&quot;&quot;</param>
                 </action>
-                <action id="0" name="Set text" sid="977989195259361" type="InitMinute">
+                <action id="0" name="Set text" sid="355712867396708" type="StageEasyText">
+                    <param id="0" name="Text">&quot;&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="138692558416399" type="noText">
                     <param id="0" name="Text">&quot;&quot;</param>
                 </action>
             </actions>
+            <sub-events>
+                <event-block sid="492718282173717">
+                    <conditions>
+                        <condition id="-10" name="For" sid="888520839728569" type="System">
+                            <param id="0" name="Name">&quot;i&quot;</param>
+                            <param id="1" name="Start index">0</param>
+                            <param id="2" name="End index">show_list-1</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+            </sub-events>
         </event-block>
         <event-block sid="775132918901240">
             <conditions>
@@ -424,7 +439,11 @@
                             <param id="2" name="Value">1</param>
                         </condition>
                     </conditions>
-                    <actions />
+                    <actions>
+                        <action id="1" name="Append text" sid="302976526080937" type="noText">
+                            <param id="0" name="Text">loopindex(&quot;i&quot;)+1.</param>
+                        </action>
+                    </actions>
                     <sub-events>
                         <event-block sid="204849481774844">
                             <conditions>
@@ -444,6 +463,17 @@
                             <param id="0" name="Name">&quot;i&quot;</param>
                             <param id="1" name="Start index">show_list</param>
                             <param id="2" name="End index">curIndex</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+                <event-block sid="924015778423341">
+                    <conditions>
+                        <condition id="1" name="Compare at XY" sid="903400836766337" type="highest">
+                            <param id="0" name="X">loopindex(&quot;i&quot;)</param>
+                            <param id="1" name="Y">0</param>
+                            <param id="2" name="Comparison">0</param>
+                            <param id="3" name="Value">0</param>
                         </condition>
                     </conditions>
                     <actions />

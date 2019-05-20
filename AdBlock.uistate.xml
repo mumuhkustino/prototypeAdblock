@@ -11,11 +11,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout order="0">HardStage1</layout>
-        <layout active="1" order="1">LeaderBoard</layout>
+        <layout order="1">LeaderBoard</layout>
         <layout order="3">MainMenu</layout>
         <layout order="7">EasyStage21</layout>
         <event-sheet order="2">EvtLeaderBoard</event-sheet>
-        <event-sheet order="4">EasyStage21Event</event-sheet>
+        <event-sheet active="1" order="4">EasyStage21Event</event-sheet>
         <event-sheet order="5">MainMenuEvent</event-sheet>
         <event-sheet order="6">HardStage1Event</event-sheet>
     </open-tabs>

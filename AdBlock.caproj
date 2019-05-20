@@ -684,15 +684,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="InitHour" sid="720383042615878">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="InitMinute" sid="689406187621259">
-            <plugin id="Text" />
-        </object-type>
-        <object-type name="InitSecond" sid="871943734627323">
-            <plugin id="Text" />
-        </object-type>
         <object-type name="HardBox" sid="939738379031126">
             <plugin id="Sprite" />
             <animation-folder>
@@ -731,7 +722,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="InitStage" sid="926896428171453">
+        <object-type name="StageEasyText" sid="926896428171453">
             <plugin id="Text" />
         </object-type>
         <object-type name="LeaderBoardTittle" sid="606736422110851">
@@ -2743,6 +2734,12 @@
             <plugin id="Function" />
         </object-type>
         <object-type name="EndScreenText" sid="961767287302318">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="EasyText" sid="544285464529558">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="noText" sid="799840947599295">
             <plugin id="Text" />
         </object-type>
     </object-folder>
