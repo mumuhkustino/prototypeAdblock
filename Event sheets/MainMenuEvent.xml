@@ -26,7 +26,7 @@
                     </conditions>
                     <actions>
                         <action id="0" name="Play" sid="986895733242330" type="Audio">
-                            <param id="0" name="Audio file">audio_hero_Make-It-Snappy_SIPML_C-1039</param>
+                            <param id="0" name="Audio file">New-Happy-Background</param>
                             <param id="2" name="Loop">1</param>
                             <param id="3" name="Volume">40</param>
                             <param id="1" name="Tag (optional)">&quot;BackgroundMusic&quot;</param>

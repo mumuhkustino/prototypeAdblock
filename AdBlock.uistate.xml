@@ -10,20 +10,16 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-<!-- <<<<<<< HEAD -->
         <layout order="0">SplashScreen</layout>
-        <layout order="4">EasyStage21</layout>
-        <event-sheet order="1">HardStage1Event</event-sheet>
-        <event-sheet order="2">EventChooseLevel</event-sheet>
-        <event-sheet order="3">EvtHelp</event-sheet>
-        <event-sheet active="1" order="5">EasyStage21Event</event-sheet>
-<!-- ======= -->
-        <layout order="1">LeaderBoard</layout>
-        <layout order="3">SplashScreen</layout>
-        <layout order="4">EasyStage21</layout>
-        <event-sheet active="1" order="0">EasyStage21Event</event-sheet>
-        <event-sheet order="2">EvtLeaderBoard</event-sheet>
-<!-- >>>>>>> Gita -->
+        <layout order="2">LeaderBoard</layout>
+        <layout order="7">EasyStage21</layout>
+        <layout order="8">MainMenu</layout>
+        <event-sheet active="1" order="1">EasyStage21Event</event-sheet>
+        <event-sheet order="3">HardStage1Event</event-sheet>
+        <event-sheet order="4">EventChooseLevel</event-sheet>
+        <event-sheet order="5">EvtLeaderBoard</event-sheet>
+        <event-sheet order="6">EvtHelp</event-sheet>
+        <event-sheet order="9">MainMenuEvent</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -33,7 +29,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </properties>
     <families-expanded root="1" />
     <folders-expanded>
-        <folder expanded="1" path="object-folder/" />
+        <folder expanded="0" path="object-folder/" />
         <folder expanded="0" path="object-folder/HardBlock/" />
         <folder expanded="1" path="layout-folder/" />
         <folder expanded="1" path="event-folder/" />

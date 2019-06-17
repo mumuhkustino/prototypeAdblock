@@ -61,7 +61,6 @@
                 </event-block>
             </sub-events>
         </event-block>
-<!-- <<<<<<< HEAD -->
         <event-block sid="405086591895684">
             <conditions>
                 <condition id="11" name="On Nth touch end" sid="633400819298531" type="Touch">
@@ -74,7 +73,6 @@
                 </action>
             </actions>
         </event-block>
-<!-- ======= -->
         <event-block sid="787209419147511">
             <conditions>
                 <condition id="0" name="On function" sid="894443345304117" type="Function">
@@ -134,7 +132,6 @@
                     </sub-events>
                 </event-block>
             </sub-events>
-<!-- >>>>>>> Gita -->
         </event-block>
     </events>
 </c2eventsheet>
